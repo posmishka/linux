@@ -47,7 +47,7 @@ yourname sasha_fox       ALL=(ALL)       ALL
 `sudo -i` 
   
 + [ ] generate public key and push it to the server 
-```
- ssh-keygen
- cat /home/user/.ssh/id_rsa.pub >> @domain:/home/user/.ssh/authorized_key
+
+ `ssh-keygen`
+cat /home/user/.ssh/id_rsa.pub >> yourname@domain:/home/user/.ssh/authorized_key
 ```
