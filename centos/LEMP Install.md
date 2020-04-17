@@ -1,35 +1,5 @@
 LEMP Install
 ========================
-
-  
- 2) настройка входа по ssh.,  
- а) доступ root для пользователя через sudo:
- visudo
- добавить пользователя под под стройкой:
- root    ALL=(ALL)       ALL
- sasha_fox       ALL=(ALL)       ALL
- :wq!
- 
-  
- б) смена порта SSH, запрет входа пользователю root, разрешение пользователю входа по ssh.
- порт обязательно нужно указать тот же, что указан в firewall.
- sed -i 's/^.*Port .*/Port 29920/g' /etc/ssh/sshd_config && \
- sed -i 's/^.*PermitRootLogin yes/PermitRootLogin no/g' /etc/ssh/sshd_config && \
- echo -e "\nAllowUsers alpi" >> /etc/ssh/sshd_config && \
- systemctl restart sshd
- в новом окне проверить доступ пользователя к серверу:
- ssh -p29920 sasha_fox@37.48.90.188  
- если всё успешно - проверить доступ через sudo :
- sudo htop
- для перехода в режим выполнения всех команд от root :  
- sudo -i
- 
-  
- в) настроить доступ по ключам, отключить доступ по паролям (опционально)
- для linux :
- ssh-keygen
- cat /home/user/.ssh/id_rsa.pub >> user@domain:/home/user/.ssh/authorized_keys
- 
   
  3) Настройка nginx
  а) установка софта для сборки nginx
