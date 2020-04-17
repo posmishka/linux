@@ -4,8 +4,9 @@ Basic setup
 `yum update && yum -y install epel-release && \`  
 `yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsftp.d db4-utils mc zip unzip`
 
-   
-**Setup firewall**  
+
+**Setup firewall**
+
 *Assume that ssh port is 29920 instead of 22, opening ftp and web-server ports*
 
 ```
