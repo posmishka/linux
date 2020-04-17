@@ -29,3 +29,5 @@ provide new **password** **and** it will work like before
 https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1
 
 # cheatsheets
+https://github.com/joshnh/Git-Commands
+https://gist.github.com/davfre/8313299
