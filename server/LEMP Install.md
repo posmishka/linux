@@ -4,9 +4,10 @@ LEMP Install
 
 *we will build the most recent version from source with additional modules*  
 
-1. Install Dev Tools we need
+1. Install Dev Tools we need  
 
-	yum -y groupinstall 'Development Tools'
+		yum -y groupinstall 'Development Tools'
+	
 	yum -y install wget openssl-devel libxml2-devel libxslt-devel gd-devel perl-ExtUtils-Embed GeoIP-devel
 
  2. Setting variables  
