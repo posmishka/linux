@@ -24,7 +24,7 @@ LEMP Install
 * [] Installing basic nginx
 
 >> PLACEHOLDER 
-  
+
 * [] Installing PHP7
 
 *we will use custom repo for php* 
@@ -33,7 +33,7 @@ LEMP Install
 	yum update
 	yum install -y php70w php70w-opcache php70w-fpm php70w-gd php70w-mcrypt php70w-mysqlnd php70w-odbc php70w-pdo php70w-pecl-apcu php70w-xml php70w-mbstring  php70w-soap  
 	 
-  
+
  systemctl enable php-fpm && systemctl start php-fpm
 
  chown -R nginx:nginx /var/lib/php/session /var/lib/php/wsdlcache /home/www /var/cache/nginx/pagespeed
@@ -58,10 +58,10 @@ LEMP Install
 	systemctl enable mariadb
 
 *run after-install script to create a mysql root password*
- 
+
 	mysql_secure_installation  
- 
-  
+
+
  г) скрипт для создания пользователей mysql
  tee /home/sasha_fox/create_db.sh <<-'EOF'
  NAME=[ИМЯ БАЗЫ, ПОЛЬЗОВАТЕЛЯ]
