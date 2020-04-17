@@ -32,7 +32,7 @@ passwd $username
 
 visudo - *adduser under the root to give him sudo access*  
 `root    ALL=(ALL)       ALL`  
-`yourname sasha_fox       ALL=(ALL)       ALL`
+`yourname    ALL=(ALL)       ALL`
 
 ### Change ssh config  
 *prevent root from entering, changing ssh port, allowing new user to enter*
