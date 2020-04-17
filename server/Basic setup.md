@@ -31,8 +31,8 @@ adduser $username
 passwd $username  
 
 visudo - *adduser under the root to give him sudo access*  
-`root		  	ALL=(ALL)       ALL`  
-`yourname		ALL=(ALL)       ALL`
+	root		  	ALL=(ALL)       ALL  
+	yourname		ALL=(ALL)       ALL
 
 
 ### Change ssh config  
@@ -47,7 +47,8 @@ visudo - *adduser under the root to give him sudo access*
  `ssh -p29920 yourname@domain `
  
 ### Check if you have a root  
-`sudo -i 
+
+	sudo -i 
   
 generate public key and push it to the server  
 
