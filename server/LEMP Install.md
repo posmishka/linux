@@ -26,13 +26,13 @@ LEMP Install
 >> PLACEHOLDER 
   
 * [] Installing PHP7
-* [ ] 
+
 *we will use custom repo for php* 
 
-rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
-yum update
-yum install -y php70w php70w-opcache php70w-fpm php70w-gd php70w-mcrypt php70w-mysqlnd php70w-odbc php70w-pdo php70w-pecl-apcu php70w-xml php70w-mbstring  php70w-soap  
- 
+	rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
+	yum update
+	yum install -y php70w php70w-opcache php70w-fpm php70w-gd php70w-mcrypt php70w-mysqlnd php70w-odbc php70w-pdo php70w-pecl-apcu php70w-xml php70w-mbstring  php70w-soap  
+	 
   
  systemctl enable php-fpm && systemctl start php-fpm
 
