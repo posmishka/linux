@@ -2,10 +2,9 @@ FTP
 =============
 # vsftpd
 
+*the case is using virtual users for chrooted die
 > config placeholder
 
-а) перенести конфиги и настройки из архива /etc/vsftpd/
-б)
 tee /etc/pam.d/vsftpd.virtual <<-'EOF'
 auth required pam_userdb.so db=/etc/vsftpd/login
 account required pam_userdb.so db=/etc/vsftpd/login
