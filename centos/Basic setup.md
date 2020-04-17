@@ -46,8 +46,7 @@ yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsf
 + [ ] check if you have a root  
 `sudo -i` 
   
- в) настроить доступ по ключам, отключить доступ по паролям (опционально)
- для linux :
+generate 
  ssh-keygen
  cat /home/user/.ssh/id_rsa.pub >> user@domain:/home/user/.ssh/authorized_key
  
