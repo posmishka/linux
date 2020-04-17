@@ -22,7 +22,7 @@ Basic setup
 ```
 
 ## **Setup SSH**
-Create a new user
+### Create a new user
   
 `username=yourname`  
 
