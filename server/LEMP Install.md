@@ -89,7 +89,7 @@ LEMP Install
  5) Установка Mariadb
  а) добавить репозитарий
  tee /etc/yum.repos.d/Mariadb.repo <<-'EOF'
- # http://mariadb.org/mariadb/repositories/
+\ # http://mariadb.org/mariadb/repositories/
  [mariadb]
  name = MariaDB
  baseurl = http://yum.mariadb.org/10.1/centos7-amd64
