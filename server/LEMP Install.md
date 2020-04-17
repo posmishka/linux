@@ -88,6 +88,8 @@ LEMP Install
   
 * [] MariaDB Install
 
+*creating a repo*
+
 	 tee /etc/yum.repos.d/Mariadb.repo <<-'EOF'  
 	\# http://mariadb.org/mariadb/repositories/
 	 [mariadb]  
@@ -96,8 +98,8 @@ LEMP Install
 	 gpgkey=https://yum.mariadb.org/RPM-GPG-KEY-MariaDB  
 	 gpgcheck=1  
 	 EOF
- 
-  
+	 
+
  б) установить софт
  yum -y install mariadb-server mariadb phpmyadmin mysqltuner &&
  systemctl start mariadb &&
