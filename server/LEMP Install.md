@@ -149,40 +149,7 @@ LEMP Install
  генерация DH-сертификата для ужесточения безопасности ssl
  openssl dhparam -out /etc/letsencrypt/live/glavzavhoz.ru/dhparam.pem 2048
  
-  
- 7) FTP
- а) перенести конфиги и настройки из архива /etc/vsftpd/
- б)
- tee /etc/pam.d/vsftpd.virtual <<-'EOF'
- auth required pam_userdb.so db=/etc/vsftpd/login
- account required pam_userdb.so db=/etc/vsftpd/login
- session required pam_loginuid.so
- EOF
- в) занести в logins.txt пользователей и пароли
- в папке users создать настройки для пользователей фтп (один пользователь - одна настройка, задаётся папка, в которую у пользователя есть доступ)
- useradd.sh
- 
-  
- 8) настройка бэкапа
- cd /home/backup
- ./drive init
- скопировать строку в браузер, авторизоваться в gmail, вставить api ключ в поле
- после этого можно запускать ./backup.sh для проверки
- 
-  
- 9) cron
- переписать из архива с настроками в /etc/cron.d/
- https://glavzavhoz.ru/modules/blocklayered/blocklayered-price-indexer.php?token=cf08e91b14  
- https://glavzavhoz.ru/modules/blocklayered/blocklayered-attribute-indexer.php?token=cf08e91b14
- https://glavzavhoz.ru/modules/blocklayered/blocklayered-url-indexer.php?token=cf08e91b14&truncate=1
- https://glavzavhoz.ru/admin543b3nwqu/searchcron.php?full=1&token=t88vLRiw&id_shop=1
- https://glavzavhoz.ru/modules/expresscache/expresscache-clearcache.php?token=1a77ca2d3a
- https://glavzavhoz.ru/modules/expresscache/expresscache-precache.php?token=1a77ca2d3a&id_shop=1
- автопродление сертификата:
- 0 3 * */2 * root /bin/sh  >> /var/log/certbot.log;service nginx restart
- или 0 3 * */2 * root /bin/sh certbot renew >> /var/log/certbot.log;service nginx restart
- 
-  
+    
  10) разное
  запускать только в папке сайта - устанавливает права 755 на категории, 644 на файлы
  find ./ -type d|xargs chmod 755 && find ./ -type f |xargs chmod 644
