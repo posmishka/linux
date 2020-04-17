@@ -5,4 +5,3 @@ curl
 
 ### download specific file behind the form
 
-curl -c cookie https://sva.kiev.ua$FILE
