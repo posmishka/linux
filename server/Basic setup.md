@@ -33,7 +33,7 @@ passwd $username
 visudo - *adduser under the root to give him sudo access*  
 
 	root		ALL=(ALL)       ALL  
-	yourname		ALL=(ALL)       ALL
+	yourname		ALL=(ALL)       NOPASSWD:ALL
 
 
 ### Change ssh config  
