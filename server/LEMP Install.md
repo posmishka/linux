@@ -86,7 +86,7 @@ LEMP Install
  }
  
   
- 5) Установка Mariad
+* [] MariaDB Install
 
 	 tee /etc/yum.repos.d/Mariadb.repo <<-'EOF'  
 	\# http://mariadb.org/mariadb/repositories/
