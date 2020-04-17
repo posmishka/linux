@@ -133,21 +133,9 @@ LEMP Install
    
  chown -R nginx:nginx /var/lib/php/session /var/lib/php/wsdlcache /home/www /var/cache/nginx/pagespeed
  
-  
- конфиги nginx : /etc/nginx/conf.d/active-{ИМЯ}.conf
+
  
-  
- поменять в конфигах имя сервера, пути к сертификатам
- 
-  
- г) certbot, сертификаты ssl
- команда для выпуска сертификата:
- certbot certonly -a webroot --webroot-path /home/www/ -d site.com -d www.site.com --server https://acme-v01.api.letsencrypt.org/directory
- 
-  
- генерация DH-сертификата для ужесточения безопасности ssl
- openssl dhparam -out /etc/letsencrypt/live/glavzavhoz.ru/dhparam.pem 2048
- 
+   
     
  10) разное
  запускать только в папке сайта - устанавливает права 755 на категории, 644 на файлы
