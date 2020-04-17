@@ -50,7 +50,7 @@ prevent root from entering, changing ssh port, allowing new user to enter
  systemctl restart sshd
 ```
 ### Check if you can connect in the new ssh window  
- `ssh -p29920 yourname@domain `
+	ssh -p29920 yourname@domain
  
 ### Check if you have a root  
 
