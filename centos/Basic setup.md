@@ -28,10 +28,9 @@ yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsf
 + [ ] adduser $username
 + [ ] passwd $username
 + [ ] visudo - *adduser under the root to give him sudo access*
+`root    ALL=(ALL)       ALL`  
+`yourname sasha_fox       ALL=(ALL)       ALL`
 
-root    ALL=(ALL)       ALL
-yourname sasha_fox       ALL=(ALL)       ALL
-```
 + [ ] change ssh config  
 *prevent root from entering, changing ssh port, allowing new user to enter*
 ```
