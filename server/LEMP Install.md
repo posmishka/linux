@@ -23,7 +23,7 @@ LEMP Install
 
 * [] Installing basic nginx
 
- 
+>> PLACEHOLDER 
   
  4) Установка PHP7
  а)  
