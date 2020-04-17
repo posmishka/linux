@@ -12,7 +12,7 @@ LEMP Install
   
  б) настройка firewall - доступ ftp, http, https, ssh. стандартный порт ssh - 22 - меняется на 29920
  
-````  
+```
  yum -y install firewalld && \
  systemctl start firewalld && \
  systemctl enable firewalld && \
