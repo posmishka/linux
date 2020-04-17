@@ -17,3 +17,7 @@ xrandr --output VGA-1 --off
 # Display Port settings
 
 `xrandr --output LVDS-1 --auto --rotate normal --pos 0x0 --output DP-1 --mode "2560x1440" --rate 75 --right-of LVDS-1`
+
+# Turn off second monitor
+
+>
