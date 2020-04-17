@@ -23,12 +23,10 @@ yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsf
  firewall-cmd --reload
 ```
 
-
-
 ## **Setup SSH**
 + [ ] adduser %username%
-+ [ ] 
- visudo
++ [ ] passwd %username%
++ [ ] visudo
  добавить пользователя под под стройкой:
  root    ALL=(ALL)       ALL
  sasha_fox       ALL=(ALL)       ALL
