@@ -1,11 +1,11 @@
 curl
 ========================
 ### download file from google drive
-	curl https:/site.extremecentr.esclick.me/BqXq3pfZJJuu -L \
+	curl https:/site.esclick.me/BqXq3pfZJJuu -L \
 	| egrep "https:\/\/drive\.google\.com\/file\/d\/(\w|-){26,}\/view"
 
 ### find file in mail body and download from dropbox
-	LINKS=$(tr --delete '=\n' < $MAILFILE \| egrep -o "https:\/\/something\.esclick\.me\/\w{12}")
+	LINKS=$(tr --delete '=\n' < $MAILFILE | egrep -o "https:\/\/site\.esclick\.me\/\w{12}")
 	
 	for LINK in $LINKS                                                                                               
 	do                                                                                                               
