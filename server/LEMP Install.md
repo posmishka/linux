@@ -36,27 +36,7 @@ LEMP Install
  systemctl enable php-fpm && systemctl start php-fpm
  
   
- б)
- yum install -y phpmyadmin
- mkdir /home/www/site.com/pma54321
- 
-  
- ln -s /usr/share/phpMyAdmin/ /home/www/site.com/pma54321
- 
-  
- location /pma54321/ {
-         alias /usr/share/phpMyAdmin/;
-         location ~ \.php$ {
-                 fastcgi_pass unix:/var/run/php5-fpm.sock;
-                 fastcgi_index index.php;
-                 include fastcgi_params;
-                 fastcgi_param SCRIPT_FILENAME $request_filename;
-                 fastcgi_ignore_client_abort off;
-                 }
- }
- 
-  
-* [] MariaDB Install
+ б)* [] MariaDB Install
 
 *creating a repo*
 
@@ -99,6 +79,26 @@ LEMP Install
    
  chown -R nginx:nginx /var/lib/php/session /var/lib/php/wsdlcache /home/www /var/cache/nginx/pagespeed
  
+
+ yum install -y phpmyadmin
+ mkdir /home/www/site.com/pma54321
+ 
+  
+ ln -s /usr/share/phpMyAdmin/ /home/www/site.com/pma54321
+ 
+  
+ location /pma54321/ {
+         alias /usr/share/phpMyAdmin/;
+         location ~ \.php$ {
+                 fastcgi_pass unix:/var/run/php5-fpm.sock;
+                 fastcgi_index index.php;
+                 include fastcgi_params;
+                 fastcgi_param SCRIPT_FILENAME $request_filename;
+                 fastcgi_ignore_client_abort off;
+                 }
+ }
+ 
+  
 
  
    
