@@ -11,7 +11,7 @@ LEMP Install
 	yum -y groupinstall 'Development Tools'
 	yum -y install wget openssl-devel libxml2-devel libxslt-devel gd-devel perl-ExtUtils-Embed GeoIP-devel
 
- 2. Setting variables  
+ * [] Setting variables  
 
 *we will use openssl 1.0.2 branch from www.openssl.org/source/* 
 
@@ -21,7 +21,7 @@ LEMP Install
 	
 	NGINX="nginx-1.16.1"
 
-3. Installing
+3.. Installing
  в) установка nginx с версией openssl 1.0.2j для поддержки http2
  mkdir -p /root/openssl && \
  wget https://www.openssl.org/source/$OPENSSL.tar.gz -O /root/openssl/$OPENSSL.tar.gz && \
