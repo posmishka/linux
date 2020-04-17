@@ -31,3 +31,6 @@ https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1
 # cheatsheets
 https://github.com/joshnh/Git-Commands
 https://gist.github.com/davfre/8313299
+
+# Book
+https://git-scm.com/book/uk/v2
