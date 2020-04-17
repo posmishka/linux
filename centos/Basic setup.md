@@ -1,7 +1,7 @@
 Basic setup
 ========================
 
-* [ ] **Install basic software**
+#* [ ] **Install basic software**
 ``` 
 yum update && yum -y install epel-release && \
 yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsftp.d db4-utils mc zip unzip
@@ -22,6 +22,7 @@ yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsf
  firewall-cmd --permanent --add-port=29920/tcp &&
  firewall-cmd --reload
 ```  
+
 + [] **Setup SSH**
  2) настройка входа по ssh.,  
  а) доступ root для пользователя через sudo:
