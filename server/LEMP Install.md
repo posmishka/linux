@@ -4,7 +4,8 @@ LEMP Install
 
 *we will build the most recent version from source with custom modules to have http/2 enabled*  
 
-1. Install Dev Tools we need  
+1. Install Dev Tools we need
+*we will need to remove th*
 
 		yum -y groupinstall 'Development Tools'
 		yum -y install wget openssl-devel libxml2-devel libxslt-devel gd-devel perl-ExtUtils-Embed GeoIP-devel
@@ -18,8 +19,8 @@ LEMP Install
 *nginx is the last stable from https://nginx.org/en/download.html* 
 	
 	NGINX="nginx-1.16.1"
- 
-  
+
+
  в) установка nginx с версией openssl 1.0.2j для поддержки http2
  mkdir -p /root/openssl && \
  wget https://www.openssl.org/source/$OPENSSL.tar.gz -O /root/openssl/$OPENSSL.tar.gz && \
