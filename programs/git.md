@@ -17,11 +17,8 @@ if you want to change **password** later
 git config credential.helper store 
 ```
 
-```
-
 then 
 
-```
 
 ```
 git pull
