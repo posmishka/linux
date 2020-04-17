@@ -4,7 +4,8 @@ curl
 	curl https:/site.extremecentr.esclick.me/BqXq3pfZJJuu -L \
 	| egrep "https:\/\/drive\.google\.com\/file\/d\/(\w|-){26,}\/view"
 
-### fin
+### find file in mail body and download from dropbox
+
 
 ### download specific file with cyrillic name behind the form
 
