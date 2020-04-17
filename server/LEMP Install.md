@@ -42,7 +42,7 @@ LEMP Install
 
 *creating a repo*
 
-	 tee /etc/yum.repos.d/Mariadb.repo <<-'EOF'  
+	 tee /etc/yum.repos.d/Mariadb.repo <<-'EOF' 
 	 # http://mariadb.org/mariadb/repositories/
 	 [mariadb]  
 	 name = MariaDB  
