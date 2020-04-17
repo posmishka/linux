@@ -34,7 +34,9 @@ LEMP Install
  
   
  systemctl enable php-fpm && systemctl start php-fpm
- 
+
+ chown -R nginx:nginx /var/lib/php/session /var/lib/php/wsdlcache /home/www /var/cache/nginx/pagespeed
+
   
  б)* [] MariaDB Install
 
@@ -95,20 +97,9 @@ LEMP Install
                  fastcgi_param SCRIPT_FILENAME $request_filename;
                  fastcgi_ignore_client_abort off;
                  }
- }
- 
-  
-
- 
-   
-    
+ }    
  10) разное
  запускать только в папке сайта - устанавливает права 755 на категории, 644 на файлы
- find ./ -type d|xargs chmod 755 && find ./ -type f |xargs chmod 644
- 
-   
-  
+ find ./ -type d|xargs chmod 755 && find ./ -type f |xargs chmod 644  
  пережать изображения в папке (запускать в той папке, в которой нужно пережать)
  find -type f -name "*.jpg" -exec jpegoptim --strip-all --max=90 {} \;
- 
- 
