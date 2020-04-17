@@ -26,7 +26,7 @@ yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsf
 ## **Setup SSH**
 + [ ] adduser %username%
 + [ ] passwd %username%
-+ [ ] visudo
++ [ ] visudo - *adduser under the root*
  добавить пользователя под под стройкой:
  root    ALL=(ALL)       ALL
  sasha_fox       ALL=(ALL)       ALL
