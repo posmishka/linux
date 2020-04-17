@@ -14,7 +14,7 @@ xrandr --output LVDS-1 --auto --rotate normal --pos 0x0 --output VGA-1 --mode "1
 xrandr --output VGA-1 --off   
 ```
 
-# DP
+# Display Port settings
 
 
 xrandr --output LVDS-1 --auto --rotate normal --pos 0x0 --output DP-1 --mode "2560x1440" --rate 75 --right-of LVDS-1
