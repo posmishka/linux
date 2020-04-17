@@ -23,9 +23,9 @@ yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsf
 ```
 
 ## **Setup SSH**
-+ [ ]Create user  
-``
-+ [ ] adduser %username%
++ [ ]Create new user  
+`username=yourname`
++ [ ] adduser %username$%
 + [ ] passwd %username%
 + [ ] visudo - *adduser under the root*
 ```
