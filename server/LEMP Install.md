@@ -11,8 +11,9 @@ LEMP Install
 		
 
  2. Setting variables  
-*we will use openssl 1.0.2 branch from www.openssl.org/source/*тка 1.0.2  
- OPENSSL="openssl-1.0.2k"             
+*we will use openssl 1.0.2 branch from www.openssl.org/source/*
+
+ OPENSSL="openssl-1.0.2"          
  http://nginx.org/packages/mainline/centos/7/SRPMS - ветка 1.11.8 и выше
  NGINX="nginx-1.11.13-1"
  
