@@ -6,6 +6,6 @@ apt install build-essential git cmake cmake-data pkg-config python3-sphinx libca
 
 [https://github.com/polybar/polybar/wiki/Compiling](https://github.com/polybar/polybar/wiki/Compiling)
 
-[https://github.com/stark/siji](https://github.com/stark/siji)
-sudo dpkg-reconfigure fontconfig-config 
+[https://github.com/stark/siji](https://github.com/stark/siji)  
+sudo dpkg-reconfigure fontconfig-config  
 bitmap enable
