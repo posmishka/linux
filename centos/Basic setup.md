@@ -50,4 +50,4 @@ Basic setup
 
 + [ ] add notification on root login  
 `vi .bashrc`  
-```echo 'ALERT - SSH root shell access found on '$HOSTNAME' on:' `date` `who` | mail -s "Alert: SSH root shell access"  swirl7@gmail.com```
+```echo 'ALERT - SSH root shell access found on '$HOSTNAME' on:' `date` `who` | mail -s "Alert: SSH root shell access" your@mail.com```
