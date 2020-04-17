@@ -101,5 +101,4 @@ LEMP Install
  10) разное
  запускать только в папке сайта - устанавливает права 755 на категории, 644 на файлы
  find ./ -type d|xargs chmod 755 && find ./ -type f |xargs chmod 644  
- пережать изображения в папке (запускать в той папке, в которой нужно пережать)
- find -type f -name "*.jpg" -exec jpegoptim --strip-all --max=90 {} \;
+ 
