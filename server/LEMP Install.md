@@ -12,7 +12,7 @@ we will need to remove them adter the building process
 
  ## Setting variables  
 
-we will use openssl 1.0.2 branch from www.openssl.org/source/ 
+we will use latest openssl 1.0.2 branch from www.openssl.org/source/ 
 
 	OPENSSL="openssl-1.0.2k"
 
