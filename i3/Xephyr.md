@@ -3,7 +3,7 @@ Xephyr
 
 Nested X server - fullscreen video or game inside the i3 window
 
-> I just have 2 separate Firefox windows, one inside the Xephyr window, and the other one normally on a different workspace for actual full screen.
+to I just have 2 separate Firefox windows, one inside the Xephyr window, and the other one normally on a different workspace for actual full screen.
 
 The name of the Xephyr package varies from distro to distro. For me, its xserver-xephyr, otherwise just google it.
 
