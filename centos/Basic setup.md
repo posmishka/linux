@@ -47,3 +47,5 @@ Basic setup
 + [ ] generate public key and push it to the server  
 `ssh-keygen`  
 `cat /home/user/.ssh/id_rsa.pub >> yourname@domain:/home/user/.ssh/authorized_key`
+
++ [ ] add notification on root lo
