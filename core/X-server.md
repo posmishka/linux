@@ -20,4 +20,4 @@ xrandr --output VGA-1 --off
 
 # Turn off second monitor
 
->
+`xrandr --output DP-1 --off`
