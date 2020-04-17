@@ -1,20 +1,6 @@
 LEMP Install
 ========================
- 
 
- 
-```
- yum -y install firewalld && \
- systemctl start firewalld && \
- systemctl enable firewalld && \
- firewall-cmd --permanent --zone=public --add-service=http &&
- firewall-cmd --permanent --zone=public --add-service=https &&
- firewall-cmd --permanent --zone=public --add-port=443/tcp &&
- firewall-cmd --permanent --add-port=21/tcp &&
- firewall-cmd --permanent --add-service=ftp &&
- firewall-cmd --permanent --add-port=29920/tcp &&
- firewall-cmd --reload
-``` 
   
  2) настройка входа по ssh.,  
  а) доступ root для пользователя через sudo:
