@@ -7,8 +7,8 @@ FTP
 > config placeholder
 
 * [ ] Pam authentification
-* [ ] 
-*login.txt should be created inside /etc/vsftpd/ directory*
+
+*login.txt should be created inside the /etc/vsftpd/ directory*
 
 	tee /etc/pam.d/vsftpd.virtual <<-'EOF'  
 	auth required pam_userdb.so db=/etc/vsftpd/login  
