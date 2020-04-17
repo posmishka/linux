@@ -6,9 +6,9 @@ LEMP Install
 
 1. Install Dev Tools we need
 
-	yum -y groupinstall 'Development Tools'
-	yum -y install wget openssl-devel libxml2-devel libxslt-devel gd-devel perl-ExtUtils-Embed GeoIP-devel
-
+		yum -y groupinstall 'Development Tools'
+		yum -y install wget openssl-devel libxml2-devel libxslt-devel gd-devel perl-ExtUtils-Embed GeoIP-devel
+		
 
  б) указать последнюю на момент установки версию:
  www.openssl.org/source/ - ветка 1.0.2
