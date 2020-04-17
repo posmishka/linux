@@ -24,11 +24,9 @@ Basic setup
 ## **Setup SSH**
 ### Create a new user
   
-`username=yourname`  
-
-adduser $username
-
-passwd $username  
+	username=yourname  
+	adduser $username
+	passwd $username  
 
 a) adduser under the root to give him sudo access  
 
