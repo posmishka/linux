@@ -15,7 +15,7 @@ LEMP Install
  
 		OPENSSL="openssl-1.0.2k"
  
-` http://nginx.org/packages/mainline/centos/7/SRPMS` - ветка 1.11.8 и выше
+http://nginx.org/packages/mainline/centos/7/SRPMS - ветка 1.11.8 и выше
  NGINX="nginx-1.11.13-1"
  
   
