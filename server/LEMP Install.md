@@ -37,8 +37,7 @@ LEMP Install
 
  chown -R nginx:nginx /var/lib/php/session /var/lib/php/wsdlcache /home/www /var/cache/nginx/pagespeed
 
-  
- б)* [] MariaDB Install
+  * [] MariaDB Install
 
 *creating a repo*
 
