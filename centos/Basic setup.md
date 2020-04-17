@@ -43,13 +43,8 @@ yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsf
 
  `ssh -p29920 user@server.name `
  
-+ [ ] check if you have a root
-`sudo -i`
- если всё успешно - проверить доступ через sudo :
- sudo htop
- для перехода в режим выполнения всех команд от root :  
- sudo -i
- 
++ [ ] check if you have a root  
+`sudo -i` 
   
  в) настроить доступ по ключам, отключить доступ по паролям (опционально)
  для linux :
