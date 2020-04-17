@@ -12,10 +12,10 @@ LEMP Install
 
  2. Setting variables  
 *we will use openssl 1.0.2 branch from www.openssl.org/source/* 
- 
-		OPENSSL="openssl-1.0.2k"
 
-*nginx is the last stable from * 
+		OPENSSL="openssl-1.0.2k"
+*nginx is the last stable from https://nginx.org/en/download.html* 
+
  NGINX="nginx-1.11.13-1"
  
   
