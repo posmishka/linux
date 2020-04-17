@@ -55,7 +55,10 @@ LEMP Install
  в файле nginx-source/auto/options
  USE_OPENSSL=YES OPENSSL=/root/openssl OPENSSL_OPT="no-ssl2 no-ssl3 -fPIC"
  
-  
+ 
+ pagespeed
+ /etc/nginx/conf.d/pagespeed.cfg - настройки модуля pagespeed
+ 
  
   
  4) Установка PHP7
@@ -138,10 +141,7 @@ LEMP Install
  запускать только в папке сайта - устанавливает права 755 на категории, 644 на файлы
  find ./ -type d|xargs chmod 755 && find ./ -type f |xargs chmod 644
  
-  
- pagespeed
- /etc/nginx/conf.d/pagespeed.cfg - настройки модуля pagespeed
- 
+   
   
  пережать изображения в папке (запускать в той папке, в которой нужно пережать)
  find -type f -name "*.jpg" -exec jpegoptim --strip-all --max=90 {} \;
