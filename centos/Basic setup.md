@@ -21,10 +21,8 @@ yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsf
  firewall-cmd --permanent --add-service=ftp &&
  firewall-cmd --permanent --add-port=29920/tcp &&
  firewall-cmd --reload
-```
-```
-
-+ [] **SSH**
+```  
++ [] **Setup SSH**
  2) настройка входа по ssh.,  
  а) доступ root для пользователя через sudo:
  visudo
