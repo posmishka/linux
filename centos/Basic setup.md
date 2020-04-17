@@ -46,8 +46,6 @@ yourname sasha_fox       ALL=(ALL)       ALL
 + [ ] check if you have a root  
 `sudo -i` 
   
-+ [ ] generate public key and push it to the server 
-
- `ssh-keygen`
-cat /home/user/.ssh/id_rsa.pub >> yourname@domain:/home/user/.ssh/authorized_key
-```
++ [ ] generate public key and push it to the server  
+`ssh-keygen`  
+`cat /home/user/.ssh/id_rsa.pub >> yourname@domain:/home/user/.ssh/authorized_key`
