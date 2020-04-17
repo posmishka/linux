@@ -30,11 +30,12 @@ adduser $username
 
 passwd $username  
 
-visudo - *adduser under the root to give him sudo access*  
+a) visudo - *adduser under the root to give him sudo access*  
 
 	root		ALL=(ALL)       ALL  
 	yourname		ALL=(ALL)       NOPASSWD:ALL
 
+b) usermod 
 
 ### Change ssh config  
 *prevent root from entering, changing ssh port, allowing new user to enter*
