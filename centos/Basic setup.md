@@ -47,6 +47,7 @@ yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsf
 `sudo -i` 
   
 + [ ] generate public key and push it to the server 
+```
  ssh-keygen
- cat /home/user/.ssh/id_rsa.pub >> user@domain:/home/user/.ssh/authorized_key
- 
+ cat /home/user/.ssh/id_rsa.pub >> user@domain:/home/%username%/.ssh/authorized_key
+```
