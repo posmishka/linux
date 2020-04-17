@@ -31,6 +31,7 @@ adduser $username
 passwd $username  
 
 a) adduser under the root to give him sudo access  
+
 	visudo
 	
 	root		ALL=(ALL)       ALL  
