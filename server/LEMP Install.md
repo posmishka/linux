@@ -14,10 +14,11 @@ LEMP Install
 
 *we will use openssl 1.0.2 branch from www.openssl.org/source/* 
 
-		OPENSSL="openssl-1.0.2k"
+	OPENSSL="openssl-1.0.2k"
+
 *nginx is the last stable from https://nginx.org/en/download.html* 
 	
-	 NGINX="nginx-1.16.1"
+	NGINX="nginx-1.16.1"
  
   
  в) установка nginx с версией openssl 1.0.2j для поддержки http2
