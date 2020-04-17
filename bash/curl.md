@@ -4,7 +4,7 @@ curl
 	curl https:/site.esclick.me/BqXq3pfZJJuu -L \
 	| egrep "https:\/\/drive\.google\.com\/file\/d\/(\w|-){26,}\/view"
 
-### find file in mail body and download from dropbox
+### find file in in raw mail and download from dropbox
 	LINKS=$(tr --delete '=\n' < $MAILFILE | egrep -o "https:\/\/site\.esclick\.me\/\w{12}")
 	
 	for LINK in $LINKS                                                                                               
