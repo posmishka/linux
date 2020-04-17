@@ -23,8 +23,7 @@ yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsf
 
 
 ## **Setup SSH**
- 2) настройка входа по ssh.,  
- а) доступ root для пользователя через sudo:
+
  visudo
  добавить пользователя под под стройкой:
  root    ALL=(ALL)       ALL
