@@ -38,8 +38,7 @@ yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsf
  echo -e "\nAllowUsers %username%" >> /etc/ssh/sshd_config && \
  systemctl restart sshd
 ```
-+ [ ] check if you can connect in the new ssh window
-
++ [ ] check if you can connect in the new ssh window 
  `ssh -p29920 user@server.name `
  
 + [ ] check if you have a root  
