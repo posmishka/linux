@@ -1,7 +1,7 @@
 Basic setup
 ========================
-+ [] **Update and install software**
-`yum update && yum -y install epel-release && \`
++ [] **Update and install software**  
+`yum update && yum -y install epel-release && \`  
 `yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsftp.d db4-utils mc zip unzip`
 
    
@@ -22,7 +22,7 @@ Basic setup
 ```
 
 ## **Setup SSH**
-+ [ ]Create new user  
++ [ ] Create a new user  
 `username=yourname`
 + [ ] adduser $username
 + [ ] passwd $username
