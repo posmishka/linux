@@ -10,8 +10,8 @@ LEMP Install
 		yum -y install wget openssl-devel libxml2-devel libxslt-devel gd-devel perl-ExtUtils-Embed GeoIP-devel
 		
 
- 2. указать последнюю на момент установки версиюSeS:
- www.openssl.org/source/ - ветка 1.0.2
+ 2. Setting variables  
+www.openssl.org/source/ - ветка 1.0.2
  OPENSSL="openssl-1.0.2k"             
  http://nginx.org/packages/mainline/centos/7/SRPMS - ветка 1.11.8 и выше
  NGINX="nginx-1.11.13-1"
