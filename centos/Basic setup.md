@@ -39,8 +39,10 @@ yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsf
  echo -e "\nAllowUsers %username%" >> /etc/ssh/sshd_config && \
  systemctl restart sshd
 ```
-+ [ ] check if you can connect in the new ssh windo
- ssh -p29920 sasha_fox@37.48.90.188  
++ [ ] check if you can connect in the new ssh window
+
+ `ssh -p29920 sasha_fox@37.48.90.188  `
+ 
  если всё успешно - проверить доступ через sudo :
  sudo htop
  для перехода в режим выполнения всех команд от root :  
