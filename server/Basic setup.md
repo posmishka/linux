@@ -35,11 +35,10 @@ a) visudo - *adduser under the root to give him sudo access*
 	root		ALL=(ALL)       ALL  
 	yourname		ALL=(ALL)       NOPASSWD:ALL
 
-b) usermod -aG wheel $username  
-*add user to the common group for sudo users*
+b)add user to the common group for sudo users
 
 ### Change ssh config  
-*prevent root from entering, changing ssh port, allowing new user to enter*
+prevent root from entering, changing ssh port, allowing new user to enter
 ```
  sed -i 's/^.*Port .*/Port 29920/g' /etc/ssh/sshd_config && \
  sed -i 's/^.*PermitRootLogin yes/PermitRootLogin no/g' /etc/ssh/sshd_config && \
