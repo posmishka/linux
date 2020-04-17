@@ -22,7 +22,7 @@ yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsf
  firewall-cmd --reload
 ``` 
 
-+ [] **
++ [] **SSH**
  2) настройка входа по ssh.,  
  а) доступ root для пользователя через sudo:
  visudo
