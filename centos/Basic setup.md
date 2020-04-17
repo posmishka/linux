@@ -37,11 +37,11 @@ yourname sasha_fox       ALL=(ALL)       ALL
 ```
  sed -i 's/^.*Port .*/Port 29920/g' /etc/ssh/sshd_config && \
  sed -i 's/^.*PermitRootLogin yes/PermitRootLogin no/g' /etc/ssh/sshd_config && \
- echo -e "\nAllowUsers %username%" >> /etc/ssh/sshd_config && \
+ echo -e "\nAllowUsers $username" >> /etc/ssh/sshd_config && \
  systemctl restart sshd
 ```
 + [ ] check if you can connect in the new ssh window  
- `ssh -p29920 user@domain `
+ `ssh -p29920 yourname@domain `
  
 + [ ] check if you have a root  
 `sudo -i` 
@@ -49,5 +49,5 @@ yourname sasha_fox       ALL=(ALL)       ALL
 + [ ] generate public key and push it to the server 
 ```
  ssh-keygen
- cat /home/user/.ssh/id_rsa.pub >> user@domain:/home/user/.ssh/authorized_key
+ cat /home/user/.ssh/id_rsa.pub >> @domain:/home/user/.ssh/authorized_key
 ```
