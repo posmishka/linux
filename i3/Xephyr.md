@@ -8,9 +8,8 @@ to I just have 2 separate Firefox windows, one inside the Xephyr window, and the
 server-xephyr, otherwise just google it.
 
 to get everything running:
-1. first open a spare terminal. From there, run
-
-Xephyr -ac -resizeable -br -reset -terminate 2> /dev/null :1 &
+1. open a spare terminal
+2. Xephyr -ac -resizeable -br -reset -terminate 2> /dev/null :1 &
 
 This should open a new, black window, which you can move around and resize like any other window in i3.
 
