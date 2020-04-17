@@ -34,10 +34,13 @@ yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsf
 + [ ] change ssh config  
 *prevent root from entering, changing ssh port, allowing new user to enter
  порт обязательно нужно указать тот же, что указан в firewall.
+```
  sed -i 's/^.*Port .*/Port 29920/g' /etc/ssh/sshd_config && \
  sed -i 's/^.*PermitRootLogin yes/PermitRootLogin no/g' /etc/ssh/sshd_config && \
- echo -e "\nAllowUsers alpi" >> /etc/ssh/sshd_config && \
+ echo -e "\nAllowUsers %username%" >> /etc/ssh/sshd_config && \
  systemctl restart sshd
+```
+
  в новом окне проверить доступ пользователя к серверу:
  ssh -p29920 sasha_fox@37.48.90.188  
  если всё успешно - проверить доступ через sudo :
