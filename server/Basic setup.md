@@ -54,5 +54,5 @@ generate public key and push it to the server
 `cat /home/user/.ssh/id_rsa.pub >> yourname@domain:/home/user/.ssh/authorized_key`
 
 ### Add notification on root login  
-`vi .bashrc`  
+	vi .bashrc  
 ```echo 'ALERT - SSH root shell access found on '$HOSTNAME' on:' `date` `who` | mail -s "Alert: SSH root shell access" your@mail.co```
