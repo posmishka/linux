@@ -13,7 +13,9 @@ FTP
 	account required pam_userdb.so db=/etc/vsftpd/login
 	session required pam_loginuid.so
 	EOF
-в) занести в logins.txt пользователей и пароли
+
+занести в logins.txt пользователей и пароли
 в папке users создать настройки для пользователей фтп (один пользователь
 - одна настройка, задаётся папка, в которую у пользователя есть доступ)
+
 useradd.sh
