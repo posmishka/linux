@@ -41,9 +41,10 @@ yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsf
 ```
 + [ ] check if you can connect in the new ssh window
 
- `ssh -p29920 user@server.n `
+ `ssh -p29920 user@server.name `
  
-+ [ ] check if t
++ [ ] check if you have a root
+`sudo -i`
  если всё успешно - проверить доступ через sudo :
  sudo htop
  для перехода в режим выполнения всех команд от root :  
