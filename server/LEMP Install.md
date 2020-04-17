@@ -125,10 +125,10 @@ LEMP Install
  sh /home/sasha_fox/create_db.sh [ИМЯ_БАЗЫ/ПОЛЬЗОВАТЕЛЯ] [ПАРОЛЬ]
  
   
- д) проверить настройки phpmyadmin, должен открываться по адресу glavzavhoz.ru/pma3388/
+ д) проверить настройки phpmyadmin, должен открываться по адресу glavzavhoz.rduu/pma3388/
  посмотреть настройки : vim /etc/nginx/conf.d/phpmyadmin.cfg
  
-  
+ 
  
   
  6) Подготовка конфигов
