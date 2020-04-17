@@ -8,7 +8,7 @@ yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsf
 ```   
    
 * [ ] **Setup firewall**  
-Assume that ssh port is 29920 instead of 22, opening port
+*Assume that ssh port is 29920 instead of 22, opening ftp and web-server ports*
  ```
  yum -y install firewalld && \
  systemctl start firewalld && \
