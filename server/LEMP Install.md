@@ -14,7 +14,8 @@ LEMP Install
 *we will use openssl 1.0.2 branch from www.openssl.org/source/* 
  
 		OPENSSL="openssl-1.0.2k"
- 
+
+*nginx is the last stable from * 
  NGINX="nginx-1.11.13-1"
  
   
