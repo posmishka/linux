@@ -3,7 +3,7 @@ xxkb
 
 
 /etc/X11/app-defaults/XXkb
-
+```
  XXkb.image.path: /usr/share/xxkb$
  $
  XXkb.group.base: 1$
@@ -62,4 +62,4 @@ xxkb
  !  ignore windows in KDE tray$
  !  XXkb.app_list.property.ignore: _KDE_NET_WM_SYSTEM_TRAY_WINDOW_FOR$
 
-
+```
