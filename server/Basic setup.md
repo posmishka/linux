@@ -35,7 +35,8 @@ a) visudo - *adduser under the root to give him sudo access*
 	root		ALL=(ALL)       ALL  
 	yourname		ALL=(ALL)       NOPASSWD:ALL
 
-b) usermod 
+b) usermod -aG wheel $username
+*add user to the commo*
 
 ### Change ssh config  
 *prevent root from entering, changing ssh port, allowing new user to enter*
