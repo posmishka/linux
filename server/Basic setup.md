@@ -35,7 +35,8 @@ a) adduser under the root in /etc/sudoers to give him sudo access
 > root		ALL=(ALL)       ALL  
 > yourname		ALL=(ALL)       NOPASSWD:ALL
 
-b) add user to the common group for sudo users
+b) add user to the common group for sudo users 
+make sure this group is uncommented in sudoers
 
 	usermod -aG wheel $username
 
