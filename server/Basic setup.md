@@ -37,6 +37,8 @@ a) visudo - *adduser under the root to give him sudo access*
 
 b)add user to the common group for sudo users
 
+	usermod -aG wheel $username
+
 ### Change ssh config  
 prevent root from entering, changing ssh port, allowing new user to enter
 ```
