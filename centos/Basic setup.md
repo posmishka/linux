@@ -6,8 +6,9 @@ Basic setup
 yum update && yum -y install epel-release && \
 yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsftp.d db4-utils mc zip unzip
 ```   
+   
+* [ ] **Setup firewall**  
 
-* [ ] **Setup firewall**
  ```
  yum -y install firewalld && \
  systemctl start firewalld && \
