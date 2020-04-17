@@ -51,8 +51,7 @@ LEMP Install
 	 gpgcheck=1  
 	 EOF
 	 
-*installing *
- б) установить софт
+*installing mariadb along with phpmyadmin and mysqltuner*
  yum -y install mariadb-server mariadb phpmyadmin mysqltuner &&
  systemctl start mariadb &&
  systemctl enable mariadb
