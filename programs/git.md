@@ -19,11 +19,7 @@ git config credential.helper store
 
 then 
 
-
 ```
 git pull
 ```
-
-```
-
 provide new **password** **and** it will work like before.
