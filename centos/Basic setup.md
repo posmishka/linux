@@ -31,9 +31,8 @@ yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsf
  root    ALL=(ALL)       ALL
  sasha_fox       ALL=(ALL)       ALL
 ```
-+ [ ] change ssh config
++ [ ] change ssh config *prevent root from entering, c*
 
- 
   
  б) смена порта SSH, запрет входа пользователю root, разрешение пользователю входа по ssh.
  порт обязательно нужно указать тот же, что указан в firewall.
