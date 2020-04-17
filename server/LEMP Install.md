@@ -27,7 +27,7 @@ LEMP Install
 
 * [ ] Installing PHP7
 
-*we will use custom repo for php* 
+*we will use custom repo for php 
 
 	rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
 	yum update
@@ -38,7 +38,7 @@ LEMP Install
 
  chown -R nginx:nginx /var/lib/php/session /var/lib/php/wsdlcache /home/www /var/cache/nginx/pagespeed
 
-  * [] MariaDB Install
+  * [ ] MariaDB Install
 
 *creating a repo*
 
@@ -51,13 +51,13 @@ LEMP Install
 	 gpgcheck=1  
 	 EOF
 	 
-*installing mariadb along with phpmyadmin and mysqltuner*
+installing mariadb along with phpmyadmin and mysqltuner
 
 	yum -y install mariadb-server mariadb phpmyadmin mysqltuner && \
 	systemctl start mariadb && \
 	systemctl enable mariadb
 
-*run after-install script to create a mysql root password*
+run after-install script to create a mysql root password
 
 	mysql_secure_installation  
 
