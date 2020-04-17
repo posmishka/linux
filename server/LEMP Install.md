@@ -11,6 +11,7 @@ LEMP Install
 		
 
  2. Setting variables  
+
 *we will use openssl 1.0.2 branch from www.openssl.org/source/* 
 
 		OPENSSL="openssl-1.0.2k"
