@@ -1,9 +1,9 @@
 Basic setup
 ========================
 + [] **Update and install software**
-``` 
+
 yum update && yum -y install epel-release && \
-yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsftp.d db4-utils mc zip unzip
+yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsftp.d db4-utils mc zip unzi
 ```   
    
 * [ ] **Setup firewall**  
@@ -22,7 +22,7 @@ yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsf
  firewall-cmd --reload
 ```  
 
-+ [] **Setup SSH**
+## **Setup SSH**
  2) настройка входа по ssh.,  
  а) доступ root для пользователя через sudo:
  visudo
@@ -49,5 +49,5 @@ yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsf
  в) настроить доступ по ключам, отключить доступ по паролям (опционально)
  для linux :
  ssh-keygen
- cat /home/user/.ssh/id_rsa.pub >> user@domain:/home/user/.ssh/authorized_keys
+ cat /home/user/.ssh/id_rsa.pub >> user@domain:/home/user/.ssh/authorized_key
  
