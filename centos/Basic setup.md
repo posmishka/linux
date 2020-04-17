@@ -21,4 +21,3 @@ yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsf
  firewall-cmd --permanent --add-port=29920/tcp &&
  firewall-cmd --reload
 ``` 
- б) настройка firewall - доступ ftp, http, https, ssh. стандартный порт ssh - 22 - меняется на 29920
