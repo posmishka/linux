@@ -1,5 +1,5 @@
-Basic setup
-========================+
+ic setup
+ [] Update software
 #Install basic software
 ``` 
 yum update && yum -y install epel-release && \
