@@ -1,7 +1,8 @@
 curl
 ========================
 ### download file from google drive
-	curl https:/site.extremecentr.esclick.me/BqXq3pfZJJuu -L | egrep "https:\/\/drive\.google\.com\/file\/d\/(\w|-){26,}\/view"
+	curl https:/site.extremecentr.esclick.me/BqXq3pfZJJuu -L \
+	| egrep "https:\/\/drive\.google\.com\/file\/d\/(\w|-){26,}\/view"
 
 ### download specific file with cyrillic name behind the form
 
@@ -10,4 +11,4 @@ curl
 	| egrep -o 'Прайс.*\.htm' \
 	| egrep -o "\/download\/f\/[0-9]{4,}\.htm")
 	
-	curl -b cookie hsite.com$FILE -o pricename.xls
+	curl -b cookie https://site.com$FILE -o pricename.xls
