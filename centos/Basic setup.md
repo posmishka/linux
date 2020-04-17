@@ -31,7 +31,7 @@ yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsf
  root    ALL=(ALL)       ALL
  sasha_fox       ALL=(ALL)       ALL
 ```
-change ssh config
++ [ ] change ssh config
 
  
   
