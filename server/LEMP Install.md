@@ -4,7 +4,7 @@ LEMP Install
 
 *we will build the most recent version from source*  
 
-1. <ddd>
+1. Prepa
  yum -y groupinstall 'Development Tools'
  yum -y install wget openssl-devel libxml2-devel libxslt-devel gd-devel perl-ExtUtils-Embed GeoIP-devel
  
