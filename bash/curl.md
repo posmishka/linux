@@ -5,3 +5,4 @@ curl
 
 ### download specific file behind the form
 
+	FILE=$(curl -c cookie -X POST -F "login=login" -F "pass=passwo" https://sva.kiev.ua/ -L | iconv -f cp1251 -t utf8 - | egrep -o 'Прайс.*\.htm' | egrep -o "\/download\/f\/[0-9]{4,}\.htm")
