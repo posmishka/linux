@@ -22,4 +22,7 @@ then
 ```
 git pull
 ```
-provide new **password** **and** it will work like before.
+provide new **password** **and** it will work like before
+
+
+# visualising
