@@ -22,7 +22,7 @@ nginx is the last stable from https://nginx.org/en/download.html
 
 ## Installing basic nginx
 
->> PLACEHOLDER 
+> PLACEHOLDER 
 
 ## Installing PHP7
 
