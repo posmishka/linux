@@ -54,8 +54,7 @@ LEMP Install
 *installing mariadb along with phpmyadmin and mysqltuner*
 
 	yum -y install mariadb-server mariadb phpmyadmin mysqltuner && \
-	systemctl start mariadb &&
-	systemctl enable mariadb
+	systemctl enable --now mariadb
  
   
  в) создать пароль mysql рут, Y на все вопросы дальше
