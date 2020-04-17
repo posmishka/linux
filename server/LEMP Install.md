@@ -77,7 +77,6 @@ LEMP Install
   mkdir /home/www
  все файлы сайта должны быть в /home/www/site.com
    
- chown -R nginx:nginx /var/lib/php/session /var/lib/php/wsdlcache /home/www /var/cache/nginx/pagespeed
  
 
  yum install -y phpmyadmin
