@@ -41,7 +41,7 @@ yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsf
 ```
 + [ ] check if you can connect in the new ssh window
 
- `ssh -p29920 sasha_foux@37.48.90.188  `
+ `ssh -p29920 user@server.n `
  
 + [ ] check if t
  если всё успешно - проверить доступ через sudo :
