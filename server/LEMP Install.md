@@ -57,7 +57,7 @@ LEMP Install
 	systemctl start mariadb && \
 	systemctl enable mariadb
 
-*run after-in*
+*run after-install script to create a mysql root password*
  
 	mysql_secure_installation  
  
