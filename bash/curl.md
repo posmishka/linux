@@ -2,6 +2,7 @@ curl
 ====
 Manual
 
+	https://curl.haxx.se/docs/httpscripting.html
 
 
 Login and password from form 
