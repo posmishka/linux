@@ -125,26 +125,9 @@ LEMP Install
  sh /home/sasha_fox/create_db.sh [ИМЯ_БАЗЫ/ПОЛЬЗОВАТЕЛЯ] [ПАРОЛЬ]
  
   
- д) проверить настройки phpmyadmin, должен открываться по адресу glavzavhoz.rduu/pma3388/
+ д) проверить настройки phpmyadmin, должен открываться по адресу /pma3388/
  посмотреть настройки : vim /etc/nginx/conf.d/phpmyadmin.cfg
- 
- 
- 
-  
- 6) Подготовка конфигов
- а) бэкап оригинальных конфигов
- zip -r /home/sasha_fox/etc-original.zip /etc/
- 
-  
- б) залить на сервер архив с конфигами (команда на клиенте)
- scp -P 29920 vps-config.zip sasha_fox@37.48.90.188:~
- 
-  
- в) разархивировать и скопировать конфиги
- unzip vps-config.zip
- 
-  
- mkdir /home/www
+  mkdir /home/www
  все файлы сайта должны быть в /home/www/site.com
  
   
