@@ -32,8 +32,7 @@ yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsf
  sasha_fox       ALL=(ALL)       ALL
 ```
 + [ ] change ssh config  
-*prevent root from entering, changing ssh port, allowing new user to enter
- порт обязательно нужно указать тот же, что указан в firewall.
+*prevent root from entering, changing ssh port, allowing new user to enter*
 ```
  sed -i 's/^.*Port .*/Port 29920/g' /etc/ssh/sshd_config && \
  sed -i 's/^.*PermitRootLogin yes/PermitRootLogin no/g' /etc/ssh/sshd_config && \
