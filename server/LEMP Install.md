@@ -4,14 +4,14 @@ LEMP Install
 
 *we will build the most recent version from source with custom modules to have http/2 enabled*  
 
-* [] Install Dev Tools we need  
+* [ ] Install Dev Tools we need  
 
 *we will need to remove them adter the building process*
 
 	yum -y groupinstall 'Development Tools'
 	yum -y install wget openssl-devel libxml2-devel libxslt-devel gd-devel perl-ExtUtils-Embed GeoIP-devel
 
- * [] Setting variables  
+ * [ ] Setting variables  
 
 *we will use openssl 1.0.2 branch from www.openssl.org/source/* 
 
@@ -21,11 +21,11 @@ LEMP Install
 	
 	NGINX="nginx-1.16.1"
 
-* [] Installing basic nginx
+* [ ] Installing basic nginx
 
 >> PLACEHOLDER 
 
-* [] Installing PHP7
+* [ ] Installing PHP7
 
 *we will use custom repo for php* 
 
