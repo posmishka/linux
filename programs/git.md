@@ -1,6 +1,5 @@
 git
 ===
-
 ```
 
 ```
@@ -17,7 +16,6 @@ then
 git pull
 ```
 
-```
 
 provide **user-name** **and** **password** **and** those details will be remembered later. The credentials are stored in the disk, with the disk permissions. 
 
