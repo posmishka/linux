@@ -5,9 +5,10 @@ Nested X server - fullscreen video or game inside the i3 window
 
 to I just have 2 separate Firefox windows, one inside the Xephyr window, and the other one normally on a different workspace for actual full screen.
 
-The name of the Xephyr package varies from distro to distro.  xserver-xephyr, otherwise just google it.
+server-xephyr, otherwise just google it.
 
-So, to get everything running, first open a spare terminal. From there, run
+to get everything running:
+1. first open a spare terminal. From there, run
 
 Xephyr -ac -resizeable -br -reset -terminate 2> /dev/null :1 &
 
