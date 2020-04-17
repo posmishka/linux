@@ -28,14 +28,14 @@ Basic setup
 	adduser $username
 	passwd $username  
 
-a) adduser under the root to give him sudo access  
+a) adduser under the root in /etc/sudoers to give him sudo access  
 
 	visudo
 	
 > root		ALL=(ALL)       ALL  
 > yourname		ALL=(ALL)       NOPASSWD:ALL
 
-b)add user to the common group for sudo users
+b) add user to the common group for sudo users
 
 	usermod -aG wheel $username
 
