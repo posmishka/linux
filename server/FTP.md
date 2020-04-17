@@ -2,7 +2,8 @@ FTP
 =============
 # vsftpd
 
-FTP
+> config placeholder
+
 а) перенести конфиги и настройки из архива /etc/vsftpd/
 б)
 tee /etc/pam.d/vsftpd.virtual <<-'EOF'
