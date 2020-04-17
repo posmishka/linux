@@ -2,7 +2,8 @@ FTP
 =============
 # vsftpd
 
-*the case is using virtual users for chrooted die
+*the case is using virtual users for chrooted ftp directories*
+
 > config placeholder
 
 tee /etc/pam.d/vsftpd.virtual <<-'EOF'
