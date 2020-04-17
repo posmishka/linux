@@ -5,6 +5,9 @@ curl
 	| egrep "https:\/\/drive\.google\.com\/file\/d\/(\w|-){26,}\/view"
 
 ### find file in mail body and download from dropbox
+	LINKS=$(tr --delete '=\n' < $MAILFILE \
+	| egrep -o "https:\/\/sportsummit\.esclick\.me\/\w{12}")
+	
 	for LINK in $LINKS                                                                                               
 	do                                                                                                               
     URL=$(curl -Ls -o /dev/null -w %{url_effective} $LINK)                                                       
