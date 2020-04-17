@@ -3,9 +3,10 @@ X-server
 
 # VGA - setup second monitor
 
-`cvt X Y`	*calculate settings to use with xrandr*
+`cvt X Y`	*calculate settings to use with xrandr*  
 `xrandr`	*find name and current settings*
 
+**
 ```
 xrandr --newmode  "1920x1080_60.00"  173.00 1920 2048 2248 2576 1080 1083 1088 1120 -hsync +vsync
 
