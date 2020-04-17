@@ -22,10 +22,11 @@ Basic setup
 ```
 
 ## **Setup SSH**
-Create a new user  
-`username=yourname`
-adduser $username
-passwd $username
+Create a new user
+  
+`username=yourname`  
+adduser $username  
+passwd $username  
 visudo - *adduser under the root to give him sudo access*  
 `root    ALL=(ALL)       ALL`  
 `yourname sasha_fox       ALL=(ALL)       ALL`
