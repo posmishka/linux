@@ -39,7 +39,7 @@ yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsf
  echo -e "\nAllowUsers %username%" >> /etc/ssh/sshd_config && \
  systemctl restart sshd
 ```
-
++ [ ] check if you cin the new ssh window
  в новом окне проверить доступ пользователя к серверу:
  ssh -p29920 sasha_fox@37.48.90.188  
  если всё успешно - проверить доступ через sudo :
