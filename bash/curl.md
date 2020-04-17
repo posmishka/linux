@@ -10,4 +10,4 @@ curl
 	| egrep -o 'Прайс.*\.htm' \
 	| egrep -o "\/download\/f\/[0-9]{4,}\.htm")
 	
-	curl -b cookie site.com$FILE
+	curl -b cookie hsite.com$FILE -o pricename.xls
