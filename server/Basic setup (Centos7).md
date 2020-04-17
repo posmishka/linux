@@ -1,9 +1,10 @@
 Basic setup (Centos7)
 ========================
 **Update and install software**  
-yum update && yum -y install epel-release && \  
-yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsftp.d db4-utils mc zip unzip
 
+	yum update && yum -y install epel-release && \  
+	yum -y install htop atop mlocate mc wget curl fail2ban vim certbot net-tools vsftp.d db4-utils mc zip unzip
+	
 
 **Setup firewall**
 
@@ -43,12 +44,12 @@ make sure this group is uncommented in /etc/sudoers
 
 ### Change ssh config  
 prevent root from entering, changing ssh port, allowing new user to enter
-```
- sed -i 's/^.*Port .*/Port 29920/g' /etc/ssh/sshd_config && \
- sed -i 's/^.*PermitRootLogin yes/PermitRootLogin no/g' /etc/ssh/sshd_config && \
- echo -e "\nAllowUsers $username" >> /etc/ssh/sshd_config && \
- systemctl restart sshd
-```
+	
+	 sed -i 's/^.*Port .*/Port 29920/g' /etc/ssh/sshd_config && \
+	 sed -i 's/^.*PermitRootLogin yes/PermitRootLogin no/g' /etc/ssh/sshd_config && \
+	 echo -e "\nAllowUsers $username" >> /etc/ssh/sshd_config && \
+	 systemctl restart sshd
+
 ### Check if you can connect in the new ssh window  
 	ssh -p29920 yourname@domain
  
