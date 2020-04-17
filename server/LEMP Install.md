@@ -21,7 +21,7 @@ LEMP Install
 	
 	NGINX="nginx-1.16.1"
 
-* [] Installing basiv
+* [] Installing basic nginx
 
  в) установка nginx с версией openssl 1.0.2j для поддержки http2
  mkdir -p /root/openssl && \
