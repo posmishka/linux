@@ -27,3 +27,5 @@ provide new **password** **and** it will work like before
 
 # visualising
 https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1
+
+# cheatsheets
