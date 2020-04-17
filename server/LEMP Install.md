@@ -6,18 +6,18 @@ LEMP Install
 
 * [ ] Install Dev Tools we need  
 
-*we will need to remove them adter the building process*
+we will need to remove them adter the building process
 
 	yum -y groupinstall 'Development Tools'
 	yum -y install wget openssl-devel libxml2-devel libxslt-devel gd-devel perl-ExtUtils-Embed GeoIP-devel
 
  * [ ] Setting variables  
 
-*we will use openssl 1.0.2 branch from www.openssl.org/source/* 
+we will use openssl 1.0.2 branch from www.openssl.org/source/ 
 
 	OPENSSL="openssl-1.0.2k"
 
-*nginx is the last stable from https://nginx.org/en/download.html* 
+nginx is the last stable from https://nginx.org/en/download.html 
 	
 	NGINX="nginx-1.16.1"
 
@@ -27,7 +27,7 @@ LEMP Install
 
 * [ ] Installing PHP7
 
-*we will use custom repo for php 
+we will use custom repo for php 
 
 	rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
 	yum update
@@ -40,7 +40,7 @@ LEMP Install
 
   * [ ] MariaDB Install
 
-*creating a repo*
+creating a repo
 
 	 tee /etc/yum.repos.d/Mariadb.repo <<-'EOF' 
 	 # http://mariadb.org/mariadb/repositories/
