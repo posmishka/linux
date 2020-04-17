@@ -1,7 +1,7 @@
 LEMP Install
 ========================
-  
- 3) Настройка nginx
+# Nginx 
+
  а) установка софта для сборки nginx
  yum -y groupinstall 'Development Tools'
  yum -y install wget openssl-devel libxml2-devel libxslt-devel gd-devel perl-ExtUtils-Embed GeoIP-devel
