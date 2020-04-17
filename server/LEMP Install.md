@@ -56,6 +56,8 @@ LEMP Install
 	yum -y install mariadb-server mariadb phpmyadmin mysqltuner && \
 	systemctl start mariadb && \
 	systemctl enable mariadb
+
+*run after-in*
  
 	mysql_secure_installation  
  
