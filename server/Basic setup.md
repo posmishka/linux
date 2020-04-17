@@ -47,10 +47,11 @@ visudo - *adduser under the root to give him sudo access*
  `ssh -p29920 yourname@domain `
  
 ### Check if you have a root  
-`sudo -i` 
+`sudo -i 
   
 generate public key and push it to the server  
-ssh-keygen  
+
+	ssh-keygen  
 `cat /home/user/.ssh/id_rsa.pub >> yourname@domain:/home/user/.ssh/authorized_key`
 
 ### Add notification on root login  
