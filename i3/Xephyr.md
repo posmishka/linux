@@ -13,8 +13,4 @@ to get everything running:
 This should open a new, black window, which you can move around and resize like any other window in i3.  
 3. Then, run `DISPLAY=:1.0`  
 to make sure subsequent x windows started from this terminal open in the Xephyr window.
-
-
-Finally, just run
-
-firefox
+4. Finally, just run firefox
