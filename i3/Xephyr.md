@@ -11,7 +11,7 @@ to get everything running:
 1. open a spare terminal
 2. Xephyr -ac -resizeable -br -reset -terminate 2> /dev/null :1 &  
 This should open a new, black window, which you can move around and resize like any other window in i3.  
-3. Then, run
+3. Then, run 
 
 DISPLAY=:1.0
 
