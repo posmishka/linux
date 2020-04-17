@@ -63,4 +63,4 @@ generate public key on client and push it to the server
 
 ### Add notification on root login  
 	vi .bashrc  
-```echo 'ALERT - SSH root shell access found on '$HOSTNAME' on:' `date` `who` | mail -s "Alert: SSH root shell access" your@mail.com```
+echo 'ALERT - SSH root shell access found on '$HOSTNAME' on:' `date` `who` | mail -s "Alert: SSH root shell access" your@mail.com
