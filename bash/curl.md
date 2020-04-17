@@ -5,13 +5,12 @@ curl
 	| egrep "https:\/\/drive\.google\.com\/file\/d\/(\w|-){26,}\/view"
 
 ### find file in mail body and download from dropbox
-	LINKS=$(tr --delete '=\n' < $MAILFILE \
-	| egrep -o "https:\/\/sportsummit\.esclick\.me\/\w{12}")
+	LINKS=$(tr --delete '=\n' < $MAILFILE \| egrep -o "https:\/\/something\.esclick\.me\/\w{12}")
 	
 	for LINK in $LINKS                                                                                               
 	do                                                                                                               
     URL=$(curl -Ls -o /dev/null -w %{url_effective} $LINK)                                                       
-    [[ $URL == *dropboxusercontent*file ]] && $CURL $URL > "$FOLDER/sportsummit.xls"                             
+    [[ $URL == *dropboxusercontent*file ]] && $CURL $URL > "$FOLDER/filename.xls"                             
 	done
 
 ### download specific file with cyrillic name behind the form
