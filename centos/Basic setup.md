@@ -49,5 +49,5 @@ Basic setup
 `cat /home/user/.ssh/id_rsa.pub >> yourname@domain:/home/user/.ssh/authorized_key`
 
 + [ ] add notification on root login  
-`vi .bashrc  
-echo 'ALERT - SSH root shell access found on '$HOSTNAME' on:' `date` `who` | mail -s "Alert: SSH root shell access"  swirl7@gmail.com`
+`vi .bashrc`  
+```echo 'ALERT - SSH root shell access found on '$HOSTNAME' on:' `date` `who` | mail -s "Alert: SSH root shell access"  swirl7@gmail.com```
