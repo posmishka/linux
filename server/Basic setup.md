@@ -50,9 +50,9 @@ visudo - *adduser under the root to give him sudo access*
 `sudo -i` 
   
 generate public key and push it to the server  
-`ssh-keygen`  
+ssh-keygen  
 `cat /home/user/.ssh/id_rsa.pub >> yourname@domain:/home/user/.ssh/authorized_key`
 
 ### Add notification on root login  
 	vi .bashrc  
-```echo 'ALERT - SSH root shell access found on '$HOSTNAME' on:' `date` `who` | mail -s "Alert: SSH root shell access" your@mail.co```
+```echo 'ALERT - SSH root shell access found on '$HOSTNAME' on:' `date` `who` | mail -s "Alert: SSH root shell access" your@mail.com```
