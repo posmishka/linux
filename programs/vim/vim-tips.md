@@ -18,7 +18,7 @@ and finally
 (Press Ctrl+V Ctrl+M to insert that ^M.)
 
 
-Интересно:
+Как польз:
 http://najomi.org/vim
 
 
