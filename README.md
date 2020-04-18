@@ -25,4 +25,7 @@ some useful linux stuff
 something useful related to python
 
 # server
-specific for th
+specific for the server usage things
+
+# vim
+it's to cool to store it 
