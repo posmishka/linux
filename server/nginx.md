@@ -39,4 +39,12 @@ nginx
  pagespeed
  /etc/nginx/conf.d/pagespeed.cfg - настройки модуля pagespeed
  
+
+
+
+Deb пакет Nginx - сборка из исходников
+
+https://techlist.top/nginx-deb-package-from-source/
+
+https://blog.programs74.ru/how-to-enable-alpn-on-nginx/
  
