@@ -8,3 +8,8 @@ core system stuff
 
 # distributive
 things specific to concrete linux branch
+
+# i3
+where the magic is
+
+# network
