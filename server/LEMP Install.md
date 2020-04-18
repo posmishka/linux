@@ -1,6 +1,5 @@
 LEMP Install
-
-Table of Contents
+d of Contents
 
 1. Nginx
     1. Install Dev Tools we need
@@ -36,7 +35,7 @@ nginx is the last stable from https://nginx.org/en/download.html
 
 > PLACEHOLDER 
 
-#PHP7
+# PHP7
 
 we will use custom repo for php 
 
@@ -49,7 +48,7 @@ we will use custom repo for php
 
  chown -R nginx:nginx /var/lib/php/session /var/lib/php/wsdlcache /home/www /var/cache/nginx/pagespeed
 
-## MariaDB Install
+# MariaDB
 
 creating a repo
 
