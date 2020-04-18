@@ -1,7 +1,7 @@
 vim-tips
 ========
 
-Remove ^M from the end of line
+### Remove ^M from the end of line
 
 :e ++ff=do:e ++ff=dos 
 
