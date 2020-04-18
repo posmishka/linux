@@ -18,7 +18,6 @@ pipenv install Flask gunicorn
 pipenv shell | exit
 ```
 
-
 https://habr.com/ru/post/413009/
 
 poetry  
