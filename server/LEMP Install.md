@@ -91,3 +91,5 @@ run after-install script to create a mysql root password
  запускать только в папке сайта - устанавливает права 755 на категории, 644 на файлы
  find ./ -type d|xargs chmod 755 && find ./ -type f |xargs chmod 644  
  
+ @nginx
+ 
