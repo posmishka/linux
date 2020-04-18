@@ -18,13 +18,13 @@ and finally
 (Press Ctrl+V Ctrl+M to insert that ^M.)
 
 
-Как польз:
+**Как пользоваться vim**  
 http://najomi.org/vim
 
 
-DATABASE QUERY  
+**DATABASE QUERY**  
 https://habamax.github.io/2019/09/02/use-vim-dadbod-to-query-databases.html
 
 
-vim-git
+**vim-git**
 https://itnan.ru/post.php?c=1&p=261783
