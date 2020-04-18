@@ -1,4 +1,6 @@
 curl-tiny
 =========
 
-Погода
+Погода  
+
+	curl http://v2.wttr.in
