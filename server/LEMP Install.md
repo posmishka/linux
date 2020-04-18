@@ -16,7 +16,7 @@ Table of Contents
 
 *we will build the most recent version from source with custom modules to have http/2 enabled on CentOS7*  
 
-## Install Dev Tools we need  
+## Install Dev Tools
 we will need to remove them adter the building process
 
 	yum -y groupinstall 'Development Tools'
@@ -36,7 +36,7 @@ nginx is the last stable from https://nginx.org/en/download.html
 
 > PLACEHOLDER 
 
-## Installing PHP7
+#PHP7
 
 we will use custom repo for php 
 
