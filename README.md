@@ -13,3 +13,7 @@ things specific to concrete linux branch
 where the magic is
 
 # network
+networking related stuff
+
+# pentesting
+let it be here for som
