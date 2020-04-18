@@ -21,4 +21,8 @@ let it be here for some time
 # programs
 some useful linux stuff
 
-# py
+# python
+something useful related to python
+
+# server
+specific for th
