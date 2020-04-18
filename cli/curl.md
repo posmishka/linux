@@ -41,12 +41,5 @@ curl http://httpbin.org/post \
     -d param1=hello \
     -d name=dinsdale
 
-For a multipart/form-data POST use -F (typically used with forms that contain file uploads, or where order of fields is important, or where multiple fields with the same name are required):
 
-curl http://httpbin.org/post \
-    -H "User-Agent: Mozilla/2.2" \
-    -F param1=hello \
-    -F name=dinsdale \
-    -F name=piranha
-
-The User-Agent header is not normally needed, but I've thrown it in just in case. If you need a custom agent then you can avoid having setting it on every request by creating the ~/.curlrc file which contains e.g. User-Agent: "Mozilla/2.2"
+<..%2Fcurl%202020-04-19T01.04.40.md>
