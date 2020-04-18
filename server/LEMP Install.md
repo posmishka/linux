@@ -1,5 +1,14 @@
 LEMP Install
 ========================
+
+Table of Contents
+
+1. Nginx
+    1. Install Dev Tools we need
+    2. Installing basic nginx
+    3. Installing PHP7
+
+
 # Nginx
 
 *we will build the most recent version from source with custom modules to have http/2 enabled on CentOS7*  
