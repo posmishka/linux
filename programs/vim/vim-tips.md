@@ -24,3 +24,7 @@ http://najomi.org/vim
 
 DATABASE QUERY
 https://habamax.github.io/2019/09/02/use-vim-dadbod-to-query-databases.html
+
+
+vim-git
+https://itnan.ru/post.php?c=1&p=261783
