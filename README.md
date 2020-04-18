@@ -28,4 +28,4 @@ something useful related to python
 specific for the server usage things
 
 # vim
-it's to cool to store it 
+it's to cool to store it inside other directories
