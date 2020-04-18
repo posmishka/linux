@@ -18,6 +18,7 @@ and finally
 (Press Ctrl+V Ctrl+M to insert that ^M.)
 
 
+
 **Как пользоваться vim**  
 http://najomi.org/vim
 
