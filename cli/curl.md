@@ -26,7 +26,7 @@ If you are lazy, you can get google-chrome or firefox to do all the work for you
     Submit the form and locate the entry with method POST (right-click on any column header and make sure Method is checked).
     Right click the line with POST, and select Copy > Copy as cURL.
 
-![media-gUxdvG](../media/1678575754.png)
+
 
 chrome devtools: copy as cURL
 
