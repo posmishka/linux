@@ -1,7 +1,7 @@
 vim-tips
 ========
 
-Убрать ДОС символы переноса строки:
+Remove ^M from the end of line
 
 :e ++ff=do:e ++ff=dos 
 
