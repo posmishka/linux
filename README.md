@@ -6,11 +6,11 @@ everything related to bash shell using and scripting, along with common GNU util
 # core
 core system stuff
 
-# distributive
+# family
 things specific to concrete linux branch
 
 # i3
-where the magic is
+thwhere magic is happening
 
 # network
 networking related stuff
