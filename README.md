@@ -16,4 +16,9 @@ where the magic is
 networking related stuff
 
 # pentesting
-let it be here for som
+let it be here for some time
+
+# programs
+some useful linux stuff
+
+# py
