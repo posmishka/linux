@@ -1,13 +1,4 @@
 LEMP Install
-d of Contents
-
-1. Nginx
-    1. Install Dev Tools we need
-    2. Setting variables
-    3. Installing basic nginx
-    4. Installing PHP7
-    5. MariaDB Install
-
 ========================
 
 
