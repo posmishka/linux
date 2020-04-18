@@ -1,6 +1,16 @@
 LEMP Install
 ========================
 
+Table of Contents
+
+1. Nginx
+    1. Install Dev Tools
+    2. Setting variables
+    3. Installing basic nginx
+2. PHP7
+3. MariaDB
+
+
 
 # Nginx
 
