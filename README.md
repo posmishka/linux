@@ -1,4 +1,4 @@
 README
 ======
-
-bash
+# bash
+everything related to 
