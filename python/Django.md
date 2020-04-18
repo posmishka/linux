@@ -1,8 +1,6 @@
 Django
 ======
 
-Django
-
 sudo pip install --upgrade pip
 sudo pip install virtualenv
 virtualenv djangoenv
