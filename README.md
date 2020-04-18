@@ -10,7 +10,7 @@ core system stuff
 things specific to concrete linux branch
 
 # i3
-thwhere magic is happening
+the place where magic is happening
 
 # network
 networking related stuff
