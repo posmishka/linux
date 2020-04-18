@@ -10,7 +10,6 @@ Table of Contents
 2. PHP7
 3. MariaDB
 
-dd
 
 # Nginx
 
