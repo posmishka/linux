@@ -1,5 +1,4 @@
 LEMP Install
-
 ========================
 
 
@@ -13,7 +12,7 @@ we will need to remove them adter the building process
 	yum -y groupinstall 'Development Tools'
 	yum -y install wget openssl-devel libxml2-devel libxslt-devel gd-devel perl-ExtUtils-Embed GeoIP-devel
 
- ## Setting variables  
+## Setting variables  
 
 we will use latest openssl 1.0.2 branch from www.openssl.org/source/ 
 
