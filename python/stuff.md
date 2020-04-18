@@ -3,9 +3,8 @@ stuff
 
 interesting stuff
 
-| 34343 | 321342|
----
-
+|  | 321342|
+|---|---|
 | glances     |     мониторинг системы на питоне
 | arachi	            |     Arachni is a fully featured web security scanning tool
 | ncdu                    |	A Command utility is a cursor based version of ‘du’,  this command is used to analyze disk space occupied by various directories.
