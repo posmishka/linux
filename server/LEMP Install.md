@@ -1,4 +1,14 @@
 LEMP Install
+
+Table of Contents
+
+1. Nginx
+    1. Install Dev Tools we need
+    2. Setting variables
+    3. Installing basic nginx
+    4. Installing PHP7
+    5. MariaDB Install
+
 ========================
 
 
@@ -39,7 +49,7 @@ we will use custom repo for php
 
  chown -R nginx:nginx /var/lib/php/session /var/lib/php/wsdlcache /home/www /var/cache/nginx/pagespeed
 
-  ## MariaDB Install
+## MariaDB Install
 
 creating a repo
 
