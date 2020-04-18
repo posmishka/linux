@@ -6,4 +6,5 @@ everything related to bash shell using and scripting, along with common GNU util
 # core
 core system stuff
 
-# dis
+# distributive
+things specific to concrete linux branch
