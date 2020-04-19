@@ -15,14 +15,14 @@ the place where magic is happening
 # network
 networking related stuff
 
-# security
-let it be here for some time
-
 # programs
-some useful linux stuff
+different apps and software
 
 # python
 something useful related to python
+
+# security
+let it be here for some time
 
 # server
 specific for the server usage things
