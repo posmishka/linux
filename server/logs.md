@@ -1,7 +1,8 @@
 logs
 ======
 
-https://stackify.com/syslog-101/
+https://stackify.com/syslog-101/  
+http://www.rabbitmq.com/
 
 ### **syslog-ng**
 https://github.com/syslog-ng/syslog-ng
