@@ -1,7 +1,7 @@
 README
 ======
 # cli
-everything related to shell using and scripting, usingcommon GNU utilities
+everything related to shell using and scripting, using of common utilities
 
 # core
 core system stuff
@@ -22,7 +22,7 @@ different apps and software
 something useful related to python
 
 # security
-let it be here for some time
+itself
 
 # server
 specific for the server usage things
