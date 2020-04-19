@@ -18,4 +18,5 @@ https://www.graylog.org/
 https://www.nagios.com/products/nagios-core/
 
 ### **papertrail** 
-https://papertrailapp.com/
+cloud  
+    https://papertrailapp.com/
