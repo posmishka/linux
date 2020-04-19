@@ -2,7 +2,7 @@ archivers
 =========
 
 
-    tar -P --transform='s@/my/path/@@g'
+    tar -P --transform='s@/my/path/
 
 `--transform` is a simple string replacement parameter. It will strip the path of the files from the archive so the tarball's root becomes the current directory when extracting. Note that you can't use -C option to change directory as you'll lose benefits of find: all files of the directory would be included.
 
