@@ -26,6 +26,3 @@ something useful related to python
 
 # server
 specific for the server usage things
-
-# vim
-it's to cool to store it inside other directories
