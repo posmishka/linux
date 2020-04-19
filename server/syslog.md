@@ -7,3 +7,5 @@ https://github.com/syslog-ng/syslog-ng
 
 https://github.com/elastic/elasticsearch
 https://github.com/elastic/kibana
+
+https://www.graylog.org/
