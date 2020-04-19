@@ -15,7 +15,7 @@ the place where magic is happening
 # network
 networking related stuff
 
-# pentesting
+# security
 let it be here for some time
 
 # programs
