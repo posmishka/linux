@@ -16,4 +16,5 @@ find . -type f -exec chmod 644 -- {} +
 ### creating directories from file
 cat foo.txt | xargs -I % sh -c 'echo %; mkdir %'
 
-### mov
+### copying over network
+ 
