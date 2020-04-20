@@ -38,8 +38,8 @@ python-letsencrypt-apache
 certbot --apache
 ```
 
-## f
-****
+## Misc
+**create dhparam**  
 openssl dhparam -out /etc/letsencrypt/live/$SITE/dhparam.pem 2048
 
 ** вариант для всех доменов:
