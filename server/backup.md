@@ -28,3 +28,5 @@ https://github.com/chuguniy/bash-data-compression
 
 ### simple backup script
 https://habr.com/ru/post/51966/
+
+### amazon s3 
