@@ -24,7 +24,7 @@ Basic setup (Centos7)
 	 firewall-cmd --reload
 
 in case of selinux:
-   ` sudo semanage port -a -t ssh_port_t -p tcp 29920`
+`sudo semanage port -a -t ssh_port_t -p tcp 29920`
 ## **Setup SSH**
 ### Create a new user
 
