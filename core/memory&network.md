@@ -3,8 +3,7 @@ memory&network
 
 # /etc/sysctl.conf 
     https://easyengine.io/tutorials/linux/sysctl-conf/  
-Paste this (at the end of the file) to /etc/sysctl.conf (using nano /etc/sysctl.conf) and save it (this change not only fixes your error it makes your System much better)
-
+Paste this (at the end of the file) to /etc/sysctl.conf (using vim /etc/sysctl.conf) and save it  
 **Do it on your own risk!**
 
 ## IMPROVE SYSTEM MEMORY MANAGEMENT
