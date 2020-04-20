@@ -16,13 +16,22 @@ certbot --nginx certonly
 certbot --nginx certonly
 
 ## old method
- г) certbot, сертификаты ssl
- команда для выпуска сертификата:
- certbot certonly -a webroot --webroot-path /home/www/ -d site.com -d www.site.com --server https://acme-v01.api.letsencrypt.org/directory
- 
- генерация DH-сертификата для ужесточения безопасности ssl
- openssl dhparam -out /etc/letsencrypt/live/glavzavhoz.ru/dhparam.pem 2048
 
+    $SITE=site.com
+
+**add to nginx config (сайт должен быть доступен по 80 порту)
+location /.well-known/acme-challenge { alias /home/www/.well-known/acme-challenge; }
+nginx -s reload .
+certbot certonly -a webroot --webroot-path /home/www/ -d $SITE -d www.$SITE --server https://acme-v01.api.letsencrypt.org/directory
+
+openssl dhparam -out /etc/letsencrypt/live/$SITE/dhparam.pem 2048
+
+sed(s/domain-in-cfg/newdomain/) ?
+
+** вариант для всех доменов:
+certbot renew
+--force = принудительное обновление
+--dry-run - тестовый прогон
 
 ## APACHE
 ```
