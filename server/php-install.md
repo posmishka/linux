@@ -25,7 +25,8 @@ php56-php-opcache php56-php-fpm php56-php-gd php56-php-mcrypt php56-php-mysqlnd 
 https://www.centos.org/forums/viewtopic.php?t=64677
 
 **find config files:**
-rpm -q --configfiles php54-php-fpm
+
+`rpm -q --configfiles php54-php-fpm`
 
 yum install php php-opcache php-fpm php-gd php-mcrypt php-mysqlnd php-odbc php-pdo php-pecl-apcu php-xml php-mbstring php-intl
 
