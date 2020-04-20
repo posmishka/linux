@@ -1,6 +1,7 @@
 FTP
 =============
-vsftp is not equal and should bv
+vsftp is not equal and should be updated
+
 # vsftpd 
 
 *the case is using virtual users for chrooted ftp directories*
