@@ -10,7 +10,7 @@ mysql-users
 
     mysqld_safe --skip-grant-tables
     
- 3
+ 3. 
 
 ## restoring root (if corrupted)
 
