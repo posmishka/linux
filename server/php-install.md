@@ -6,12 +6,15 @@ Install PHP
 
 
 ## REMI REPO - Any PHP VERSION, SEE /etc/yum.repo.d to activate proper ####
+```
 rpm -Uvh http://rpms.remirepo.net/enterprise/remi-release-7.rpm && \
 yum update && \
 yum install yum-utils && \
 yum-config-manager --enable remi-php70
 
 yum --enablerepo=remi install phpMyAdmin
+```
+
 
 ### РАЗНЫЕ ВЕРСИИ ПХП
 yum install centos-release-scl
@@ -107,7 +110,7 @@ extension = /usr/lib64/php/modules/xcache.so
 
 **adminpage** :
 
-cp -a ~/src/xcache/htdocs /var/www/example.com/htdocs/xcache-admin
+$ cp -a ~/src/xcache/htdocs /var/www/example.com/htdocs/xcache-admin
 ```
 [xcache.admin]
 xcache.admin.user = "admin"
