@@ -15,7 +15,7 @@ the place where magic is happening
 # network
 networking related stuff
 
-# programs
+# software
 different apps and software
 
 # python
