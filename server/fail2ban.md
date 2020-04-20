@@ -4,7 +4,7 @@ fail2ban
 
 **Инкрементальный Fail2ban**
 
-     https://habr.com/ru/post/238303/
+    https://habr.com/ru/post/238303/
 
 **Интеграция Fail2ban с CSF для противодействия DDoS на nginx**
 
