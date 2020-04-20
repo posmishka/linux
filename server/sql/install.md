@@ -33,7 +33,6 @@ yum -y install mysqltuner
 
 
 https://forums.cpanel.net/threads/mysql-my-cnf-tuning-me-too.239611/
-http://rtfm.co.ua/mysqlmariadb-tyuning-proizvoditelnosti-1-thread_cache_size/
 
 # создание БД
 tee /home/alpi/create_db.sh <<-'EOF'
