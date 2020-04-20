@@ -43,7 +43,9 @@ certbot --apache
 
     $ openssl dhparam -out /etc/letsencrypt/live/$SITE/dhparam.pem 2048
 
-** вариант для всех доменов:
-certbot renew
+**update cert**
+
+    $ certbot renew
+    
 --force = принудительное обновление
 --dry-run - тестовый прогон
