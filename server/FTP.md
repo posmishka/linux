@@ -12,6 +12,7 @@ comment string
 > #Subsystem sftp /usr/lib/openssh/sftp-server
 
 add to the end of the file
+**for only one user:**
 ```
 Subsystem sftp internal-sftp -f AUTH -l VERBOSE
 Match user sftpuser
