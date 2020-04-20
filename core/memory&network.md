@@ -1,8 +1,8 @@
 memory&network
 ==============
 
-https://easyengine.io/tutorials/linux/sysctl-conf/
-
+# /etc/sysctl.conf 
+    https://easyengine.io/tutorials/linux/sysctl-conf/  
 Paste this (at the end of the file) to /etc/sysctl.conf (using nano /etc/sysctl.conf) and save it (this change not only fixes your error it makes your System much better)
 
 **Do it on your own risk!**
@@ -76,6 +76,8 @@ net.ipv4.udp_wmem_min = 16384
 net.ipv4.tcp_max_tw_buckets = 1440000
 net.ipv4.tcp_tw_recycle = 1
 net.ipv4.tcp_tw_reuse = 1
+
+
 Paste this (at the end of the file) to /etc/security/limits.conf (using nano /etc/security/limits.conf) and save it,
 
 nginx           soft    nofile          2097152
