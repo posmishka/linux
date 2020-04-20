@@ -19,7 +19,7 @@ clean all except settings to change
 bantime = 7200
 banaction = iptables-multiport
 ```
-
+create filter inside jail.d
 
 ```
 $ vim /etc/fail2ban/jail.d/sshd.local
