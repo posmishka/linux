@@ -5,7 +5,9 @@ snippets
     $ mysql -u username -p db_name < db_name.sql
 
 **export database**
-$ mysqldump -u username -p db_name > db.sql           --- экспорт конкретной базы
+
+    $ mysqldump -u username -p db_name > db_name.sql
+
 $ mysqldump -uroot -p -A > alldb.sql                          --- экспорт всех баз
 mysqldump -u USER -pPASSWORD DATABASE | gzip > /path/to/outputfile.sql.gz   --- экспорт и архивация
 gunzip < /path/to/outputfile.sql.gz | mysql -u USER -pPASSWORD DATABASE     --- импорт из архива
