@@ -7,9 +7,7 @@ http://www.rabbitmq.com/
 ### logwatch
     apt-get install logwatch
 
-    vim /etc/cron.daily/00logwatch
-
-echo "/usr/sbin/logwatch --output mail --mailto you@example.com --detail high
+    echo "/usr/sbin/logwatch --output mail --mailto you@example.com --detail high" > vim /etc/cron.daily/00logwatch
 
 ### **syslog-ng**
     https://github.com/syslog-ng/syslog-ng
