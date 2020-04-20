@@ -1,4 +1,5 @@
 REST
 ====
 
-https://m.habr.com/ru/company/acribia/blog/453384/
+**Шпаргалки по безопасности: REST**  
+https://habr.com/ru/company/acribia/blog/453384/
