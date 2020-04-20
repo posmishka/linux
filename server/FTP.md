@@ -25,9 +25,9 @@ Match user sftpuser
 ```
 Subsystem sftp internal-sftp -f AUTH -l VERBOSE
 Match group sftpgroup
-  ChrootDirectory /home/%u
-  ForceCommand internal-sftp
-  AllowTcpForwarding no
+    ChrootDirectory /home/%u
+    ForceCommand internal-sftp
+    AllowTcpForwarding no
 ```
 where sftpuser - username, sftpgroup - groupname, /home/%u - path to user's home directory
 
