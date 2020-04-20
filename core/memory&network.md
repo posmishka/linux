@@ -1,11 +1,10 @@
 memory&network
 ==============
 
-memory & network
-
 https://easyengine.io/tutorials/linux/sysctl-conf/
 
-Paste this (at the end of the file) to /etc/sysctl.conf (using nano /etc/sysctl.conf) and save it (this change not only fixes your error it makes your System much better),
+Paste this (at the end of the file) to /etc/sysctl.conf (using nano /etc/sysctl.conf) and save it (this change not only fixes your error it makes your System much better)
+**Do it on your own**
 
 # IMPROVE SYSTEM MEMORY MANAGEMENT
 
