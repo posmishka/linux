@@ -9,7 +9,7 @@ https://github.com/nginx-modules/nginx-minify
 
 ```
 --with-file-aio \
---with-threads \                                     https://habrahabr.ru/post/260669/
+--with-threads \                                     
 --with-http_addition_module \                        фильтр, добавляющий текст до и после ответа
 --with-http_auth_request_module \                    предоставляет возможность авторизации клиента, основанной на результате подзапроса.
 --with-http_dav_module \                             предназначен для автоматизации задач управления файлами на сервере по протоколу WebDAV
@@ -34,8 +34,6 @@ https://github.com/nginx-modules/nginx-minify
 --with-cc-opt='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' \
 --add-module=/opt/lib/ngx_pagespeed
 ```
-
-
 
 ./configure --with-compat --add-dynamic-module=/path/to/module для компиляции только динамических модулей
 
