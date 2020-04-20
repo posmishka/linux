@@ -15,11 +15,11 @@ add to the end of the file
 
 **for the concrete one user:**
 
-> Subsystem sftp internal-sftp -f AUTH -l VERBOSE
->Match user sftpuser
-  ChrootDirectory %h
-  ForceCommand internal-sftp
-  AllowTcpForwarding no
+> Subsystem sftp internal-sftp -f AUTH -l VERBOSE  
+> Match user sftpuser  
+>  ChrootDirectory %h  
+>  ForceCommand internal-sftp  
+>  AllowTcpForwarding no  
 
 **for the group**
 ```
