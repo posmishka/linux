@@ -4,9 +4,10 @@ memory&network
 https://easyengine.io/tutorials/linux/sysctl-conf/
 
 Paste this (at the end of the file) to /etc/sysctl.conf (using nano /etc/sysctl.conf) and save it (this change not only fixes your error it makes your System much better)
-**Do it on your own**
 
-# IMPROVE SYSTEM MEMORY MANAGEMENT
+**Do it on your own risk!**
+
+## IMPROVE SYSTEM MEMORY MANAGEMENT
 
 ### Increase size of file handles and inode cache
 fs.file-max = 2097152
@@ -18,7 +19,7 @@ vm.dirty_background_ratio = 2
 
 ### GENERAL NETWORK SECURITY OPTIONS ###
 
-# Number of times SYNACKs for passive TCP connection.
+#$ Number of times SYNACKs for passive TCP connection.
 net.ipv4.tcp_synack_retries = 2
 
 # Allowed local port range
