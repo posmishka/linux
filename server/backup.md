@@ -4,6 +4,9 @@ backup
 
 https://www.bacula.org/
 
+## rdiff-backup
+
+
 
 ### FSBACKUP
 Cистема инкрементального резервного копирования и синхронизации ФС.
