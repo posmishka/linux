@@ -1,6 +1,6 @@
 mysql-users
 ===========
-## set root password
+# set root password
 **if it was not set**
 
 `mysqladmin -u root password NEWPASSWORD`
@@ -9,10 +9,11 @@ mysql-users
 
 `mysql -u root -p'123456' -e 'show databases;'`
 
-**check user**
+**check if password is working**
 
+`mysqladmin -u root -p'oldpassword' password newpass`
 
-## change root password if you forgot it
+# change root password if you forgot it
 1. stop mysql service
 
     `# service mysql stop && ps awx | grep mysqld`
@@ -26,7 +27,7 @@ mysql-users
     `mysql > update user Password=PASSWORD('тут пароль') where User='root';`  
     `mysql > flush privileges;`
 
-## restoring root (if user corrupted)
+# restoring root (if user corrupted)
 
 **Delete user**
 ```
