@@ -6,11 +6,11 @@ snippets
 
 **import from archive**
 
-    gunzip < /path/to/outputfile.sql.gz | mysql -u USER -pPASSWORD DATABASE
+    gunzip < outputfile.sql.gz | mysql -u USER -pPASSWORD DATABASE
 
 **export database**
 
-    $ mysqldump -u username -p db_name > db_name.sql
+    $ mysqldump -u USER -p DATABASE > db_name.sql
 
 **export all databases**
 
@@ -18,7 +18,7 @@ snippets
     
 **export and archieve**
 
-    mysqldump -u USER -pPASSWORD DATABASE | gzip > /path/to/outputfile.sql.gz
+    mysqldump -u USER -pPASSWORD DATABASE | gzip > outputfile.sql.gz
 
 
 
