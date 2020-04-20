@@ -32,7 +32,7 @@ snippets
 
 # Other
 
-**find mysql config
+**find mysql config**
 ```
 $ which mysqld
 /usr/sbin/mysqld
