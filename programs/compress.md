@@ -45,11 +45,11 @@ SITEURI=/home/www/traverse.com.ua && USER=home/alpi && \
 \
 cd /$USER && wget https://github.com/google/guetzli/releases/download/v1.0.1/guetzli_linux_x86-64 && chmod +x /$USER/guetzli_linux_x86-64
 
-****первый запуск  
+**первый запуск**
 nohup find $SITEURI/img/p/ -type f -mtime +1 -name "*home_default.jpg" -exec /$USER/guetzli_linux_x86-64 --quality 90 '{}' '{}' ';' &
 
-*проверить сколько осталось  
+**проверить сколько осталось**  
 find /var/www/presta/img/p/ -type f -mtime +1 -name "*home_default.jpg" | wc -l
 
-*добавить в крон для пережатия тех что изменились за день  
+**добавить в крон для пережатия тех что изменились за день**
 echo "30 1 * * * root /bin/sh find $SITEURI/img/p/ -type f -mtime 1 -name "*home_default.jpg" -exec /$USER/guetzli_linux_x86-64 --quality 90 '{}' '{}' ';' 2>&1; " > /etc/cron.d/img_compress
