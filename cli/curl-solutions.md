@@ -25,4 +25,5 @@ curl-solutions
 	curl -b cookie https://site.com$FILE -o filename.xls
 	
 	
-### test site sp
+### test site response speed
+`curl -w "Connect: %{time_connect} TTFB: %{time_starttransfer} Total time: %{time_total}" https://site.com`
