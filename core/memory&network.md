@@ -89,8 +89,10 @@ www-data        hard    nofile          2097152
 
 + Paste this (at the end of the file) to /etc/pam.d/common-session (using nano /etc/pam.d/common-session) and save it,
 
+```
 session required pam_limits.so
-Change listen.backlog in /etc/php5/fpm/pool.d/www.conf
+```
++ Change listen.backlog in /etc/php5/fpm/pool.d/www.conf
 
 `listen.backlog = 65535`
 
