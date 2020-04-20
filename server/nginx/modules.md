@@ -6,9 +6,8 @@ https://www.newmediacampaigns.com/blog/Automatic-file-minification-on-nginx
 
 https://github.com/nginx-modules/nginx-minify
 
-nginx modules
 
-
+```
 --with-file-aio \
 --with-threads \                                     https://habrahabr.ru/post/260669/
 --with-http_addition_module \                        фильтр, добавляющий текст до и после ответа
@@ -34,6 +33,8 @@ nginx modules
 --with-stream_ssl_preread_module \
 --with-cc-opt='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' \
 --add-module=/opt/lib/ngx_pagespeed
+```
+
 
 
 ./configure --with-compat --add-dynamic-module=/path/to/module для компиляции только динамических модулей
