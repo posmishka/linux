@@ -8,3 +8,7 @@ pv mydump.sql.gz | gunzip | mysql -u root -p basename
 *creates hardlinks*
 
 cp -rl ./source ./destination && rm -rf ./source
+
+### permissions
+find . -type d -exec chmod 755 -- {} + 
+find . -type f -exec chmod 644 -- {} + 
