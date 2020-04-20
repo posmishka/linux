@@ -76,8 +76,8 @@ net.ipv4.tcp_max_tw_buckets = 1440000
 net.ipv4.tcp_tw_recycle = 1
 net.ipv4.tcp_tw_reuse = 1
 
-
-Paste this (at the end of the file) to /etc/security/limits.conf (using nano /etc/security/limits.conf) and save it,
+# /etc/security/limits.conf
+Paste this (at the end of the file) to /etc/security/limits.conf (using nano /etc/security/limits.conf) and save it
 
 nginx           soft    nofile          2097152
 nginx           hard    nofile          2097152
