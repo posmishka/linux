@@ -12,6 +12,7 @@ comment string
 > #Subsystem sftp /usr/lib/openssh/sftp-server
 
 add to the end of the file
+
 **for the concrete one user:**
 ```
 Subsystem sftp internal-sftp -f AUTH -l VERBOSE
@@ -20,8 +21,15 @@ Match user sftpuser
   ForceCommand internal-sftp
   AllowTcpForwarding no
 ```
-**for the**
-
+**for the group**
+```
+Subsystem sftp internal-sftp -f AUTH -l VERBOSE
+Match group sftpgroup
+  ChrootDirectory /home/%u
+  ForceCommand internal-sftp
+  AllowTcpForwarding no
+```
+where 
 
 # vsftpd 
 
