@@ -1,6 +1,7 @@
-xxkb
+keyboard
 ====
 
+#
 
 /etc/X11/app-defaults/XXkb
 ```
