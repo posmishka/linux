@@ -51,11 +51,13 @@ vim /etc/php-fpm/www.conf
     chroot = /var/www
     chdir = /
 
-fixi
-Далее мы столкнемся с проблемой что PHP не сможет отрезолвить адрес, исправляем:
+```
+fixing php couldn't resolve address:
 mkdir /var/www/{etc,lib};
 cp /etc/hosts /var/www/etc/hosts;
 cp /etc/resolv.conf /var/www/etc/resolv.conf;
+```
+for 32bit 
 cp /lib/libnss_dns.so.2 /var/www/lib/libnss_dns.so.2 //ваша система 32 битная
 cp /lib64/libnss_dns.so.2  /var/www/lib64/libnss_dns.so.2 //ваша система 64 битная
 Перезапускаем php-fpm:
