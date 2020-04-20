@@ -92,4 +92,5 @@ Create_tablespace_priv = 'Y',
              max_updates = 0,
          max_connections = 1000000,
     max_user_connections = 1000000,
-   authentication_string = '',;
+   authentication_string = '',
+;
