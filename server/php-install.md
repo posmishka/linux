@@ -36,7 +36,7 @@ php56-php-opcache php56-php-fpm php56-php-gd php56-php-mcrypt php56-php-mysqlnd 
 `rpm -q --configfiles php54-php-fpm`
 
 
-### WEBTATIC REPO (not recommended)
+### WEBTATIC REPO 
 ```
 rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm &&
 yum update &&
