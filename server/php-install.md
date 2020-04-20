@@ -24,12 +24,12 @@ php56-php-opcache php56-php-fpm php56-php-gd php56-php-mcrypt php56-php-mysqlnd 
 
 https://www.centos.org/forums/viewtopic.php?t=64677
 
-
-КОНФИГИ rpm -q --configfiles php54-php-fpm
+**find config files:**
+rpm -q --configfiles php54-php-fpm
 
 yum install php php-opcache php-fpm php-gd php-mcrypt php-mysqlnd php-odbc php-pdo php-pecl-apcu php-xml php-mbstring php-intl
 
-## WEBSTATIC REPO 
+### WEBSTATIC REPO 
 rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm &&
 yum update &&
 yum install php70w php70w-opcache php70w-fpm php70w-gd php70w-mcrypt php70w-mysqlnd php70w-odbc php70w-pdo php70w-pecl-apcu php70w-xml php70w-mbstring php70w-soap
