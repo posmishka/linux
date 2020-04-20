@@ -23,7 +23,8 @@ Basic setup (Centos7)
 	 firewall-cmd --permanent --add-port=29920/tcp &&
 	 firewall-cmd --reload
 
-
+in case of selinux:
+   ` sudo semanage port -a -t ssh_port_t -p tcp 29920`
 ## **Setup SSH**
 ### Create a new user
 
@@ -63,7 +64,9 @@ generate public key on client and push it to the server
 
 	ssh-keygen  
 `cat /home/user/.ssh/id_rsa.pub >> yourname@domain:/home/user/.ssh/authorized_key`  
+
 or just  
+
 `ssh-copy-id name@domain`
 
 ### Add notification on root login 
