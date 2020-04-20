@@ -96,6 +96,6 @@ session required pam_limits.so
 
 `listen.backlog = 65535`
 
-Change workerrlimitnofile in /etc/nginx/nginx.conf (using nano /etc/nginx/nginx.conf) and save it,
++ Change workerrlimitnofile in /etc/nginx/nginx.conf 
 
-worker_rlimit_nofile 99999;
+`worker_rlimit_nofile 99999;`
