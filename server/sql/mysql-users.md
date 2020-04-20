@@ -1,6 +1,7 @@
 mysql-users
 ===========
-##
+## change root password if you know it
+mysql -u root -p'123456' -e 'show databases;'
 
 
 ## change root password if you forgot it
