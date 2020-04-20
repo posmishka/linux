@@ -5,12 +5,12 @@ Fail2ban
 
 https://www.howtoforge.com/tutorial/how-to-install-fail2ban-on-centos/
 
-    yum install fail2ban fail2ban-systemd
+    $ yum install fail2ban fail2ban-systemd
     yum update -y selinux-policy*
 
 copy jail.conf to jail.local and edit it
 
-    $ cp /etc/f
+    $ cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
     $ vim /etc/fail2ban/jail.local 
 
 ```
