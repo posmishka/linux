@@ -63,12 +63,10 @@ for 64bit systems:
 ```
 cp /lib64/libnss_dns.so.2  /var/www/lib64/libnss_dns.so.2
 ```
-Перезапускаем php-fpm:
-/etc/init.d/php-fpm restart
 
 https://forum.antichat.ru/threads/172895/
 
-# xcache #
+## xcache
 https://www.rosehosting.com/blog/how-to-install-xcache-on-a-centos-7-vps/ 
 
 yum install -y php56w-devel gcc make
