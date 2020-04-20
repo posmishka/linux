@@ -57,9 +57,12 @@ mkdir /var/www/{etc,lib};
 cp /etc/hosts /var/www/etc/hosts;
 cp /etc/resolv.conf /var/www/etc/resolv.conf;
 ```
-for 32bit 
-cp /lib/libnss_dns.so.2 /var/www/lib/libnss_dns.so.2 //ваша система 32 битная
-cp /lib64/libnss_dns.so.2  /var/www/lib64/libnss_dns.so.2 //ваша система 64 битная
+for 32bit systems:
+`cp /lib/libnss_dns.so.2 /var/www/lib/libnss_dns.so.2`
+for 64bit systems:
+```
+cp /lib64/libnss_dns.so.2  /var/www/lib64/libnss_dns.so.2
+```
 Перезапускаем php-fpm:
 /etc/init.d/php-fpm restart
 
