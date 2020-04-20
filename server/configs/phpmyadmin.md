@@ -3,8 +3,7 @@ phpmyadmin
 
 phpmyadmin.inc
 
-
-
+```
 location /pma3388/ {
 
       #  auth_basic           "closed site";
@@ -39,7 +38,7 @@ location /pma3388/ {
 
     }
 }
-
+```
 
 
 
