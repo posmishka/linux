@@ -1,7 +1,11 @@
 keyboard
 ====
+### sxhkd
 
-#
+
+https://github.com/baskerville/sxhkd
+
+### xxkb
 
 /etc/X11/app-defaults/XXkb
 ```
