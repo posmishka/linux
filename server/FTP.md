@@ -4,18 +4,15 @@ vsftp is not equal and should be updated
 
 # SFTP
 
+
 /etc/ssh/sshd_config
 
 ```
-Subsystem      sftp    internal-sftp
-
-Match User user
-        X11Forwarding no
-        AllowTcpForwarding no
-        AllowAgentForwarding no
-        PermitTunnel no
-        ForceCommand internal-sftp
-        ChrootDirectory /home
+Subsystem sftp internal-sftp -f AUTH -l VERBOSE
+Match user sftpuser
+  ChrootDirectory %h
+  ForceCommand internal-sftp
+  AllowTcpForwarding no
 ```
 
 
