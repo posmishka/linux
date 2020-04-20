@@ -38,7 +38,8 @@ awk -F: '{print}' < /etc/vsftpd_login.txt | db_load -T -t hash /etc/vsftpd_login
 
 http://prithak.blogspot.com/2013/07/installation-and-configuration-of.html 
 
-PRFTPD http://habrahabr.ru/sandbox/26850/
+## PRFTPD 
+http://habrahabr.ru/sandbox/26850/
 http://www.bog.pp.ru/work/vsftpd.html
 
 
