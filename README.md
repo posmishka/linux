@@ -18,8 +18,8 @@ networking related stuff
 # software
 different apps and software
 
-# python
-something useful related to python
+# dev
+software
 
 # security
 itself
