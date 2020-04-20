@@ -10,7 +10,9 @@ mysql-users
 
     mysqld_safe --skip-grant-tables
     
- 3. 
+ 3. create new password
+
+    update user Password=PASSWORD('тут пароль') where User='root';
 
 ## restoring root (if corrupted)
 
