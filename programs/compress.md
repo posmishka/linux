@@ -41,7 +41,6 @@ for x in `find . -type f \( -name '*.gz' -o -name '*.br'\); do rm -rf ${x}`; don
 
 # guetzli
 
-SITEURI=/home/www/traverse.com.ua && USER=home/alpi && 
 cd /$USER && wget https://github.com/google/guetzli/releases/download/v1.0.1/guetzli_linux_x86-64 && chmod +x /$USER/guetzli_linux_x86-64
 
 **первый запуск**
