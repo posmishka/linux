@@ -48,8 +48,13 @@ If server refuses HEAD requests, an alternative is to request only the first byt
 
 curl -u "office@traverse.com.ua:traverse" "https://avantmarket.com.ua/wa-data/public/site/Excel/`date +'05.%m.%Y'`%20Avantmarket%20price.xls" -o ./1.xls
 
-### send email with attach
-https://stackoverflow.com/questions/44728855/curl-send-html-email-with-embedded-image-and-attachment
+### send email 
+
+curl --url 'smtps://smtp.gmail.com:465' --ssl-reqd \
+  --mail-from 'username@gmail.com' --mail-rcpt 'john@example.com' \
+  --upload-file mail.txt --user 'username@gmail.com:password' --insecure
+  
+email with attachhttps://stackoverflow.com/questions/44728855/curl-send-html-email-with-embedded-image-and-attachment
 
 ### SFTP
 **Upload**
