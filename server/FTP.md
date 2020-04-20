@@ -4,8 +4,9 @@ vsftp is not equal and should be updated
 
 # SFTP
 
-/etc/
+/etc/ssh/sshd_config
 
+```
 Subsystem      sftp    internal-sftp
 
 Match User user
@@ -15,6 +16,8 @@ Match User user
         PermitTunnel no
         ForceCommand internal-sftp
         ChrootDirectory /home
+```
+
 
 
 # vsftpd 
