@@ -13,7 +13,7 @@ copy jail.conf to jail.local and edit it
     $ cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
     $ vim /etc/fail2ban/jail.local 
 
-clean all 
+clean all except settings to change
 ```
 [DEFAULT]
 bantime = 7200
