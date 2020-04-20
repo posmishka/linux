@@ -2,8 +2,7 @@ Xephyr
 ======
 
 **Nested X server** 
-Full screen video or game inside the i3 window. For 
-2 separate Firefox windows, one inside the Xephyr window, and the other one normally on a different workspace for actual full screen.
+Full screen video or game inside the i3 window. For example - two separate Firefox windows, one inside the Xephyr window, and the other one normally on a different workspace for actual full screen.
 
 Package server-xephyr, otherwise just google it.
 
