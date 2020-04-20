@@ -11,3 +11,7 @@ set --help
 
 Parameter expansion
 https://wiki.bash-hackers.org/syntax/pe
+
+creating binary from sh script
+
+https://linux.die.net/man/1/shc
