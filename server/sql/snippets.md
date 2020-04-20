@@ -2,7 +2,7 @@ snippets
 ========
 **import database**
 
-    $ mysql -u username -p db_name < db_name.sql
+    $ mysql -u USER -p DATABASE < db_name.sql
 
 **import from archive**
 
