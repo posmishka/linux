@@ -4,8 +4,9 @@ vsftp is not equal and should be updated
 
 # SFTP
 
+**open ssh config**
 
-/etc/ssh/sshd_config
+`$ /etc/ssh/sshd_config`
 
 ```
 Subsystem sftp internal-sftp -f AUTH -l VERBOSE
