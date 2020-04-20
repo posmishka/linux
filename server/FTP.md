@@ -8,6 +8,7 @@ vsftp is not equal and should be updated
 
 `$ /etc/ssh/sshd_config`
 
+
 ```
 Subsystem sftp internal-sftp -f AUTH -l VERBOSE
 Match user sftpuser
