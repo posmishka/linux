@@ -1,0 +1,5 @@
+openssl
+=======
+
+openssl aes-256-cbc -in attack-plan.txt -out message.enc      //encryption  
+openssl aes-256-cbc -d -in message.enc -out plain-text.txt    //decription
