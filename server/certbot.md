@@ -22,3 +22,9 @@ certbot --nginx certonly
  
  генерация DH-сертификата для ужесточения безопасности ssl
  openssl dhparam -out /etc/letsencrypt/live/glavzavhoz.ru/dhparam.pem 2048
+
+
+## APACHE
+sudo apt-get install apache2 
+python-letsencrypt-apache
+certbot --apache
