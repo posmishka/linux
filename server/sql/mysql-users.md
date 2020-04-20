@@ -12,8 +12,8 @@ mysql-users
     
  3. create new password
 
-    mysql > `update user Password=PASSWORD('тут пароль') where User='root';`
-    mysql > 
+    mysql > update user Password=PASSWORD('тут пароль') where User='root';`
+    mysql > flush privileges;
 
 ## restoring root (if corrupted)
 
