@@ -19,8 +19,9 @@ certbot --nginx certonly
 
     $SITE=site.com
 
-**add to nginx config (сайт должен быть доступен по 80 порту)
-location /.well-known/acme-challenge { alias /home/www/.well-known/acme-challenge; }
+**add to nginx config**
+
+    location /.well-known/acme-challenge { alias /home/www/.well-known/acme-challenge; }
 nginx -s reload .
 certbot certonly -a webroot --webroot-path /home/www/ -d $SITE -d www.$SITE --server https://acme-v01.api.letsencrypt.org/directory
 
