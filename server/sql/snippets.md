@@ -1,5 +1,7 @@
 snippets
 ========
+# Basic database
+
 **import database**
 
     $ mysql -u USER -p DATABASE < db_name.sql
@@ -20,7 +22,7 @@ snippets
 
     mysqldump -u USER -pPASSWORD DATABASE | gzip > db_name.sql.gz
 
-mysqldump -u USER -p --add-drop-table --no-data DATABASE | grep ^DROP | mysql -u USER -p PASSWORD DATABASE
+# Variables
 
 **show variable**  
 `SHOW GLOBAL VARIABLES WHERE variable_name = 'max_allowed_packet';`
