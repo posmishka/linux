@@ -18,8 +18,7 @@ yum --enablerepo=remi install phpMyAdmin
 
 ### РАЗНЫЕ ВЕРСИИ ПХП
 **several versions the same time**
-
-https://www.centos.org/forums/viewtopic.php?t=64677
+<https://www.centos.org/forums/viewtopic.php?t=64677>
 
 **5.6**
 ```
