@@ -22,8 +22,8 @@ certbot --nginx certonly
 **add to site nginx config (80 port)**
 
     location /.well-known/acme-challenge { alias /home/www/.well-known/acme-challenge; }
-    
-   $ nginx -s reload .
+apply config    
+    $ nginx -s reload .
     $ certbot certonly -a webroot --webroot-path /home/www/ -d $SITE -d www.$SITE --server https://acme-v01.api.letsencrypt.org/directory
 
 openssl dhparam -out /etc/letsencrypt/live/$SITE/dhparam.pem 2048
