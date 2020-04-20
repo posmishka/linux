@@ -9,6 +9,8 @@ snippets
 
 
 ### find mysql config
+```
 $ which mysqld
 /usr/sbin/mysqld
 $ /usr/sbin/mysqld --verbose --help | grep -A 1 "Default options"
+```

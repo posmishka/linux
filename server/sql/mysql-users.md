@@ -23,11 +23,11 @@ mysql > FLUSH PRIVILEGES;
 # Change root password if you forgot it
 1. stop mysql service
 
-    `# service mysql stop && ps awx | grep mysqld`
+    `$ service mysql stop && ps awx | grep mysqld`
 
 2. start mysql in safe mode
 
-    `# mysqld_safe --skip-grant-tables`
+    `$ mysqld_safe --skip-grant-tables`
     
  3. create new password
 
