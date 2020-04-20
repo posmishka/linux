@@ -9,6 +9,8 @@ mysql-users
 
 `mysql -u root -p'123456' -e 'show databases;'`
 
+**check user**
+
 
 ## change root password if you forgot it
 1. stop mysql service
