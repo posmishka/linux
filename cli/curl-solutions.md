@@ -28,3 +28,13 @@ curl-solutions
 ### test site response speed
 `curl -w "Connect: %{time_connect} TTFB: %{time_starttransfer} Total time: %{time_total}" https://site.com`
 
+simple script
+```
+#/bin/bash
+SITE="$1"
+for i in {1..5}; do curl -w "Connect: %{time_connect} TTFB: %{time_starttransfer} Total time: %{time_total}\n" -I https://108d.ru/contact-us >> ttfb; done
+clear
+echo "Result for site $SITE:"
+cat ttfb | grep Connect:
+rm ttfb
+```
