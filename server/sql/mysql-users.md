@@ -1,8 +1,10 @@
 mysql-users
 ===========
 
-## restoring root (if corrupted)
+## change root password
+stop mysql
 
+## restoring root (if corrupted)
 
 **Delete user**
 ```
