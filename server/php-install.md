@@ -5,7 +5,8 @@ Install PHP
 
 
 
-## REMI REPO - Any PHP VERSION, SEE /etc/yum.repo.d to activate proper ####
+## REMI REPO
+Any PHP VERSION, SEE /etc/yum.repo.d to activate properly
 ```
 rpm -Uvh http://rpms.remirepo.net/enterprise/remi-release-7.rpm && \
 yum update && \
@@ -14,7 +15,6 @@ yum-config-manager --enable remi-php70
 
 yum --enablerepo=remi install phpMyAdmin
 ```
-
 
 ### РАЗНЫЕ ВЕРСИИ ПХП
 yum install centos-release-scl
