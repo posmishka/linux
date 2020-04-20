@@ -3,7 +3,7 @@ mysql-users
 ## set root password
 **if it was not set**
     mysqladmin -u root password NEWPASSWORD
-****
+**change current password**
 mysql -u root -p'123456' -e 'show databases;'
 
 
@@ -21,7 +21,7 @@ mysql -u root -p'123456' -e 'show databases;'
     `mysql > update user Password=PASSWORD('тут пароль') where User='root';`  
     `mysql > flush privileges;`
 
-## restoring root (if corrupted)
+## restoring root (if user corrupted)
 
 **Delete user**
 ```
