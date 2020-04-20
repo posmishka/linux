@@ -48,4 +48,22 @@ If server refuses HEAD requests, an alternative is to request only the first byt
 
 curl -u "office@traverse.com.ua:traverse" "https://avantmarket.com.ua/wa-data/public/site/Excel/`date +'05.%m.%Y'`%20Avantmarket%20price.xls" -o ./1.xls
 
-### SFT
+### SFTP
+Upload
+curl  -k "sftp://83.46.38.23:22/CurlPutTest/" --user "testuser:testpassword" -T "C:\test\testfile.xml" --ftp-create-dirs
+
+Download
+curl  -k "sftp://83.46.38.23:22/CurlPutTest/testfile.xml" --user "testuser:testpassword" -o "C:\test\testfile.xml" --ftp-create-dirs
+
+Rename
+curl  -k "sftp://83.46.38.23:22/CurlPutTest/" --user "testuser:testpassword" -Q "-RENAME
+  ‘/CurlPutTest/testfile.xml’  ‘/CurlPutTest/testfile.xml.tmp’"   --ftp-create-dirs
+
+Delete
+curl  -k "sftp://83.46.38.23:22/CurlPutTest/ " --user "testuser:testpassword" -Q "–RM /CurlPutTest/testfile.xml" --ftp-create-dirs
+
+**MKdir**
+`curl  -k "sftp://83.46.38.23:22/CurlPutTest/test " --user "testuser:testpassword" -Q "–MKDIR /CurlPutTest/Test" --ftp-create-dirs`
+
+**RMdir**
+`curl  -k "sftp://83.46.38.23:22/CurlPutTest/test " --user "testuser:testpassword" -Q "–RMDIR /CurlPutTest/Test" --ftp-create-dirs`
