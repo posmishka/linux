@@ -13,4 +13,5 @@ cp -rl ./source ./destination && rm -rf ./source
 find . -type d -exec chmod 755 -- {} + 
 find . -type f -exec chmod 644 -- {} + 
 
-### creating dirrectories from file
+### creating directories from file
+cat foo.txt | xargs -I % sh -c 'echo %; mkdir %'
