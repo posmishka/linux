@@ -1,7 +1,7 @@
 mysql-users
 ===========
 
-## change root password
+## change root password if you forgot it
 1. stop mysql service
 
     `# service mysql stop && ps awx | grep mysqld`
