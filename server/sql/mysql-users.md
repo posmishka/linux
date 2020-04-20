@@ -10,6 +10,9 @@ In order to connect remotely you have to have MySQL bind port 3306 to your machi
 
 **create new users for local and remote**
 
+    CREATE USER 'myuser'@'localhost' IDENTIFIED BY 'mypass';
+    CREATE USER 'myuser'@'%' IDENTIFIED BY 'mypass';
+
 # Change user password
 ```
 mysql > ALTER USER 'user-name'@'localhost' IDENTIFIED BY 'NEW_USER_PASSWORD';  
