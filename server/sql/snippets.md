@@ -30,9 +30,9 @@ snippets
 **set variable**  
 `set global max_allowed_packet = 20971520`
 
+# Other
 
-
-## find mysql config
+**find mysql config
 ```
 $ which mysqld
 /usr/sbin/mysqld
