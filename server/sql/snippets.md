@@ -1,7 +1,14 @@
 snippets
 ========
+**import database**
+$ mysql -u user -p имя_базы < db.sql
+$ mysqldump -uимя_пользователя -p имя_базы > db.sql           --- экспорт конкретной базы
+$ mysqldump -uroot -p -A > alldb.sql                          --- экспорт всех баз
+mysqldump -u USER -pPASSWORD DATABASE | gzip > /path/to/outputfile.sql.gz   --- экспорт и архивация
+gunzip < /path/to/outputfile.sql.gz | mysql -u USER -pPASSWORD DATABASE     --- импорт из архива
 
-
+очистить базу
+mysqldump -u[USERNAME] -p[PASSWORD] --add-drop-table --no-data [DATABASE] | grep ^DROP | mysql -u[USERNAME] -p[PASSWORD] [DATABASE]
 
 **show variable**  
 `SHOW GLOBAL VARIABLES WHERE variable_name = 'max_allowed_packet';`
