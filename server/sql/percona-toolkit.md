@@ -1,7 +1,6 @@
 percona-toolkit
 ===============
 
-
 ```
 yum install https://repo.percona.com/yum/percona-release-latest.noarch.rpm
 yum install percona-toolkit
