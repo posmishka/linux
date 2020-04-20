@@ -26,10 +26,11 @@ mysql_secure_installation
 
 ## mysqltuner
 
+```
 yum -y install mysqltuner
-    
-pv - прогресбар
-pv mydump.sql.gz | gunzip | mysql -u root -p basename
+
+```
+
 
 https://forums.cpanel.net/threads/mysql-my-cnf-tuning-me-too.239611/
 http://rtfm.co.ua/mysqlmariadb-tyuning-proizvoditelnosti-1-thread_cache_size/
