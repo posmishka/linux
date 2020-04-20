@@ -9,7 +9,8 @@ open ssh config
 `$ vim /etc/ssh/sshd_config`
 
 comment string
-> #Subsystem sftp /usr/lib/openssh/sftp-server
+
+`#Subsystem sftp /usr/lib/openssh/sftp-server`
 
 add to the end of the file
 
@@ -17,9 +18,9 @@ add to the end of the file
 ```
 Subsystem sftp internal-sftp -f AUTH -l VERBOSE
 Match user sftpuser
-  ChrootDirectory %h
-  ForceCommand internal-sftp
-  AllowTcpForwarding no
+    ChrootDirectory %h
+    ForceCommand internal-sftp
+    AllowTcpForwarding no
 ```
 **for the group**
 ```
