@@ -25,6 +25,8 @@ FTP
 
 useradd.sh
 
+http://pingyaru.blogspot.com/2011/07/vsftpd-linux-mmftp-2.html 
+awk -F: '{print}' < /etc/vsftpd_login.txt | db_load -T -t hash /etc/vsftpd_login.db
 
 
 -- VIRTUAL VSFTPD
