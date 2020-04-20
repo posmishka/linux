@@ -17,4 +17,9 @@ find . -type f -exec chmod 644 -- {} +
 cat foo.txt | xargs -I % sh -c 'echo %; mkdir %'
 
 ### copying over network
- 
+
+tar -c file | ssh server.com "cd && tar -x"
+
+rsync -avv --delete-during -compress-level=9 -e "ssh -p remote_ssh_port" user@host:/dir/to/foobar_src foobar_dst/
+
+zip -r - ./cfg/ | ssh user@server.com "cd ~; cat > cfg.zip"
