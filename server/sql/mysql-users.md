@@ -3,7 +3,11 @@ mysql-users
 
 ## change root password
 stop mysql service
+
+```
 service mysql stop
+ps awx | grep mysqld   
+```
 
 ## restoring root (if corrupted)
 
