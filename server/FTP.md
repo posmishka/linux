@@ -1,9 +1,7 @@
 FTP
 =============
---- разобрат
 
-
-# vsftpd
+# vsftpd (need to fi)
 
 *the case is using virtual users for chrooted ftp directories*
 
@@ -30,7 +28,6 @@ awk -F: '{print}' < /etc/vsftpd_login.txt | db_load -T -t hash /etc/vsftpd_login
 
 
 -- VIRTUAL VSFTPD
-http://pingyaru.blogspot.com/2011/07/vsftpd-linux-mmftp-2.html 
 awk -F: '{print}' < /etc/vsftpd_login.txt | db_load -T -t hash /etc/vsftpd_login.db
 
 
