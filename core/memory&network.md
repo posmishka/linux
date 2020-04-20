@@ -1,10 +1,10 @@
 memory&network
 ==============
+**Do it on your own risk!**
 
 # /etc/sysctl.conf 
     https://easyengine.io/tutorials/linux/sysctl-conf/  
-Paste this (at the end of the file) to /etc/sysctl.conf (using vim /etc/sysctl.conf) and save it  
-**Do it on your own risk!**
+Paste this (at the end of the file) to /etc/sysctl.conf 
 
 ## IMPROVE SYSTEM MEMORY MANAGEMENT
 
