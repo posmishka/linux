@@ -4,7 +4,7 @@ Xephyr
 **Nested X server** 
 Full screen video or game inside the i3 window. For example - two separate Firefox windows, one inside the Xephyr window, and the other one normally on a different workspace for actual full screen.
 
-server-xephyr, otherwise just google it.
+<https://en.wikipedia.org/wiki/Xephyr>
 
 **to get everything running:**
 1. open a spare terminal
