@@ -21,9 +21,8 @@ networking related stuff
 # security
 itself
 
-# software
-different apps and software
-
-
 # server
 specific for the server usage things
+
+# software
+different apps and software
