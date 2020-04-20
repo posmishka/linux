@@ -37,6 +37,7 @@ php56-php-opcache php56-php-fpm php56-php-gd php56-php-mcrypt php56-php-mysqlnd 
 
 
 ### WEBTATIC REPO (not recommended)
+```
 rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm &&
 yum update &&
 yum install php70w php70w-opcache php70w-fpm php70w-gd php70w-mcrypt php70w-mysqlnd php70w-odbc php70w-pdo php70w-pecl-apcu php70w-xml php70w-mbstring php70w-soap
@@ -45,6 +46,8 @@ yum install php71w php71w-opcache php71w-fpm php71w-gd php71w-mcrypt php71w-mysq
 rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm 
 yum install -y php56w php56w-opcache php56w-fpm php56w-gd php56w-mcrypt php56w-mysqlnd php56w-odbc php56w-pdo php56w-pecl-apcu php56w-xml php56w-mbstring
 полный список пакетов https://webtatic.com/packages/php56/ 
+```
+
 
 ## запуск сервиса
 service php-fpm start && systemctl enable php-fpm
