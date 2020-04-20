@@ -25,6 +25,8 @@ certbot --nginx certonly
 
 
 ## APACHE
+```
 sudo apt-get install apache2 
 python-letsencrypt-apache
 certbot --apache
+```
