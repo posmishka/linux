@@ -1,7 +1,7 @@
 FTP
 =============
-
-# vsftpd (need to fi)
+vsftp is not equal and should bv
+# vsftpd 
 
 *the case is using virtual users for chrooted ftp directories*
 
