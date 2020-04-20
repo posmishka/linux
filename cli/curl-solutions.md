@@ -27,3 +27,4 @@ curl-solutions
 	
 ### test site response speed
 `curl -w "Connect: %{time_connect} TTFB: %{time_starttransfer} Total time: %{time_total}" https://site.com`
+
