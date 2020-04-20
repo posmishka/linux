@@ -2,6 +2,21 @@ FTP
 =============
 vsftp is not equal and should be updated
 
+# SFTP
+
+/etc/
+
+Subsystem      sftp    internal-sftp
+
+Match User user
+        X11Forwarding no
+        AllowTcpForwarding no
+        AllowAgentForwarding no
+        PermitTunnel no
+        ForceCommand internal-sftp
+        ChrootDirectory /home
+
+
 # vsftpd 
 
 *the case is using virtual users for chrooted ftp directories*
