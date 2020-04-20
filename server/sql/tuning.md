@@ -1,6 +1,6 @@
 tuning
 ======
-**Mysqltuner**
+**Mysqltuner 2GB ram**
 
 http://rtfm.co.ua/mysqlmariadb-tyuning-proizvoditelnosti-1-thread_cache_size/
 
