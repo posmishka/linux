@@ -32,8 +32,6 @@ certbot --nginx certonly
 
 openssl dhparam -out /etc/letsencrypt/live/$SITE/dhparam.pem 2048
 
-sed(s/domain-in-cfg/newdomain/) ?
-
 ** вариант для всех доменов:
 certbot renew
 --force = принудительное обновление
