@@ -50,18 +50,19 @@ curl -u "office@traverse.com.ua:traverse" "https://avantmarket.com.ua/wa-data/pu
 
 ### SFTP
 Upload
-curl  -k "sftp://83.46.38.23:22/CurlPutTest/" --user "testuser:testpassword" -T "C:\test\testfile.xml" --ftp-create-dirs
+
+`curl  -k "sftp://83.46.38.23:22/CurlPutTest/" --user "testuser:testpassword" -T "C:\test\testfile.xml" --ftp-create-dirs`
 
 Download
-curl  -k "sftp://83.46.38.23:22/CurlPutTest/testfile.xml" --user "testuser:testpassword" -o "C:\test\testfile.xml" --ftp-create-dirs
+
+`curl  -k "sftp://83.46.38.23:22/CurlPutTest/testfile.xml" --user "testuser:testpassword" -o "C:\test\testfile.xml" --ftp-create-dirs`
 
 Rename
 
-curl  -k "sftp://83.46.38.23:22/CurlPutTest/" --user "testuser:testpassword" -Q "-RENAME 
-  ‘/CurlPutTest/testfile.xml’ ‘/CurlPutTest/testfile.xml.tmp’" --ftp-create-dirs
-
+`curl  -k "sftp://83.46.38.23:22/CurlPutTest/" --user "testuser:testpassword" -Q "-RENAME ‘/CurlPutTest/testfile.xml’ ‘/CurlPutTest/testfile.xml.tmp’" --ftp-create-dirs`
 
 Delete
+
 `curl  -k "sftp://83.46.38.23:22/CurlPutTest/ " --user "testuser:testpassword" -Q "–RM /CurlPutTest/testfile.xml" --ftp-create-dirs`
 
 **MKdir**
