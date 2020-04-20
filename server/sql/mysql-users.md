@@ -9,3 +9,4 @@ mysql-users
 3. type mysql with no password and hit enter
 4. DELETE FROM mysql.user WHERE  user = 'root' AND host = 'localhost'; 
 ```
+Create 
