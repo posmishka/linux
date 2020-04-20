@@ -36,21 +36,21 @@ net.ipv4.tcp_keepalive_time = 300
 net.ipv4.tcp_keepalive_probes = 5
 net.ipv4.tcp_keepalive_intvl = 15
 
-### TUNING NETWORK PERFORMANCE ###
+## TUNING NETWORK PERFORMANCE
 
-# Default Socket Receive Buffer
+### Default Socket Receive Buffer
 net.core.rmem_default = 31457280
 
-# Maximum Socket Receive Buffer
+### Maximum Socket Receive Buffer
 net.core.rmem_max = 12582912
 
-# Default Socket Send Buffer
+### Default Socket Send Buffer
 net.core.wmem_default = 31457280
 
-# Maximum Socket Send Buffer
+### Maximum Socket Send Buffer
 net.core.wmem_max = 12582912
 
-# Increase number of incoming connections
+### Increase number of incoming connections
 net.core.somaxconn = 65535
 
 # Increase number of incoming connections backlog
