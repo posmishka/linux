@@ -39,9 +39,10 @@ restart and enable
     service fail2ban restart  
     systemctl enable fail2ban
 
-check status
+check jail status
 
-f   ail2ban-client status
+    fail2ban-client status
+    
 # Upgrades
 
 **Инкрементальный Fail2ban**
