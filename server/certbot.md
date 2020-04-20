@@ -1,7 +1,7 @@
 certbot
 =======
 
-### certbot nginx plugin 
+## certbot nginx plugin 
 source: https://certbot.eff.org/lets-encrypt/centosrhel7-nginx.html
 
 **install**
@@ -10,9 +10,11 @@ $ yum -y install yum-utils
 $ yum-config-manager --enable rhui-REGION-rhel-server-extras rhui-REGION-rhel-server-optional
 $ yum install certbot python2-certbot-nginx
 ```
-usage
+**usage**
+certbot --nginx certonly
 
 certbot --nginx certonly
+
 
  г) certbot, сертификаты ssl
  команда для выпуска сертификата:
