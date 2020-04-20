@@ -1,6 +1,7 @@
 site-migration
 ==============
 
+```
 echo '
 #!/bin/sh
 
@@ -22,3 +23,4 @@ mysqldump -u $DBU -p$DBP $DBN > $WORKDIR/sql/$DBN.sql
 rsync -avv --delete-during -compress-level=9 -e "ssh -p $PORT" $WORKDIR/$SITE1/ $USER@$HOST:~/$SITE1/
 rsync -avv -compress-level=9 -e "ssh -p $PORT" $WORKDIR/sql/ $USER@$HOST:~/sql/
 ' > sync.sh
+```
