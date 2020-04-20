@@ -118,7 +118,9 @@ xcache.admin.pass = "8e6867a5d05144cf47”   - строка МД5 (тут - xcac
 ```
 
 **turn off for current site folder:**
+```
 xcache.cacher=0
+```
 The file needs to be named .user.ini (that's a: dot-user-dot-ini)
 So to exclude "somefolder" you would put it under /var/www/html/somefolder/.user.ini
 
