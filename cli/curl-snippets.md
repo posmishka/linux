@@ -39,6 +39,7 @@ cat ttfb | grep Connect:
 rm ttfb
 ```
 
+### check if url exists
 if curl --output /dev/null --silent --head --fail "$url"; then echo "URL exists: $url" else echo "URL does not exist: $url" fi
 
 If your server refuses HEAD requests, an alternative is to request only the first byte of the file:
