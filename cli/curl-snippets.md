@@ -40,10 +40,10 @@ rm ttfb
 ```
 
 ### check if url exists
-if curl --output /dev/null --silent --head --fail "$url"; then echo "URL exists: $url" else echo "URL does not exist: $url" fi
+`if curl --output /dev/null --silent --head --fail "$url"; then echo "URL exists: $url" else echo "URL does not exist: $url" fi`
 
-If your server refuses HEAD requests, an alternative is to request only the first byte of the file:
+If server refuses HEAD requests, an alternative is to request only the first byte of the file:
 
-if curl --output /dev/null --silent --fail -r 0-0 "$url"; then
+`if curl --output /dev/null --silent --fail -r 0-0 "$url"; then`
 
 curl -u "office@traverse.com.ua:traverse" "https://avantmarket.com.ua/wa-data/public/site/Excel/`date +'05.%m.%Y'`%20Avantmarket%20price.xls" -o ./1.xls
