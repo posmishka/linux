@@ -15,7 +15,8 @@ $ which mysqld
 $ /usr/sbin/mysqld --verbose --help | grep -A 1 "Default options"
 ```
 
-mysqlcheck -u user -p --optimize database_name
+**optimize database**  
+`mysqlcheck -u user -p --optimize database_name
 
 repair table <table_name>;
 
