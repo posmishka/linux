@@ -9,9 +9,9 @@ set -ex
 
 set --help
 
-Parameter expansion
+**Parameter expansion**
 https://wiki.bash-hackers.org/syntax/pe
 
-creating binary from sh script
+**creating binary from sh script**  
 
-https://linux.die.net/man/1/shc
+    https://linux.die.net/man/1/shc
