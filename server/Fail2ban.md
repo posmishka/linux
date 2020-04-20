@@ -3,7 +3,8 @@ Fail2ban
 
 # Basic
 
-https://www.howtoforge.com/tutorial/how-to-install-fail2ban-on-centos/
+<https://www.howtoforge.com/tutorial/how-to-install-fail2ban-on-centos/  >
+<https://unix.stackexchange.com/questions/171567/installing-fail2ban-on-centos-7>
 
     $ yum install fail2ban fail2ban-systemd
     $ yum update -y selinux-policy*
