@@ -6,7 +6,7 @@ mysql-users
 
     `service mysql stop && ps awx | grep mysqld`
 
-2. 
+2. start 
 mysqld_safe --skip-grant-tables
 
 ## restoring root (if corrupted)
