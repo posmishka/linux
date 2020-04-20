@@ -19,10 +19,10 @@ vm.dirty_background_ratio = 2
 
 ### GENERAL NETWORK SECURITY OPTIONS ###
 
-#$ Number of times SYNACKs for passive TCP connection.
+## Number of times SYNACKs for passive TCP connection
 net.ipv4.tcp_synack_retries = 2
 
-# Allowed local port range
+## Allowed local port range
 net.ipv4.ip_local_port_range = 2000 65535
 
 # Protect Against TCP Time-Wait
