@@ -2,7 +2,8 @@ mysql-users
 ===========
 
 ## change root password
-stop mysql
+stop mysql service
+service mysql stop
 
 ## restoring root (if corrupted)
 
