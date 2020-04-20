@@ -7,8 +7,5 @@ mysql-users
 1. Add 'skip-grant-tables' to my.cnf under the [mysqld] section
 2. restart mysql
 3. type mysql with no password and hit enter
-4. Run This:
-DELETE FROM mysql.user 
-WHERE  user = 'root' 
-       AND host = 'localhost'; 
+4. DELETE FROM mysql.user WHERE  user = 'root' AND host = 'localhost'; 
 ```
