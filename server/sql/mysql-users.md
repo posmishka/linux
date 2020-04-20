@@ -1,5 +1,10 @@
 mysql-users
 ===========
+# Change user password
+смена пароля пользователя
+ALTER USER 'user-name'@'localhost' IDENTIFIED BY 'NEW_USER_PASSWORD';
+FLUSH PRIVILEGES;
+
 # Set root password
 **if it was not set**
 
