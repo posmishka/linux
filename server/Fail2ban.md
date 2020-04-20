@@ -24,7 +24,7 @@ $ vim /etc/fail2ban/jail.d/sshd.local
 enabled = true
 #To use more aggressive sshd filter (inclusive sshd-ddos failregex):
 #filter = sshd-aggressive
-#action = firewallcmd-ipset
+action = firewallcmd-ipset
 port    = ssh
 logpath = %(sshd_log)s
 backend = %(sshd_backend)s
