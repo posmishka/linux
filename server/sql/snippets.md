@@ -14,3 +14,9 @@ $ which mysqld
 /usr/sbin/mysqld
 $ /usr/sbin/mysqld --verbose --help | grep -A 1 "Default options"
 ```
+
+mysqlcheck --user=uuuuuu --password=pppppp --optimize database_name
+
+repair table <table_name>;
+
+ describe tablename;
