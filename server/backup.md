@@ -24,7 +24,7 @@ Cистема инкрементального резервного копиро
 ## SHELL
 
 ### IBM Docs, ssh keychain usage and more
-
+<https://www.ibm.com/developerworks/ru/library/l-backup/index.html?ca=drs-ru-0113>
 
 ### sophisticated bash script
 <https://github.com/chuguniy/bash-data-compression>
