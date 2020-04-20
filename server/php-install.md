@@ -33,7 +33,7 @@ rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
 yum install -y php56w php56w-opcache php56w-fpm php56w-gd php56w-mcrypt php56w-mysqlnd php56w-odbc php56w-pdo php56w-pecl-apcu php56w-xml php56w-mbstring
 полный список пакетов https://webtatic.com/packages/php56/ 
 
-# запуск сервиса #
+## запуск сервиса
 service php-fpm start && systemctl enable php-fpm
 
 cd /var/lib/php/ && chown -R nginx:nginx ./session && chown -R nginx:nginx ./wsdlcache
@@ -43,10 +43,10 @@ cd /var/lib/php/ && chown -R nginx:nginx ./session && chown -R nginx:nginx ./wsd
 php.ini      cgi.fix_pathinfo=0
 
 
-### CHROOT PHP-FPM
+#### CHROOT PHP-FPM
 
 
-#1
+
 /etc/php-fpm/www.conf
 chroot = /var/www
 chdir = /
