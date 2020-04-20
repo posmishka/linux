@@ -46,12 +46,12 @@ php.ini      cgi.fix_pathinfo=0
 #### CHROOT PHP-FPM
 
 
+vim /etc/php-fpm/www.conf
 
-/etc/php-fpm/www.conf
-chroot = /var/www
-chdir = /
+    chroot = /var/www
+    chdir = /
 
-#2
+fixi
 Далее мы столкнемся с проблемой что PHP не сможет отрезолвить адрес, исправляем:
 mkdir /var/www/{etc,lib};
 cp /etc/hosts /var/www/etc/hosts;
