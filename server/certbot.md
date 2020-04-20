@@ -19,7 +19,7 @@ certbot --nginx certonly
 
     $SITE=site.com
 
-**add to nginx config**
+**add to nginx config (80 port)**
 
     location /.well-known/acme-challenge { alias /home/www/.well-known/acme-challenge; }
 nginx -s reload .
