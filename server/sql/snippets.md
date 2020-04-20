@@ -8,3 +8,7 @@ snippets
 `set global max_allowed_packet = 20971520`
 
 
+### find mysql config
+$ which mysqld
+/usr/sbin/mysqld
+$ /usr/sbin/mysqld --verbose --help | grep -A 1 "Default options"
