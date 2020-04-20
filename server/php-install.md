@@ -75,9 +75,9 @@ https://www.rosehosting.com/blog/how-to-install-xcache-on-a-centos-7-vps/
 + tar -zxvf xcache-3.2.0.tar.gz
 + cd xcache-3.2.0
 + phpize
-./configure --enable-xcache
-make
-make install
++ ./configure --enable-xcache
++ make
++ make install
 
 $ vim /etc/php.d/xcache.ini
 
