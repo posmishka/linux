@@ -1,8 +1,11 @@
 mysql-users
 ===========
 # Change user password
+```
 mysql > ALTER USER 'user-name'@'localhost' IDENTIFIED BY 'NEW_USER_PASSWORD';  
 mysql > FLUSH PRIVILEGES;
+```
+
 
 # Set root password
 **if it was not set**
@@ -28,7 +31,7 @@ mysql > FLUSH PRIVILEGES;
     
  3. create new password
 
-    `mysql > update user Password=PASSWORD'NEW_P') where User='root';`  
+    `mysql > update user Password=PASSWORD('NEW_PASSWORD') where User='root';`  
     `mysql > flush privileges;`
 
 # Restoring root (if user corrupted)
