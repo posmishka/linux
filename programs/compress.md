@@ -21,7 +21,7 @@ for x in `find . -type f \( -name '*.html' -o -name '*.css' -o -name '*.js' \) -
 
 yum install zopfli
 
-mkdir /root/compress/
+mkdir /root/compress/ 
 vim /root/compress/static.sh
 
 #!/bin/bash
