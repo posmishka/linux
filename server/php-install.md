@@ -37,12 +37,11 @@ php56-php-opcache php56-php-fpm php56-php-gd php56-php-mcrypt php56-php-mysqlnd 
 
 
 ### WEBTATIC REPO (not recommended)
-
-
-**7.0**
+install repo
 ```
-rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm &&
-yum update &&
+rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm && yum update`
+**7.0**
+
 yum install php70w php70w-opcache php70w-fpm php70w-gd php70w-mcrypt php70w-mysqlnd php70w-odbc php70w-pdo php70w-pecl-apcu php70w-xml php70w-mbstring php70w-soap
 yum install php71w php71w-opcache php71w-fpm php71w-gd php71w-mcrypt php71w-mysqlnd php71w-odbc php71w-pdo php71w-pecl-apcu php71w-xml php71w-mbstring  
 полный список: https://webtatic.com/packages/php70/
