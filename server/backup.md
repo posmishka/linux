@@ -24,9 +24,10 @@ Cистема инкрементального резервного копиро
 ## SHELL
 
 ### sophisticated bash script
-https://github.com/chuguniy/bash-data-compression
+<https://github.com/chuguniy/bash-data-compression>
 
 ### simple backup script
-https://habr.com/ru/post/51966/
+<https://habr.com/ru/post/51966/>
 
-### amazon s3 
+### s3-bash
+<https://code.google.com/archive/p/s3-bash/>
