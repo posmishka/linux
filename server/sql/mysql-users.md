@@ -76,3 +76,4 @@ exit from mysql
 remove 'skip-grant-tables' from my.cnf under the [mysqld] section
 restart mysql
 ```
+https://dev.mysql.com/doc/refman/5.7/en/resetting-permissions.html
