@@ -9,12 +9,16 @@ https://www.howtoforge.com/tutorial/how-to-install-fail2ban-on-centos/
 yum install fail2ban fail2ban-systemd
 yum update -y selinux-policy*
 
-vim /etc/fail2ban/jail.local 
+```
+$ vim /etc/fail2ban/jail.local 
 [DEFAULT]
 bantime = 7200
 banaction = iptables-multiport
+```
 
-vim /etc/fail2ban/jail.d/sshd.local
+
+```
+$ vim /etc/fail2ban/jail.d/sshd.local
 [sshd]
 enabled = true
 #To use more aggressive sshd filter (inclusive sshd-ddos failregex):
@@ -25,6 +29,7 @@ logpath = %(sshd_log)s
 backend = %(sshd_backend)s
 maxretry = 5
 bantime  = 86400
+```
 
 service fail2ban restart 
 systemctl enable fail2ban
