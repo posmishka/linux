@@ -4,23 +4,27 @@ install
 Install mariadb
 
 
-# CENTOS 7 ###
+# CENTOS 7
 
-# Добавление репозитария
+## Добавление репозитария
 
+```
 echo '
 [mariadb]
 name = MariaDB
 baseurl = http://yum.mariadb.org/10.3/rhel7-amd64
 gpgkey=https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
 gpgcheck=1' > /etc/yum.repos.d/Mariadb.repo
+```
 
-# установка
-yum -y install mariadb-server mariadb && 
-systemctl start mysql &&
+## установка
+```
+yum -y install mariadb-server mariadb && \
+systemctl start mysql && \
 mysql_secure_installation
+```
 
-# mysqltuner
+## mysqltuner
 
 yum -y install mysqltuner
     
