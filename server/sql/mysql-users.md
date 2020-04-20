@@ -4,10 +4,8 @@ mysql-users
 ## change root password
 1. stop mysql service
 
-    ```
-    service mysql stop
-    ps awx | grep mysqld   
-    ```
+    service mysql stop && ps awx | grep mysqld
+
 2) mysqld_safe --skip-grant-tables
 
 ## restoring root (if corrupted)
