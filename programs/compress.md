@@ -7,6 +7,7 @@ compress brotli guetzli
 
 git clone https://github.com/google/brotli         
 
+```
 $ mkdir out && cd out && ../configure-cmake && make
 $ make test
 $ make install
@@ -14,6 +15,7 @@ $ make install
 /usr/local/bin/brotli
 
 for x in `find . -type f \( -name '*.html' -o -name '*.css' -o -name '*.js' \) -size +400c`; do /usr/local/bin/brotli ${x} --force -o ${x}.br; done
+```
 
 
 
@@ -21,9 +23,10 @@ for x in `find . -type f \( -name '*.html' -o -name '*.css' -o -name '*.js' \) -
 
 yum install zopfli
 
-mkdir /root/compress/ 
+mkdir /root/compress/  
 vim /root/compress/static.sh
 
+```
 #!/bin/bash
 
 SITEDIR=$1
@@ -37,6 +40,8 @@ vim /etc/cron.d/compress
 
 
 for x in `find . -type f \( -name '*.gz' -o -name '*.br'\); do rm -rf ${x}`; done
+```
+
 
 
 # guetzli
