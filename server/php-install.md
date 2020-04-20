@@ -51,7 +51,7 @@ install repo
 yum install php71w php71w-opcache php71w-fpm php71w-gd php71w-mcrypt php71w-mysqlnd php71w-odbc php71w-pdo php71w-pecl-apcu php71w-xml php71w-mbstring  
 ```
 полный список: https://webtatic.com/packages/php70/
-rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm 
+
 yum install -y php56w php56w-opcache php56w-fpm php56w-gd php56w-mcrypt php56w-mysqlnd php56w-odbc php56w-pdo php56w-pecl-apcu php56w-xml php56w-mbstring
 полный список пакетов https://webtatic.com/packages/php56/ 
 
