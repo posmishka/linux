@@ -1,5 +1,6 @@
 mysql-users
 ===========
+
 # Change user password
 ```
 mysql > ALTER USER 'user-name'@'localhost' IDENTIFIED BY 'NEW_USER_PASSWORD';  
