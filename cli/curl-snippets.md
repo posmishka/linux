@@ -50,9 +50,12 @@ curl -u "office@traverse.com.ua:traverse" "https://avantmarket.com.ua/wa-data/pu
 
 ### send email 
 
+```
 curl --url 'smtps://smtp.gmail.com:465' --ssl-reqd \
   --mail-from 'username@gmail.com' --mail-rcpt 'john@example.com' \
   --upload-file mail.txt --user 'username@gmail.com:password' --insecure
+```
+
   
 [email with image attached](https://stackoverflow.com/questions44728855/curl-send-html-email-with-embedded-image-and-attachment) 
 
