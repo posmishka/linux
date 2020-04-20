@@ -69,7 +69,6 @@ https://forum.antichat.ru/threads/172895/
 ## xcache
 https://www.rosehosting.com/blog/how-to-install-xcache-on-a-centos-7-vps/ 
 
-```
 yum install -y php56w-devel gcc make
 cd /opt
 wget http://xcache.lighttpd.net/pub/Releases/3.2.0/xcache-3.2.0.tar.gz
@@ -81,7 +80,7 @@ make
 make install
 ```
 
-vim /etc/php.d/xcache.ini
+$ vim /etc/php.d/xcache.ini
 
 ```
 [xcache-common]
