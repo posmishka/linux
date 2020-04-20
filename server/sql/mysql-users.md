@@ -6,19 +6,18 @@ mysql > ALTER USER 'user-name'@'localhost' IDENTIFIED BY 'NEW_USER_PASSWORD';
 mysql > FLUSH PRIVILEGES;
 ```
 
-
 # Set root password
 **if it was not set**
 
-`mysqladmin -u root password NEWPASSWORD`
+`$ mysqladmin -u root password NEWPASSWORD`
 
 **change current password**
 
-`mysql -u root -p'123456' -e 'show databases;'`
+`$ mysql -u root -p'123456' -e 'show databases;'`
 
 **check if password is working**
 
-`mysqladmin -u root -p'oldpassword' password newpass`
+`$ mysqladmin -u root -p'oldpassword' password newpass`
 
 # Change root password if you forgot it
 1. stop mysql service
