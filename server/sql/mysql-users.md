@@ -1,6 +1,9 @@
 mysql-users
 ===========
-## set root pass
+## set root password
+**if it was not set**
+    mysqladmin -u root password NEWPASSWORD
+    
 mysql -u root -p'123456' -e 'show databases;'
 
 
