@@ -16,7 +16,7 @@ Rdiff-backup backs up one directory to another, possibly over a network. The tar
 <https://rdiff-backup.net/>
 
 ## rsnapshot
-This is a remote backup program that uses rsync to take backup snapshots of filesystems.  It uses hard links to save space on disk.
+rsnapshot is a filesystem snapshot utility based on rsync. rsnapshot makes it easy to make periodic snapshots of local machines, and remote machines over ssh. The code makes extensive use of hard links whenever possible, to greatly reduce the disk space required.
 
 
 ## fsbackup
