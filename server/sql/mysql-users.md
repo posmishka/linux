@@ -4,16 +4,16 @@ mysql-users
 ## change root password
 1. stop mysql service
 
-    `service mysql stop && ps awx | grep mysqld`
+    `# service mysql stop && ps awx | grep mysqld`
 
 2. start mysql in safe mode
 
-    `mysqld_safe --skip-grant-tables`
+    `# mysqld_safe --skip-grant-tables`
     
  3. create new password
 
-    `update user Password=PASSWORD('тут пароль') where User='root';`
-    
+    mysql > `update user Password=PASSWORD('тут пароль') where User='root';`
+    mysql > 
 
 ## restoring root (if corrupted)
 
@@ -26,6 +26,7 @@ mysql-users
 ```
 **Create user root (variant 1)**
 ```
+mysql> 
 INSERT INTO mysql.user 
 SET user = 'root', 
     host = 'localhost', 
