@@ -1,7 +1,7 @@
 phpmyadmin
 ==========
 
-phpmyadmin nginx config
+nginx config
 
 ```
 location /pma3388/ {
