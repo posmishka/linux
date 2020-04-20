@@ -16,6 +16,7 @@ header='<?xml version="1.0" encoding="UTF-8"?><urlset
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">'
 echo $header > $FOLDER/sitemap.xml
+
 while read p; do
   case "$p" in
   */ | *.html | *.htm)
