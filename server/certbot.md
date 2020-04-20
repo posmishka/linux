@@ -47,5 +47,5 @@ certbot --apache
 
     $ certbot renew
     
---force = принудительное обновление
---dry-run - тестовый прогон
+--force  
+--dry-run
