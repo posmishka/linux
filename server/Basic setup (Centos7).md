@@ -1,5 +1,7 @@
 Basic setup (Centos7)
 ========================
+change root password
+
 **Update and install software**  
 
 	yum update && yum -y install epel-release && \  
