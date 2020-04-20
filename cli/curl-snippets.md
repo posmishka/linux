@@ -48,6 +48,9 @@ If server refuses HEAD requests, an alternative is to request only the first byt
 
 curl -u "office@traverse.com.ua:traverse" "https://avantmarket.com.ua/wa-data/public/site/Excel/`date +'05.%m.%Y'`%20Avantmarket%20price.xls" -o ./1.xls
 
+### send email with attach
+
+
 ### SFTP
 **Upload**
 
