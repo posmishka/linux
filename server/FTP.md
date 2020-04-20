@@ -29,7 +29,7 @@ Match group sftpgroup
   ForceCommand internal-sftp
   AllowTcpForwarding no
 ```
-where 
+where sftpuser - username, sftpgroup - groupname, /home/%u - path to user
 
 # vsftpd 
 
