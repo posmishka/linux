@@ -4,11 +4,12 @@ vsftp is not equal and should be updated
 
 # SFTP
 
-**open ssh config**
+open ssh config
 
 `$ /etc/ssh/sshd_config`
 
-
+comment string
+> #Subsystem sftp /usr/lib/openssh/sftp-server
 ```
 Subsystem sftp internal-sftp -f AUTH -l VERBOSE
 Match user sftpuser
