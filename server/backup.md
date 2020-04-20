@@ -7,5 +7,5 @@ Cистема инкрементального резервного копиро
 <http://www.opennet.ru/dev/fsbackup/>
 
 
-### 
+### bash backup script
 https://github.com/chuguniy/bash-data-compression
