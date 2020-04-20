@@ -1,6 +1,9 @@
 secure
 ======
 
+**https://www.snort.org/**
+
+
 Hardening server security
 
 Базовая авторизация пхп:
