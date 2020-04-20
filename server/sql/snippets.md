@@ -14,6 +14,7 @@ snippets
     
 **export and archieve**
 
+**import from archive**
     mysqldump -u USER -pPASSWORD DATABASE | gzip > /path/to/outputfile.sql.gz
 
 gunzip < /path/to/outputfile.sql.gz | mysql -u USER -pPASSWORD DATABASE     --- импорт из архива
