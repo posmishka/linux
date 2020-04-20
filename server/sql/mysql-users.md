@@ -8,6 +8,8 @@ In order to connect remotely you have to have MySQL bind port 3306 to your machi
     $ vim /etc/my.cnf  
     bind-address= 1.2.3.4  
 
+**create new users for local and remote**
+
 # Change user password
 ```
 mysql > ALTER USER 'user-name'@'localhost' IDENTIFIED BY 'NEW_USER_PASSWORD';  
