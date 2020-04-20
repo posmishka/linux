@@ -1,6 +1,6 @@
 mysql-users
 ===========
-# set root password
+# Set root password
 **if it was not set**
 
 `mysqladmin -u root password NEWPASSWORD`
@@ -13,7 +13,7 @@ mysql-users
 
 `mysqladmin -u root -p'oldpassword' password newpass`
 
-# change root password if you forgot it
+# Change root password if you forgot it
 1. stop mysql service
 
     `# service mysql stop && ps awx | grep mysqld`
@@ -27,7 +27,7 @@ mysql-users
     `mysql > update user Password=PASSWORD('тут пароль') where User='root';`  
     `mysql > flush privileges;`
 
-# restoring root (if user corrupted)
+# Restoring root (if user corrupted)
 
 **Delete user**
 ```
@@ -36,7 +36,7 @@ mysql-users
 3. type mysql with no password and hit enter
 4. DELETE FROM mysql.user WHERE  user = 'root' AND host = 'localhost'; 
 ```
-**Create user root (variant 1)**
+**Create user root**
 ```
 mysql> 
 INSERT INTO mysql.user 
