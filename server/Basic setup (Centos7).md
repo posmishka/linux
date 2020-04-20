@@ -25,6 +25,7 @@ Basic setup (Centos7)
 
 ## **Setup SSH**
 ### Create a new user
+
   
 	username=yourname  
 	adduser $username
