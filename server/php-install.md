@@ -109,13 +109,15 @@ extension = /usr/lib64/php/modules/xcache.so
 	xcache.stat   =           	On
 ```
 
-adminp :
+**adminpage** :
 cp -a ~/src/xcache/htdocs /var/www/example.com/htdocs/xcache-admin
+```
 [xcache.admin]
 xcache.admin.user = "admin"
 xcache.admin.pass = "8e6867a5d05144cf47”   - строка МД5 (тут - xcache)
+```
 
-Выключить для папки:
+turn off
 xcache.cacher=0
 The file needs to be named .user.ini (that's a: dot-user-dot-ini)
 So to exclude "somefolder" you would put it under /var/www/html/somefolder/.user.ini
