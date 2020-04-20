@@ -40,7 +40,8 @@ certbot --apache
 
 ## Misc
 **create dhparam**  
-openssl dhparam -out /etc/letsencrypt/live/$SITE/dhparam.pem 2048
+
+    $ openssl dhparam -out /etc/letsencrypt/live/$SITE/dhparam.pem 2048
 
 ** вариант для всех доменов:
 certbot renew
