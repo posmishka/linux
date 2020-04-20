@@ -25,21 +25,6 @@ FTP
 
 useradd.sh
 
-FTP vsftpd
-
-### VSFTPD ###
-
-yum install vsftpd db4-utils
-chkconfig vsftpd on     //вариант запуска при старте системы
-service vsftpd start
-
-useradd -d '/var/www/path/to/your/dir' -s /sbin/nologin ftpuser
-passwd ftpuser
-mkdir -p /var/www/path/to/your/dir (если не существует)
-groupadd ftpusers (если нет)
-usermod -G ftpusers ftpuser
-добавить в группу /etc/vsftpd/user_list
-
 
 
 -- VIRTUAL VSFTPD
