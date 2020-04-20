@@ -4,6 +4,10 @@ snippets
 
     $ mysql -u username -p db_name < db_name.sql
 
+**import from archive**
+
+    gunzip < /path/to/outputfile.sql.gz | mysql -u USER -pPASSWORD DATABASE
+
 **export database**
 
     $ mysqldump -u username -p db_name > db_name.sql
@@ -14,10 +18,9 @@ snippets
     
 **export and archieve**
 
-**import from archive**
     mysqldump -u USER -pPASSWORD DATABASE | gzip > /path/to/outputfile.sql.gz
 
-gunzip < /path/to/outputfile.sql.gz | mysql -u USER -pPASSWORD DATABASE     --- импорт из архива
+
 
 очистить базу
 mysqldump -u[USERNAME] -p[PASSWORD] --add-drop-table --no-data [DATABASE] | grep ^DROP | mysql -u[USERNAME] -p[PASSWORD] [DATABASE]
