@@ -2,4 +2,4 @@ kill
 ====
 
 ### make to reread log
-pkill -HUP sshd
+    pkill -HUP sshd && service sshd restart
