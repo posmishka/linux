@@ -26,7 +26,8 @@ certbot --nginx certonly
 
     $ nginx -s reload
 
-create c
+**run certbot**
+
     $ certbot certonly -a webroot --webroot-path /home/www/ -d $SITE -d www.$SITE --server https://acme-v01.api.letsencrypt.org/directory
 
 openssl dhparam -out /etc/letsencrypt/live/$SITE/dhparam.pem 2048
