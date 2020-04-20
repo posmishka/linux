@@ -8,11 +8,12 @@ mysql-users
 
 2. start mysql in safe mode
 
-    mysqld_safe --skip-grant-tables
+    `mysqld_safe --skip-grant-tables`
     
  3. create new password
 
-    update user Password=PASSWORD('тут пароль') where User='root';
+    `update user Password=PASSWORD('тут пароль') where User='root';`
+    
 
 ## restoring root (if corrupted)
 
