@@ -10,7 +10,7 @@ mysql-users
 3. type mysql with no password and hit enter
 4. DELETE FROM mysql.user WHERE  user = 'root' AND host = 'localhost'; 
 ```
-**Create user root**
+**Create user root (variant 1)**
 ```
 INSERT INTO mysql.user 
 SET user = 'root', 
@@ -49,3 +49,4 @@ exit from mysql
 remove 'skip-grant-tables' from my.cnf under the [mysqld] section
 restart mysql
 ```
+**Create user root (variant 2)**
