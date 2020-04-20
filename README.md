@@ -22,7 +22,7 @@ networking related stuff
 itself
 
 # server
-specific for the server usage things
+specific for the server usage things (CentOS7 mostly)
 
 # software
 different apps and software
