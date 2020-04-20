@@ -12,8 +12,10 @@ snippets
 
     $ mysqldump -uroot -p -A > alldb.sql
     
-  
-mysqldump -u USER -pPASSWORD DATABASE | gzip > /path/to/outputfile.sql.gz   --- экспорт и архивация
+**export and archieve**
+
+    mysqldump -u USER -pPASSWORD DATABASE | gzip > /path/to/outputfile.sql.gz
+
 gunzip < /path/to/outputfile.sql.gz | mysql -u USER -pPASSWORD DATABASE     --- импорт из архива
 
 очистить базу
