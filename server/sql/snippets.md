@@ -21,7 +21,7 @@ snippets
     mysqldump -u USER -pPASSWORD DATABASE | gzip > db_name.sql.gz
 
 
-mysqldump -u[USERNAME] -p[PASSWORD] --add-drop-table --no-data [DATABASE] | grep ^DROP | mysql -u[USERNAME] -p[PASSWORD] [DATABASE]
+mysqldump -u USER -p --add-drop-table --no-data DATABASE | grep ^DROP | mysql -u[USERNAME] -p[PASSWORD] [DATABASE]
 
 **show variable**  
 `SHOW GLOBAL VARIABLES WHERE variable_name = 'max_allowed_packet';`
