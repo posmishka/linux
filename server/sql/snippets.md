@@ -1,6 +1,6 @@
 snippets
 ========
-# Basic database
+# Import / export
 
 **import database**
 
@@ -31,7 +31,8 @@ snippets
 `set global max_allowed_packet = 20971520`
 
 
-### find mysql config
+
+## find mysql config
 ```
 $ which mysqld
 /usr/sbin/mysqld
