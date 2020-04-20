@@ -17,7 +17,7 @@ http://www.rabbitmq.com/
     https://github.com/elastic/elasticsearch  
     https://github.com/elastic/kibana
     
-[]
+[Elasticsearch + Logstash + Kibana4 + Beats](https://m.habr.com/ru/post/277029/)
 
 ### **graylog**
     https://www.graylog.org/
