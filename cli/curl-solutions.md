@@ -23,3 +23,4 @@ curl-solutions
 	| egrep -o "\/download\/f\/[0-9]{4,}\.htm")
 	
 	curl -b cookie https://site.com$FILE -o filename.xls
+	
