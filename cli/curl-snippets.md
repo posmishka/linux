@@ -54,7 +54,7 @@ curl --url 'smtps://smtp.gmail.com:465' --ssl-reqd \
   --mail-from 'username@gmail.com' --mail-rcpt 'john@example.com' \
   --upload-file mail.txt --user 'username@gmail.com:password' --insecure
   
-[email with image attached]attachhttps://stackoverflow.com/questions44728855/curl-send-html-email-with-embedded-image-and-attachment)
+[email with image attached](https://stackoverflow.com/questions44728855/curl-send-html-email-with-embedded-image-and-attachment) 
 
 ### SFTP
 **Upload**
