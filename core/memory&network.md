@@ -90,9 +90,10 @@ www-data        hard    nofile          2097152
 + Paste this (at the end of the file) to /etc/pam.d/common-session (using nano /etc/pam.d/common-session) and save it,
 
 session required pam_limits.so
-Change listen.backlog in /etc/php5/fpm/pool.d/www.conf (using nano /etc/php5/fpm/pool.d/www.conf) and save it,
+Change listen.backlog in /etc/php5/fpm/pool.d/www.conf
 
-listen.backlog = 65535
+`listen.backlog = 65535`
+
 Change workerrlimitnofile in /etc/nginx/nginx.conf (using nano /etc/nginx/nginx.conf) and save it,
 
 worker_rlimit_nofile 99999;
