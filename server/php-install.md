@@ -16,10 +16,12 @@ yum-config-manager --enable remi-php70
 yum --enablerepo=remi install phpMyAdmin
 ```
 install
+
 `yum install php php-opcache php-fpm php-gd php-mcrypt php-mysqlnd php-odbc php-pdo php-pecl-apcu php-xml php-mbstring php-intl`
 
 
 ### РАЗНЫЕ ВЕРСИИ ПХП
+
 **several versions the same time**
 
 <https://www.centos.org/forums/viewtopic.php?t=64677>
@@ -29,10 +31,6 @@ install
 yum install centos-release-scl
 php56-php-opcache php56-php-fpm php56-php-gd php56-php-mcrypt php56-php-mysqlnd php56-php-odbc php56-php-pdo php56-php-pecl-apcu php56-php-xml php56-php-mbstring php56-php-intl
 ```
-**repo default**
-
-
-
 **find config files:**
 
 `rpm -q --configfiles php54-php-fpm`
