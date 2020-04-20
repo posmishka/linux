@@ -30,12 +30,6 @@ certbot --nginx certonly
 
     $ certbot certonly -a webroot --webroot-path /home/www/ -d $SITE -d www.$SITE --server https://acme-v01.api.letsencrypt.org/directory
 
-openssl dhparam -out /etc/letsencrypt/live/$SITE/dhparam.pem 2048
-
-** вариант для всех доменов:
-certbot renew
---force = принудительное обновление
---dry-run - тестовый прогон
 
 ## APACHE
 ```
@@ -43,3 +37,12 @@ sudo apt-get install apache2
 python-letsencrypt-apache
 certbot --apache
 ```
+
+## f
+****
+openssl dhparam -out /etc/letsencrypt/live/$SITE/dhparam.pem 2048
+
+** вариант для всех доменов:
+certbot renew
+--force = принудительное обновление
+--dry-run - тестовый прогон
