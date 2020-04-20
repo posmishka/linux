@@ -40,7 +40,7 @@ aide --init
 cp -p /var/lib/aide/aide.db.new.gz /var/lib/aide/aide.db.gz
 
 aide --check
-# after perfoming check and solving issues must be update
+#after perfoming check and solving issues must be update
 aide --update
 
 vi /etc/cron.d/aide
