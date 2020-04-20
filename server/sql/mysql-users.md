@@ -1,5 +1,7 @@
 mysql-users
 ===========
+
+
 # Remote user
 In order to connect remotely you have to have MySQL bind port 3306 to your machine's IP address in my.cnf. Then you have to have created the user in both localhost and '%' wildcard and grant permissions on database.
 
@@ -12,6 +14,9 @@ In order to connect remotely you have to have MySQL bind port 3306 to your machi
 
     CREATE USER 'myuser'@'localhost' IDENTIFIED BY 'mypass';
     CREATE USER 'myuser'@'%' IDENTIFIED BY 'mypass';
+    GRANT ALL ON *.* TO 'myuser'@'localhost';
+    GRANT ALL ON *.* TO 'myuser'@'%';
+    flush privileges;
 
 # Change user password
 ```
