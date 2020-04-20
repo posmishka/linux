@@ -28,7 +28,7 @@ mysql > FLUSH PRIVILEGES;
     
  3. create new password
 
-    `mysql > update user Password=PASSWORD('тут пароль') where User='root';`  
+    `mysql > update user Password=PASSWORD'NEW_P') where User='root';`  
     `mysql > flush privileges;`
 
 # Restoring root (if user corrupted)
@@ -45,7 +45,7 @@ mysql>
 INSERT INTO mysql.user 
 SET user = 'root', 
     host = 'localhost', 
-    password = Password('VhcUI12gpVs'), 
+    password = Password('NEW_PASSWORD_HERE'), 
     Select_priv = 'y',
     Insert_priv = 'y',
     Update_priv = 'y',
