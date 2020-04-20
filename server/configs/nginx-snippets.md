@@ -1,6 +1,7 @@
 nginx-snippets
 ==============
 **static**
+
         location ~* \.png$  { access_log off; log_not_found off; expires max; gzip off; }
         location ~* \.jpg$  { access_log off; log_not_found off; expires max; gzip off; }
         location ~* \.jpeg$ { access_log off; log_not_found off; expires max; gzip off; }
