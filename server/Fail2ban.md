@@ -34,9 +34,10 @@ backend = %(sshd_backend)s
 maxretry = 5
 bantime  = 86400
 ```
+restart and enable
 
-service fail2ban restart 
-systemctl enable fail2ban
+    service fail2ban restart  
+    systemctl enable fail2ban
 
 # Upgrades
 
