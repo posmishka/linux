@@ -20,4 +20,6 @@ rename('oldname','newname')
 ```
 **remove**
 
+    from os import remove
+    remove('file')
 
