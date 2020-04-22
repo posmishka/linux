@@ -21,3 +21,5 @@ https://en.terminalroot.com.br/45-examples-of-variables-and-arrays-in-shell-scri
 **convert codepage**
 
     recode -f /QP..utf8
+    
+ **remove**
