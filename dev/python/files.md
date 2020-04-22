@@ -14,10 +14,10 @@ files
 
 
 **rename**  
-```
-from os import rename
-rename('oldname','newname')
-```
+
+    from os import rename
+    rename('oldname','newname')
+
 **remove**
 
     from os import remove
