@@ -1,6 +1,18 @@
 files,shell
 =======
 
+****
+
+    w: Opens a file for writing and creates a new file if it doesn't yet exist. In the case that the file does exist, it overwrites it.
+    w+: Opens a file for writing but also for reading and creating it if it doesn't exist. If a file already exists, it overwrites it.
+    r: Opens a file for reading only.
+    rb: Opens a file for reading in Binary format.
+    wb: Opens a file for writing in Binary format.
+    wb+: Opens a file for writing and reading in Binary format.
+    a: Opens a file for appending at the end of the file.
+    +: In general, this character is used along side r, w, or a and means both writing and reading.
+
+
 **call shell**  
 ```
     from subprocess import call
