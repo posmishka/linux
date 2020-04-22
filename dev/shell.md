@@ -22,4 +22,6 @@ https://en.terminalroot.com.br/45-examples-of-variables-and-arrays-in-shell-scri
 
     recode -f /QP..utf8
     
- **remove**
+ **remove double quotes**
+ 
+     echo "$opt" | sed -e 's/^"//' -e 's/"$//'
