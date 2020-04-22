@@ -1,4 +1,4 @@
-ipython
+files,shell
 =======
 
 **call shell**  
