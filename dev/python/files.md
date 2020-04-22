@@ -1,5 +1,7 @@
 files
 =======
+myFile = open("new.txt", "w+")
+
 
 **File Opening Modes**
 
