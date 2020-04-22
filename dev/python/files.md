@@ -20,7 +20,8 @@ myFile.close()
     from os import rename
     rename('oldname','newname')
     
-    from shutil imp
+    from shutil import move
+    move('/path/1', 'path/2')
 
 **remove**
 
