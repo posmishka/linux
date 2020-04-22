@@ -24,5 +24,5 @@ https://en.terminalroot.com.br/45-examples-of-variables-and-arrays-in-shell-scri
     
  **remove double quotes**
  
-     echo "$opt" | sed -e 's/^"//' -e 's/"$//'
-     B=$(tr --delete '\"' <<< $A)
+    echo "$opt" | sed -e 's/^"//' -e 's/"$//'
+    B=$(tr --delete '\"' <<< $A)
