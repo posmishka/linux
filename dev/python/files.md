@@ -28,3 +28,9 @@ myFile.close()
     from os import remove
     remove('file')
 
+**zip**
+
+    from zipfile import ZipFile
+    zf = ZipFile('path_to_file/file.zip', 'r')
+    zf.extractall('path_to_extract_folder')
+    zf.close()
