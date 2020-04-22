@@ -2,6 +2,7 @@ shell
 =========
 
 **shell scripting**
+
 https://en.terminalroot.com.br/45-examples-of-variables-and-arrays-in-shell-script/
 
 
@@ -18,4 +19,6 @@ set --help
 
     https://linux.die.net/man/1/shc
     
-  
+**convert codepage**
+
+    recode -f /QP..utf8
