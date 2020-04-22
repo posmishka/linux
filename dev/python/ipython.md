@@ -7,8 +7,8 @@ from subprocess import call
 call(["ls", "-l"])
 ```
 
-**rename file**  
+**rename, remove file**  
 ```
-from os import rename
+from os import rename,remove
 rename('oldname','newname')
 ```
