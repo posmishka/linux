@@ -1,7 +1,7 @@
 files
 =======
 myFile = open("new.txt", "w+")
-
+myFile.close()
 
 **File Opening Modes**
 
