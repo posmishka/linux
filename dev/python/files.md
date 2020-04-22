@@ -19,6 +19,8 @@ myFile.close()
 
     from os import rename
     rename('oldname','newname')
+    
+    from shutil imp
 
 **remove**
 
