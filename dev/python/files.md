@@ -13,8 +13,11 @@ files
     +: In general, this character is used along side r, w, or a and means both writing and reading.
 
 
-**rename, remove file**  
+**rename**  
 ```
-from os import rename,remove
+from os import rename
 rename('oldname','newname')
 ```
+**remove**
+
+
