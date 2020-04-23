@@ -30,7 +30,8 @@ https://en.terminalroot.com.br/45-examples-of-variables-and-arrays-in-shell-scri
   
 **if brackets comparing**
 
-```sh[ is the same as the test builtin, and works like the test binary (man test)
+```
+    [ is the same as the test builtin, and works like the test binary (man test)
         works about the same as [ in all the other sh-based shells in many UNIX-like environments
         only supports a single condition. Multiple tests with the bash && and || operators must be in separate brackets.
         doesn't natively support a 'not' operator. To invert a condition, use a ! outside the first bracket to use the shell's facility for inverting command return values.
