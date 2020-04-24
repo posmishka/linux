@@ -30,7 +30,7 @@ https://en.terminalroot.com.br/45-examples-of-variables-and-arrays-in-shell-scri
   
 **if brackets comparing**
 
-[ What is the difference between test, [ and [[](http://mywiki.wooledge.org/BashFAQ/031)
+[ `What is the difference between test, [ and [[ (http://mywiki.wooledge.org/BashFAQ/031)
 ```
     [ is the same as the test builtin, and works like the test binary (man test)
         works about the same as [ in all the other sh-based shells in many UNIX-like environments
