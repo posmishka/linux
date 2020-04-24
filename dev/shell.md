@@ -28,9 +28,11 @@ https://en.terminalroot.com.br/45-examples-of-variables-and-arrays-in-shell-scri
     B=$(tr --delete '\"' <<< $A)
     
   
+
 **if brackets comparing**
 
-[ What is the difference between test, [ and [[` ](http://mywiki.wooledge.org/BashFAQ/031)
+[ What is the difference between test, `[ and [[` ](http://mywiki.wooledge.org/BashFAQ/031)
+
 https://linuxize.com/post/how-to-compare-strings-in-bash/
 ```
     [ is the same as the test builtin, and works like the test binary (man test)
