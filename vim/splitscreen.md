@@ -1,8 +1,8 @@
-split
+splitscreen
 =====
 
-splitscreen
-	Разделить по горизонтали
+### Разделить по горизонтали
+	
 		:sp <filepath>
 		Ctrl-W s
 		:split
