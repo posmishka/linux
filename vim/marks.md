@@ -12,7 +12,9 @@ marks
 		y`a	yank text to unnamed buffer from cursor to position of mark a
 		:marks	list all the current marks
 		:marks aB	list marks a, B
-	-= Navigate =-
+		
+-= Navigate =-
+	
 		]'	jump to next line with a lowercase mark
 		['	jump to previous line with a lowercase mark
 		]`	jump to next lowercase mark
