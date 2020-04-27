@@ -1,19 +1,19 @@
 splitscreen
 =====
-
-### Разделить по горизонтали
+**Разделить по горизонтали**
 	
 		:sp <filepath>
 		Ctrl-W s
 		:split
 		запуск vim -o file1 file2
-### Разделить по вертикали
+**Разделить по вертикали**
+
 		:vs <filepath>
 		Ctrl-W v
 		:verticalsplit
 		запуск vim -O file1 file2
 		
-### Переключение
+Переключение
 		Ctrl-W, потом стрелками
 		Ctrl-W, потом h j k l
 		Ctrl-W,  w / W вперёд / назад
