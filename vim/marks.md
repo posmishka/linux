@@ -13,7 +13,7 @@ marks
 		:marks	list all the current marks
 		:marks aB	list marks a, B
 		
--= Navigate =-
+**-= Navigate =-**
 	
 		]'	jump to next line with a lowercase mark
 		['	jump to previous line with a lowercase mark
@@ -28,7 +28,9 @@ marks
 		``	jump back (to position in current buffer where jumped from)
 		`[ or `]	jump to beginning/end of previously changed or yanked text
 		`< or `>	jump to beginning/end of last visual selection
-	Delmarks
+	
+**Delmarks**
+	
 		:delmarks a	delete mark a
 		:delmarks a-d	delete marks a, b, c, d
 		:delmarks abxy	delete marks a, b, x, y
