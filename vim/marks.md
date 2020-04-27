@@ -19,7 +19,9 @@ marks
 		['	jump to previous line with a lowercase mark
 		]`	jump to next lowercase mark
 		[`	jump to previous lowercase mark
-	-= Special marks =-
+		
+**-= Special marks =-**
+	
 		`.	jump to position where last change occurred in current buffer
 		`"	jump to position where last exited current buffer
 		`0	jump to position in last file edited (when exited Vim)
