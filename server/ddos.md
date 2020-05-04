@@ -30,4 +30,7 @@ crawl-66-249-66-1.googlebot.com has address 66.249.66.1
 rate-limited-proxy-66-249-90-77.google.com has address 66.249.90.77
 
 
-# https://habr.com/ru/post/134359/
+
+# Наносим удар по ddos ботнету своими силами
+
+<https://habr.com/ru/post/134359/>
