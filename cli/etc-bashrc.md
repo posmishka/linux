@@ -65,5 +65,21 @@ if ! shopt -q login_shell ; then # We're not a login shell
     else
        umask 022
     fi
+    SHELL=/bin/bash
+    # Only display echos from profile.d scripts if we are no login shell
+    # and interactive - otherwise just process them to set envvars
+    for i in /etc/profile.d/*.sh; do
+        if [ -r "$i" ]; then
+            if [ "$PS1" ]; then
+                . "$i"
+            else
+                . "$i" >/dev/null
+            fi
+        fi
+    done
 
+    unset i
+    unset -f pathmunge
+fi
+# vim:ts=4:sw=4
 ```
