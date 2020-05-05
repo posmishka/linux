@@ -1,4 +1,4 @@
-/etc/profile
+etc-profile
 ============
 ```
 
