@@ -27,7 +27,7 @@ if [ -x /usr/bin/id ]; then
     MAIL="/var/spool/mail/$USER"
 fi
 
-# Path manipulation
+`# Path manipulation`
 if [ "$EUID" = "0" ]; then
     pathmunge /usr/sbin
     pathmunge /usr/local/sbin
@@ -46,10 +46,10 @@ fi
 
 export PATH USER LOGNAME MAIL HOSTNAME HISTSIZE HISTCONTROL
 
-# By default, we want umask to get set. This sets it for login shell
-# Current threshold for system reserved uid/gids is 200
-# You could check uidgid reservation validity in
-# /usr/share/doc/setup-*/uidgid file
+`# By default, we want umask to get set. This sets it for login shell`
+`# Current threshold for system reserved uid/gids is 200`
+`# You could check uidgid reservation validity in`
+`# /usr/share/doc/setup-*/uidgid file`
 if [ $UID -gt 199 ] && [ "`/usr/bin/id -gn`" = "`/usr/bin/id -un`" ]; then
     umask 002
 else
