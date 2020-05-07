@@ -13,3 +13,5 @@ limits
 
 infinity = 65535
 
+    systemctl daemon-reload
+    systemc
