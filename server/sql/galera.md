@@ -90,7 +90,6 @@ safe_to_bootstrap: 1
 ```
 При запуске galera_new_cluster. После добовления 2й ноды меняется на "0"
 
-
 Заходим в БД где смотрим кол-во нод в кластере…
 
 ```
@@ -103,4 +102,8 @@ MariaDB [(none)]> show status like 'wsrep_cluster_size';
 | wsrep_cluster_size | 3     |
 +--------------------+-------+
 1 row in set (0.002 sec)
-````
+```
+
+После аварийного выключения всех нод, восстановление нужно начинать с той что выключилась последней
+
+It may not be safe to bootstrap the cluster from this node. It was not the last one to leave the cluster and may not contain all the updates. To force cluster bootstrap with this node, edit the grastate.dat file manually and set safe_to_bootstrap to 1
