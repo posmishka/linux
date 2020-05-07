@@ -14,4 +14,6 @@ limits
 infinity = 65535
 
     systemctl daemon-reload
-    systemc
+    systemctl restart mariadb
+ 
+ ### sysctl
