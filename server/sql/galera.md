@@ -93,7 +93,8 @@ safe_to_bootstrap: 1
 
 Заходим в БД где смотрим кол-во нод в кластере…
 
-[root@server mysql]# mysql -p -r
+```
+[root@server mysql]# mysql -r
 
 MariaDB [(none)]> show status like 'wsrep_cluster_size';
 +--------------------+-------+
@@ -102,3 +103,4 @@ MariaDB [(none)]> show status like 'wsrep_cluster_size';
 | wsrep_cluster_size | 3     |
 +--------------------+-------+
 1 row in set (0.002 sec)
+````
