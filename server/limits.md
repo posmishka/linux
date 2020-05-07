@@ -1,6 +1,6 @@
 limits
 ======
-### check 
+### check by pid
     cat /proc/$(cat /var/run/mariadb/mariadb.pid)/limits | grep open.files
 
 ### check user limit
