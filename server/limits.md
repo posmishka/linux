@@ -1,7 +1,7 @@
 limits
 ======
 ### проверить открытые файлы
-cat /proc/$(cat /var/run/mariadb/mariadb.pid)/limits | grep open.files
+    cat /proc/$(cat /var/run/mariadb/mariadb.pid)/limits | grep open.files
 
 ### от пользователя
     su - mysql -c 'ulimit -a' -s '/bin/bash' | grep open
@@ -12,3 +12,4 @@ cat /proc/$(cat /var/run/mariadb/mariadb.pid)/limits | grep open.files
     LimitMEMLOCK=infinity
 
 infinity = 65535
+
