@@ -5,9 +5,10 @@ galera
 
 На всех 3х нодах устанавливаем
 
-dnf -y install mariadb-server-galera
+    dnf -y install mariadb-server-galera
 
 Правим файл на каждой ноде /etc/my.cnf.d/galera.cnf
+
 ```
 [mysqld]
 
@@ -56,9 +57,10 @@ wsrep_sst_auth=root:
 
 На любой, только одной ноде, делаем инициализацию кластера
 
-galera_new_cluster
+    galera_new_cluster
 
-На остальных же нодах просто стартуем сервис systemctl start mariadb.service
+На остальных же нодах просто стартуем сервис 
+    systemctl start mariadb.service
 
 Проверяем что узлы добавились. На главной ноде сразупосле запуска команды galera_new_cluster происходят изменения в следующих файлах файлах
 /var/lib/mysql/gvwstate.dat
