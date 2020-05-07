@@ -68,7 +68,14 @@ wsrep_sst_auth=root:
 /var/lib/mysql/gvwstate.dat
 
 cat /var/lib/mysql/gvwstate.dat                                                                                                                                          
-```
+```my_uuid: 0e076018-629f-11ea-8465-cf06425e066b
+#vwbeg
+view_id: 3 0e076018-629f-11ea-8465-cf06425e066b 3
+bootstrap: 0
+member: 0e076018-629f-11ea-8465-cf06425e066b 0 <---Появляются id нод
+member: 5e8cca73-629f-11ea-ae75-33a0617593b4 0 <---Появляются id нод
+member: 79a87466-629f-11ea-bbbb-065fda75f117 0 <---Появляются id нод
+#vwend```
 
 /var/lib/mysql/grastate.dat
 
