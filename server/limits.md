@@ -21,4 +21,6 @@ infinity = 65535
      sysctl -p
  
  ### limits.conf
- 
+ /etc/security/limits.conf
+ mysql           soft    nofile          65535
+mysql           hard    nofile          65535
