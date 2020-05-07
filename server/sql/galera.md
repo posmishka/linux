@@ -26,8 +26,8 @@ wsrep_provider=/usr/lib64/galera/libgalera_smm.so
 #wsrep_provider_options=
 wsrep_cluster_name="galera_cluster"
 wsrep_cluster_address="gcomm://db_node1,db_node2,db_node3"
-wsrep_node_name="db_node1"
-wsrep_node_address="db_node1"
+wsrep_node_name="<NAME>"
+wsrep_node_address="<IP ADRES>"
 wsrep_slave_threads=1
 wsrep_certify_nonPK=1
 wsrep_max_ws_rows=0
@@ -60,9 +60,10 @@ wsrep_sst_auth=root:
     galera_new_cluster
 
 На остальных же нодах просто стартуем сервис 
+
     systemctl start mariadb.service
 
-Проверяем что узлы добавились. На главной ноде сразупосле запуска команды galera_new_cluster происходят изменения в следующих файлах файлах
+Проверяем что узлы добавились. На главной ноде сразупосле запуска команды galera_new_cluster происходят изменения в следующих файлах
 /var/lib/mysql/gvwstate.dat
 
 /var/lib/mysql/gvwstate.dat                                                                                                                                          264/264               100%
