@@ -17,6 +17,8 @@ infinity = 65535
     systemctl restart mariadb
  
  ### sysctl
+     vi /etc/sysctl.conf
+     sysctl -p
  
  ### limits.conf
  
