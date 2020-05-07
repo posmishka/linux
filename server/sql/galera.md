@@ -8,7 +8,7 @@ galera
 dnf -y install mariadb-server-galera
 
 Правим файл на каждой ноде /etc/my.cnf.d/galera.cnf
-
+```
 [mysqld]
 
 binlog_format=ROW
@@ -46,6 +46,13 @@ wsrep_notify_cmd=
 wsrep_sst_method=rsync
 wsrep_sst_auth=root:
 
+### In MariaDB 10.3 and later, Percona XtraBackup is not supported.
+### This limitation is being tracked by Percona XtraBackup bug PXB-1550.
+### However, it does not appear that there are plans to fix it.
+###wsrep_sst_method=xtrabackup-v2
+###wsrep_sst_auth=sstuser:passw0rd
+###pxc_strict_mode=ENFORCING
+```
 
 На любой, только одной ноде, делаем инициализацию кластера
 
