@@ -1,12 +1,12 @@
 limits
 ======
-### проверить открытые файлы
+### check 
     cat /proc/$(cat /var/run/mariadb/mariadb.pid)/limits | grep open.files
 
-### от пользователя
+### check user limit
     su - mysql -c 'ulimit -a' -s '/bin/bash' | grep open
 
-### сервис
+### service
     /usr/lib/systemd/system/mariadb.service
     LimitNOFILE=infinity
     LimitMEMLOCK=infinity
