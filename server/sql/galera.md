@@ -63,10 +63,12 @@ wsrep_sst_auth=root:
 
     systemctl start mariadb.service
 
-Проверяем что узлы добавились. На главной ноде сразупосле запуска команды galera_new_cluster происходят изменения в следующих файлах
+Проверяем что узлы добавились. 
+На главной ноде сразупосле запуска команды galera_new_cluster происходят изменения в следующих файлах
 /var/lib/mysql/gvwstate.dat
 
-/var/lib/mysql/gvwstate.dat                                                                                                                                          264/264               100%
+
+/var/lib/mysql/gvwstate.dat                                                                                                                                          
 my_uuid: 0e076018-629f-11ea-8465-cf06425e066b
 #vwbeg
 view_id: 3 0e076018-629f-11ea-8465-cf06425e066b 3
