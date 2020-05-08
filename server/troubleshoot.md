@@ -6,7 +6,7 @@ troubleshoot
     
 ###  mpstat  | processor related statistic
 ### iostat | (CPU) statistics and input/output statistics for devices and partitions
- ### vmstat | Report virtual memory statistics
+### vmstat | Report virtual memory statistics
 
 
 ## Network
