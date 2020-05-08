@@ -3,7 +3,8 @@ troubleshoot
 ## Rosources
 
 mpstat
-
+iostat
+vmstat
 
 
 ## Network
