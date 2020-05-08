@@ -1,5 +1,12 @@
 troubleshoot
 ============
+## Rosources
+
+mpstat
+
+
+
+## Network
 
 ### проверка активных соединений
 
