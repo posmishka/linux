@@ -1,4 +1,4 @@
-galera
+galera-config
 ======
 
 Установка
