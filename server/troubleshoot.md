@@ -2,11 +2,11 @@ troubleshoot
 ============
 ## Rosources
 
-
-
-mpstat
-iostat
-vmstat
+yum -y install sysstat
+    
+    mpstat  # 
+    iostat
+    vmstat
 
 
 ## Network
