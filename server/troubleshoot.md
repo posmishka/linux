@@ -5,7 +5,7 @@ troubleshoot
 yum -y install sysstat
     
     mpstat  # processor related statistic
-    iostat
+    iostat  # (CPU) statistics and input/output statistics for devices and partitions
     vmstat
 
 
