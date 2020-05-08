@@ -2,9 +2,9 @@ troubleshoot
 ============
 ## Rosources
 
-yum -y install sysstat
+    yum -y install sysstat
     
-    mpstat  # processor related statistic
+###  mpstat   |processor related statistic
     iostat  # (CPU) statistics and input/output statistics for devices and partitions
     vmstat
 
