@@ -11,3 +11,7 @@ It may not be safe to bootstrap the cluster from this node. It was not the last 
 Если осталась одна нода, в автоматическом режиме:
 
     MariaDB [(none)]> set global wsrep_provider_options='pc.bootstrap=YES';
+    
+    
+ The cluster address shouldn't be empty like gcomm://. This should never be hardcoded into any configuration files. 
+ 
