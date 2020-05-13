@@ -12,3 +12,6 @@ mount /var/lib/mysql
 
 выбор фс
 https://www.percona.com/blog/2018/07/03/linux-os-tuning-for-mysql-database-performance/
+
+perfomance, journaling
+https://serverfault.com/questions/363355/io-wait-causing-so-much-slowdown-ext4-jdb2-at-99-io-during-mysql-commit
