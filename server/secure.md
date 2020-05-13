@@ -99,7 +99,7 @@ maldet --update-ver && maldet --update
 
 vim /usr/local/maldetect/conf.maldet
         email_alert=1
-        email_addr="ящик@gmail.com"
+        email_addr="ящик
 
 maldet -a /home/www/
 
