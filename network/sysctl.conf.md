@@ -6,9 +6,9 @@ sysctl.conf
     https://easyengine.io/tutorials/linux/sysctl-conf/  
 Paste this (at the end of the file) to /etc/sysctl.conf 
 
-##IMPROVE SYSTEM MEMORY MANAGEMENT
+### IMPROVE SYSTEM MEMORY MANAGEMENT
 
-### Increase size of file handles and inode cache
+# Increase size of file handles and inode cache
 fs.file-max = 2097152
 
 ### Do less swapping
