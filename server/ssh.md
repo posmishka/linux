@@ -8,3 +8,6 @@ ssh
 **Debug ssh**
 
 `service sshd stop && /usr/sbin/sshd -D -d`
+
+Проброс ключей
+https://www.youtube.com/watch?v=7Log2jJtQqg
