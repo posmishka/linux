@@ -180,3 +180,32 @@ kernel.shmall = 4294967296
 
 defrt=`ip route | grep "^default" | head -1`
 ip route change $defrt initcwnd 10```
+
+
+# Avoid a smurf attack
+net.ipv4.icmp_echo_ignore_broadcasts = 1
+# Turn on protection for bad icmp error messages
+net.ipv4.icmp_ignore_bogus_error_responses = 1
+# Turn on syncookies for SYN flood attack protection
+net.ipv4.tcp_syncookies = 1
+# Turn on and log spoofed, source routed, and redirect packets
+net.ipv4.conf.all.log_martians = 1
+net.ipv4.conf.default.log_martians = 1
+# No source routed packets here
+net.ipv4.conf.all.accept_source_route = 0
+net.ipv4.conf.default.accept_source_route = 0
+# Turn on reverse path filtering
+net.ipv4.conf.all.rp_filter = 1
+net.ipv4.conf.default.rp_filter = 1
+# Make sure no one can alter the routing tables
+net.ipv4.conf.all.accept_redirects = 0
+net.ipv4.conf.default.accept_redirects = 0
+net.ipv4.conf.all.secure_redirects = 0
+net.ipv4.conf.default.secure_redirects = 0
+# Don't act as a router
+net.ipv4.ip_forward = 0
+net.ipv4.conf.all.send_redirects = 0
+net.ipv4.conf.default.send_redirects = 0
+# Turn on execshild
+kernel.exec-shield = 1
+kernel.randomize_va_space = 1
