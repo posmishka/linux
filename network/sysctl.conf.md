@@ -2,7 +2,7 @@ sysctl.conf
 ==============
 **Do it on your own risk!**
 
-` vim /etc/sysctl.conf `
+`vim /etc/sysctl.conf 
 sysctl -p
 https://easyengine.io/tutorials/linux/sysctl-conf/
 
