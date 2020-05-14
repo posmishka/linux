@@ -6,6 +6,7 @@ sysctl.conf
 vim /etc/sysctl.conf 
 sysctl -p
 ```
+https://www.kernel.org/doc/Documentation/networking/ip-sysctl.txt
 
 https://easyengine.io/tutorials/linux/sysctl-conf/
 
