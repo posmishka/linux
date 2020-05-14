@@ -92,7 +92,7 @@ net.ipv4.tcp_tw_reuse = 1
 ### 2be reanalised:
 
 
-```
+```sh
 tcp optim
 
 ip route | while read p; do ip route change $p initcwnd 10 initrwnd 10; done
