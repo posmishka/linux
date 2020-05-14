@@ -2,9 +2,10 @@ sysctl.conf
 ==============
 **Do it on your own risk!**
 
- /etc/sysctl.conf 
+` vim /etc/sysctl.conf `
  
 https://easyengine.io/tutorials/linux/sysctl-conf/
+
 https://networkengineer.me/2015/06/17/sysctl-etcsysctl-conf/
 
 ### IMPROVE SYSTEM MEMORY MANAGEMENT
