@@ -46,6 +46,7 @@ net.ipv4.tcp_keepalive_intvl = 15
 
 ### TUNING NETWORK PERFORMANCE
 
+```sh
 ### Default Socket Receive Buffer
 net.core.rmem_default = 31457280
 
@@ -84,6 +85,8 @@ net.ipv4.udp_wmem_min = 16384
 net.ipv4.tcp_max_tw_buckets = 1440000
 net.ipv4.tcp_tw_recycle = 1
 net.ipv4.tcp_tw_reuse = 1
+```
+
 
 
 2be reanalised:
