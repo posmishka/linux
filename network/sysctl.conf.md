@@ -13,7 +13,7 @@ https://networkengineer.me/2015/06/17/sysctl-etcsysctl-conf/
 
 ### IMPROVE SYSTEM MEMORY MANAGEMENT
 
-```
+```sh
 # Increase size of file handles and inode cache
 fs.file-max = 2097152
 
@@ -24,6 +24,7 @@ vm.dirty_background_ratio = 2
 ```
 
 ### GENERAL NETWORK SECURITY OPTIONS
+```
 
 ### Number of times SYNACKs for passive TCP connection
 net.ipv4.tcp_synack_retries = 2
@@ -41,6 +42,7 @@ net.ipv4.tcp_fin_timeout = 15
 net.ipv4.tcp_keepalive_time = 300
 net.ipv4.tcp_keepalive_probes = 5
 net.ipv4.tcp_keepalive_intvl = 15
+```
 
 ## TUNING NETWORK PERFORMANCE
 
