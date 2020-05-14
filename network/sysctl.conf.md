@@ -3,7 +3,7 @@ sysctl.conf
 **Do it on your own risk!**
 
 ` vim /etc/sysctl.conf `
- 
+sysctl -p
 https://easyengine.io/tutorials/linux/sysctl-conf/
 
 https://networkengineer.me/2015/06/17/sysctl-etcsysctl-conf/
