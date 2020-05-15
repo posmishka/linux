@@ -19,3 +19,5 @@ wsrep_provider_options
 A useful option to set is pc.wait_prim=no to ensure the server will start running even if it can't determine a primary node. This is useful if all members go down at the same time.
 
 
+### log
+https://severalnines.com/database-blog/understanding-mysql-galera-cluster-and-mariadb-cluster-diagnostic-logs
