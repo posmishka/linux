@@ -20,4 +20,4 @@ A useful option to set is pc.wait_prim=no to ensure the server will start runnin
 
 
 ### log
-https://severalnines.com/database-blog/understanding-mysql-galera-cluster-and-mariadb-cluster-diagnostic-logs
+https://severalnines.com/database-blog/understanding-mysql-galera-cluster-and-mariadb-cluster-diagnostic-logse
