@@ -22,4 +22,4 @@ ps_mem
 `for i in $(pgrep php-fpm); do echo "child $i"; ps_mem -s -p $i; done;`
 
 
-<https://stackoverflow.com/questions/131303/how-to-measure-actual-memory-usage-of-an-application-or-process?rq=1>
+<https://stackoverflow.com/questions/131303/how-to-measure-actual-memory-usage-of-an-application-or-process?rq=1v>
