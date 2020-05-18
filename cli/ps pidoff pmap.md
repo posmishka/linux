@@ -14,3 +14,5 @@ size - approximate amount of swap space that would be required if the process we
 
 
 pmap - report memory map of a process
+
+`for i in $(pgrep php-fpm); do echo "child $i"; ps_mem -s -p $i; done;`
