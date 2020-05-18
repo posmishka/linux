@@ -1,6 +1,8 @@
 php-fpm
 =======
 
+Full config including static page explained
+
 ```
 ; Start a new pool named 'www'.
 ; the variable $pool can we used in any directive and will be replaced by the
