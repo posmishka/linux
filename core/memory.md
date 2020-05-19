@@ -114,6 +114,35 @@ They do not include memory that has been swapped out to disk.
 
 Memory can be reported by process, by user, by mapping, or  sys‐temwide. Both text mode and graphical output are available.
 
+### htop
+
+There are two modes for CPU metrics reporting: the default one, and a "detailed CPU time" which can be enabled from the Setup screen (Display Options / Detailed CPU time). All of them show the percentage of time spent in different processes:
+
+Default mode
+
+    Blue: low priority processes (nice > 0)
+    Green: normal (user) processes
+    Red: kernel time (kernel, iowait, irqs...)
+    Orange: virt time (steal time + guest time)
+
+Detailed mode
+
+    Blue: low priority threads (nice > 0)
+    Green: normal (user) processes
+    Red: system processes
+    Orange: IRQ time
+    Magenta: Soft IRQ time
+    Grey: IO Wait time
+    Cyan: Steal time
+    Cyan: Guest time
+
+Memory meters are more straightforward:
+
+    Green: Used memory pages
+    Blue: Buffer pages
+    Orange: Cache pages
+
+
 ### pss.py
 
 ```python
