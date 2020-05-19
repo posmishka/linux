@@ -5,11 +5,11 @@ memory
 
 ### ps
 `ps -ylC <procname>`  
-
+`ps aux`
 
 ### pmap
 report memory map of a process
-pidof php-fpm | xargs pmap -d | grep '^mapped' 
+`pidof php-fpm | xargs pmap -d | grep '^mapped' `
 
 ### ps_mem
 Can determine how much RAM is used per program (not per process).
