@@ -7,12 +7,11 @@ memory
 `ps -ylC <procname>`  
 
 
-`pidof php-fpm | xargs pmap -d | grep '^mapped' | awk '{print $4}' | sed 's/K//' | perl -e 'do { $a+=$_; $b++ } for <>;print $a/1024, " mb\n", $a/1024/$b, " mb\n"'`
 
 
 ### pmap
 report memory map of a process
-
+pidof php-fpm | xargs pmap -d | grep '^mapped' 
 
 ### ps_mem
 Can determine how much RAM is used per program (not per process).
