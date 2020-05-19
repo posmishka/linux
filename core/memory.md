@@ -7,8 +7,6 @@ memory
 `ps -ylC <procname>`  
 
 
-
-
 ### pmap
 report memory map of a process
 pidof php-fpm | xargs pmap -d | grep '^mapped' 
