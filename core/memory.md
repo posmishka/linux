@@ -55,7 +55,7 @@ This is the actual memory, typically the RAM, that is on the computer.
 
 This is a memory space given to a process that lets the process think it has its own continuous memory that is isolated from other processes regardless of the actual memory amount on the computer or the situation of other processes memory consumption. A virtual memory page can be mapped to a physical memory page, and hence, processes only need to think about the virtual memory. 
 
-
+##
 ### ps
 `ps -ylC <procname>`  
 `ps aux`
