@@ -26,7 +26,10 @@ Can determine how much RAM is used per program (not per process).
 ### smem
 Reports physical memory usage, taking shared  memory  pages into  account. Unshared  memory is reported as the USS (Unique Set Size).  Shared memory is divided evenly among the  processes sharing that memory. 
 
-The unshared memory (USS) plus a process's proportion of shared memory is reported as the PSS (Proportional Set  Size). The USS and PSS only include physical memory usage. They do not include memory that has been swapped out to disk.
+The unshared memory (USS) plus a process's proportion of shared memory is reported as the PSS (Proportional Set  Size). The USS and PSS only include physical memory usage. 
+
+They do not include memory that has been swapped out to disk.
+
 Memory can be reported by process, by user, by mapping, or  sys‐temwide. Both text mode and graphical output are available.
 
 
