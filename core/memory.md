@@ -44,9 +44,10 @@ Which should we use, VSZ or RSS? The following sections will explain both indica
 ## Technical Terms
 
 **page**
+
     This is a block of memory that is used in memory management on Linux. One page is 4096 bytes in typical Linux systems. 
-**physical memory
-**    This is the actual memory, typically the RAM, that is on the computer. 
+**physical memory **
+    This is the actual memory, typically the RAM, that is on the computer. 
 **virtual memory**
     This is a memory space given to a process that lets the process think it has its own continuous memory that is isolated from other processes regardless of the actual memory amount on the computer or the situation of other processes memory consumption. A virtual memory page can be mapped to a physical memory page, and hence, processes only need to think about the virtual memory. 
 
