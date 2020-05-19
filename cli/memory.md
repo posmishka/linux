@@ -1,4 +1,4 @@
-ps / pidoff / pmap
+memory
 ==
 
 
