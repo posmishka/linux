@@ -25,7 +25,10 @@ ps_mem
 <https://stackoverflow.com/questions/131303/how-to-measure-actual-memory-usage-of-an-application-or-process?rq=1v>
 
 
+
+
 ### Memory Consumption in Linux
+<https://web.archive.org/web/20120520221529/http://emilics.com/blog/article/mconsumption.html>
 
 ```python
 #! /usr/bin/python
@@ -118,4 +121,3 @@ if __name__ == '__main__':
 
 ```
 
-(c) https://web.archive.org/web/20120520221529/http://emilics.com/blog/article/mconsumption.html
