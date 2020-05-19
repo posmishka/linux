@@ -18,11 +18,10 @@ report memory map of a process
 
 
 ### ps_mem
+Can determine how much RAM is used per program (not per process).
 
 `for i in $(pgrep php-fpm); do echo "child $i"; ps_mem -s -p $i; done;`
 
-
-<https://stackoverflow.com/questions/131303/how-to-measure-actual-memory-usage-of-an-application-or-process?rq=1v>
 
 ### smem
 Reports physical memory usage, taking shared  memory  pages into  account.   Unshared  memory is reported as the USS (Unique Set Size).  Shared memory is divided evenly among the  processes sharing that memory.  The unshared memory (USS) plus a process's proportion of shared memory is reported as the PSS (Proportional Set  Size).  The USS and PSS only include physical memory usage. They do not include memory that has been swapped out to disk.
@@ -124,3 +123,4 @@ if __name__ == '__main__':
 
 ```
 
+### Links
