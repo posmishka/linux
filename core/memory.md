@@ -1,6 +1,7 @@
 memory
 ==
-
+# Memory Consumption in Linux
+This article explains a reasonable method to measure memory consumption of a process on Linux. Linux is equipped with virtual memory management and, therefore, measuring the memory consumption of a single process is not as simple as most users think. This article explains what information you can get from each indicator related to memory consumption. 
 
 
 ### ps
