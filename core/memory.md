@@ -29,8 +29,8 @@ Memory can be reported by process, by user, by mapping, or  sys‐temwide. Both 
 
 
 
-### Memory Consumption in Linux
-<https://web.archive.org/web/20120520221529/http://emilics.com/blog/article/mconsumption.html>
+### pss.py
+
 
 ```python
 #! /usr/bin/python
@@ -124,3 +124,5 @@ if __name__ == '__main__':
 ```
 
 ### Links
+<https://stackoverflow.com/questions/131303/how-to-measure-actual-memory-usage-of-an-application-or-process?rq=1v>
+<https://web.archive.org/web/20120520221529/http://emilics.com/blog/article/mconsumption.html>
