@@ -25,6 +25,13 @@ report memory map of a process
 <https://stackoverflow.com/questions/131303/how-to-measure-actual-memory-usage-of-an-application-or-process?rq=1v>
 
 ### smem
+reports physical memory usage, taking shared  memory  pages into  account.   Unshared  memory is reported as the USS (Unique Set Size).  Shared memory is divided evenly among the  processes sharing that memory.  The unshared memory (USS) plus a process's   proportion of shared memory is reported as the PSS (Proportional
+       Set  Size).  The USS and PSS only include physical memory usage.
+       They do not include memory that has been swapped out to disk.
+
+  Memory can be reported by process, by user, by mapping, or  sys‐
+       temwide.  Both text mode and graphical output are available.
+
 
 
 ### Memory Consumption in Linux
