@@ -8,3 +8,5 @@ mkswap /swapfile && \
 swapon /swapfile && \
 echo "/swapfile none swap defaults 0 0" | tee -a /etc/fstab
 ```
+
+<https://habr.com/ru/company/flant/blog/348324/>
