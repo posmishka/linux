@@ -1,6 +1,6 @@
 memory
 ==
-# Memory Consumption in Linux
+# Memory Consumption in Linux (c) 
 This article explains a reasonable method to measure memory consumption of a process on Linux. Linux is equipped with virtual memory management and, therefore, measuring the memory consumption of a single process is not as simple as most users think. This article explains what information you can get from each indicator related to memory consumption. 
 
 ## An Allegory to Get the Idea
@@ -105,7 +105,6 @@ Can determine how much RAM is used per program (not per process).
 
 `for i in $(pgrep php-fpm); do echo "child $i"; ps_mem -s -p $i; done;`
 
-
 ### smem
 Reports physical memory usage, taking shared  memory  pages into  account. Unshared  memory is reported as the USS (Unique Set Size).  Shared memory is divided evenly among the  processes sharing that memory. 
 
@@ -115,9 +114,7 @@ They do not include memory that has been swapped out to disk.
 
 Memory can be reported by process, by user, by mapping, or  sys‐temwide. Both text mode and graphical output are available.
 
-
 ### pss.py
-
 
 ```python
 #! /usr/bin/python
@@ -210,6 +207,6 @@ if __name__ == '__main__':
 
 ```
 
-### Links
+## Links
 <https://stackoverflow.com/questions/131303/how-to-measure-actual-memory-usage-of-an-application-or-process?rq=1v>
 <https://web.archive.org/web/20120520221529/http://emilics.com/blog/article/mconsumption.html>
