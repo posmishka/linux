@@ -55,7 +55,32 @@ This is the actual memory, typically the RAM, that is on the computer.
 
 This is a memory space given to a process that lets the process think it has its own continuous memory that is isolated from other processes regardless of the actual memory amount on the computer or the situation of other processes memory consumption. A virtual memory page can be mapped to a physical memory page, and hence, processes only need to think about the virtual memory. 
 
-##
+## VSZ (Virtual Memory Size) and Demand Paging
+
+Considering the VSZ (virtual memory size) to measure memory consumption of a process does not make much sense. This is due to the feature called demand paging, which suppresses unnecessary memory consumption.
+
+For example, a text editor named emacs has functions that can handle XML files. These function, however, are not used all the time. Loading these functions on to the physical memory is not necessary when the user just wants to edit a plain text. The demand paging feature does not load pages unless they are used by the process.
+
+This is how it works. First, when the program starts, Linux gives a virtual memory space to the process but does not actually load pages that have functions on to the physical memory. When the program actually calls a function in the virtual memory, the MMU in the CPU tells Linux that the page is not loaded. Then Linux pauses the process, loads the page on to the physical memory, maps the page to the virtual memory of the process, then lets the process run again from where it got paused. The process, therefore, does not need to know that it got paused, and just simply assume the function was loaded on the virtual memory and use it.
+
+VSZ (virtual memory size) describes the entire virtual memory size of the process regardless of pages being loaded on the actual memory or not. This is, therefore, not a realistic indicator to measure memory consumption since it includes pages that are not actually consumed.
+
+## RSS (Resident Set Size) and Shared Libraries
+
+RSS (Resident Set Size) describes the total amount of the pages for a process that are actually loaded on the physical memory. This may sound like the real amount of memory being consumed by the process, and is better than VSZ (virtual memory size), but it is not that simple due to the feature called shared libraries or dynamic linking libraries.
+
+A library is a module that can be used by programs to handle a certain feature. For example, libpng.so takes care of compressing and decompressing PNG image files, and libxml2.so takes care of handling XML files. Instead of making each programmer write these functions, they can use libraries developed by others and achieve the result they want.
+
+A shared object is a library that can be shared by multiple programs or processes. For example, let's say there are two processes running at the same time that want to use XML handling functions that are in the shared library libxml2.so. Instead of loading the pages that have the exact same functions multiple times, Linux loads it once on to the physical memory and maps it to both processes virtual memory. Both processes do not need to care if they are sharing the functions with somebody else because they can access the functions and use them inside their own virtual memory. Due to this feature, Linux suppresses unnecessary duplication of memory pages.
+
+Now, let us go back to the same example above. Emacs, a text editor, has functions that can handle XML files. This is taken care of by the shared library libxml2.so. This time, the user that is running emacs is actually working with XML files and emacs is using the functions in libxml2.so. Meanwhile, there are two more process running in the background that are using libxml2.so too. Since libxml2.so is a shared library, Linux only loads it once on the physical memory and maps it to all three processes virtual memory.
+
+When you see the RSS (Resident Set Size) of emacs, it will include the pages of libxml2.so. This is not wrong because emacs is actually using it. But what about the other two processes? It is not just emacs that is using those functions. If you sum the RSS (Resident Set Size) of all three processes, libxml2.so will be counted three times even though it is only loaded on the physical memory once.
+
+RSS (Resident Set Size), therefore, is an indicator that will show the memory consumption when the process is running by it self without sharing anything with other processes. For practical situations where libraries are being shared, RSS (Resident Set Size) will over estimate the amount of memory being consumed by the process. Using to measure memory consumption of a process is not wrong but you may want to keep in mind of this behaviour. 
+
+## 
+
 ### ps
 `ps -ylC <procname>`  
 `ps aux`
