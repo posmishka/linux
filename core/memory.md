@@ -27,7 +27,6 @@ They do not include memory that has been swapped out to disk.
 Memory can be reported by process, by user, by mapping, or  sys‐temwide. Both text mode and graphical output are available.
 
 
-
 ### pss.py
 
 
