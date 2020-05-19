@@ -20,7 +20,26 @@ Let's make the allegory a little bit more complicated in order to understand the
 
 Using PSS is what I consider most reasonable. However, there are limitations and there are also situations where RSS may work better. RSS is reasonable when you want to know the total living expense when you move out and live on your own. 
 
-## 
+## Virtual Memory Management
+Measure the memory consumption of a single process on operating systems that were used in the good old days such as MS-DOS or µITRON was simple. It is not, however, that simple in modern operating systems since they are equipped with virtual memory management, which has many benefits, yet, it makes it difficult to measure the memory consumption of a single process.
+
+Linux is equipped with virtual memory management and has some important functions that are related to memory consumptions measurement. Before explaining them, we will start by checking the result of the ps command that shows information of processes. Figure 2 shows how the result of the ps command looks like.
+
+`USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+norisky  29065  0.1  0.2   8132  5604 pts/8    Ss   19:03   0:00 zsh
+norisky  29075  0.0  0.1  10228  3772 pts/8    S+   19:03   0:00 vi
+norisky  29526  8.0  0.5  27708 10676 pts/4    S+   19:05   0:00 emacs -nw
+norisky  29527  0.0  0.0   2976  1080 pts/6    R+   19:05   0:00 ps aux
+`
+Figure 2. ps aux
+In the man page, we can see that VSZ and RSS are related to memory consumption. The man page says:
+
+VSZ
+    virtual memory size of the process in KiB (1024-byte units). Device mappings are currently excluded; this is subject to change. (alias vsize). 
+RSS
+    resident set size, the non-swapped physical memory that a task has used (in kiloBytes). (alias rssize, rsz). 
+
+Which should we use, VSZ or RSS? The following sections will explain both indicators and also another indicator, PSS (Proportional Set Size), which is relatively new. PSS is not shown in the ps command but you can see it from the /proc file system. 
 
 ### ps
 `ps -ylC <procname>`  
