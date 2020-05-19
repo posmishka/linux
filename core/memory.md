@@ -34,7 +34,7 @@ norisky  29527  0.0  0.0   2976  1080 pts/6    R+   19:05   0:00 ps aux
 Figure 2. ps aux
 In the man page, we can see that VSZ and RSS are related to memory consumption. The man page says:
 
-VSZ 
+**VSZ** 
     virtual memory size of the process in KiB (1024-byte units). Device mappings are currently excluded; this is subject to change. (alias vsize). 
 **RSS**
     resident set size, the non-swapped physical memory that a task has used (in kiloBytes). (alias rssize, rsz). 
@@ -42,6 +42,14 @@ VSZ
 Which should we use, VSZ or RSS? The following sections will explain both indicators and also another indicator, PSS (Proportional Set Size), which is relatively new. PSS is not shown in the ps command but you can see it from the /proc file system.
 
 ## Technical Terms
+
+**page**
+    This is a block of memory that is used in memory management on Linux. One page is 4096 bytes in typical Linux systems. 
+**physical memory
+**    This is the actual memory, typically the RAM, that is on the computer. 
+**virtual memory**
+    This is a memory space given to a process that lets the process think it has its own continuous memory that is isolated from other processes regardless of the actual memory amount on the computer or the situation of other processes memory consumption. A virtual memory page can be mapped to a physical memory page, and hence, processes only need to think about the virtual memory. 
+
 
 ### ps
 `ps -ylC <procname>`  
