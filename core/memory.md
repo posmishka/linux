@@ -79,7 +79,18 @@ When you see the RSS (Resident Set Size) of emacs, it will include the pages of 
 
 RSS (Resident Set Size), therefore, is an indicator that will show the memory consumption when the process is running by it self without sharing anything with other processes. For practical situations where libraries are being shared, RSS (Resident Set Size) will over estimate the amount of memory being consumed by the process. Using to measure memory consumption of a process is not wrong but you may want to keep in mind of this behaviour. 
 
-## 
+## PSS (Proportional Set Size)
+
+PSS (Proportional Set Size) is a relatively new indicator that can be used to measure memory consumption of a single process. It is not be available on all Linux systems yet but if it is available, it may come in handy. The concept is to split the memory amount of shared pages evenly among the processes that are using them.
+
+This is how PSS (Proportional Set Size) calculates memory consumption: If there are N processes that are using a shared library, each process is consuming one N-th of the shared libraries pages.
+
+For the example above, emacs and two other processes were sharing the pages of libxml2.so. Since there are three processes, PSS will consider each process is consuming one third of libxml2.so's pages.
+
+I consider PSS (Proportional Set Size) as a more realistic indicator compared to RSS (Resident Set Size). It works well especially when you want to consider the memory consumption of an entire system all together, and not each process individually. For example, when you are developing a system that has multiple processes and daemons and you want to estimate how much memory you should install on the device, PSS (Proportional Set Size) works better than RSS (Resident Set Size).
+
+
+## Programs
 
 ### ps
 `ps -ylC <procname>`  
