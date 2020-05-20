@@ -13,17 +13,17 @@ Things are very different with sudo:
 
  * This feature is typically used to define roles. For instance, you could define a "backups" group allowed to run dump and tar, each of which needs root access to properly back up the system disk.
 
-    I mention this here because it means you can give someone sudo privileges without giving them sudo -s or sudo bash abilities. They have only the permissions they need to do their job, whereas with su they have run of the entire system. You have to be careful with this, though: if you give someone the ability to say sudo vi, for example, they can shell out of vi and have effectively the same power as with sudo -s.
+ * I mention this here because it means you can give someone sudo privileges without giving them sudo -s or sudo bash abilities. They have only the permissions they need to do their job, whereas with su they have run of the entire system. You have to be careful with this, though: if you give someone the ability to say sudo vi, for example, they can shell out of vi and have effectively the same power as with sudo -s.
 
-    Because it takes the sudoer's password instead of the root password, sudo isolates permission between multiple sudoers.
+ * Because it takes the sudoer's password instead of the root password, sudo isolates permission between multiple sudoers.
 
     This solves an administrative problem with su, which is that when the root password changes, all those who had to know it to use su had to be told. sudo allows the sudoers' passwords to change independently. In fact, it is common to password-lock the root user's account on a system with sudo to force all sysadmin tasks to be done via sudo. In a large organization with many trusted sudoers, this means when one of the sysadmins leaves, you don't have to change the root password and distribute it to those admins who remain.
 
 The main difference between sudo bash and sudo -s is that -s is shorter and lets you pass commands to execute in your user's default shell in a couple of ways:
 
-    You can say sudo -s some-command which runs some-command under your shell. It's basically shorthand for sudo $SHELL -c some-command.
+   You can say sudo -s some-command which runs some-command under your shell. It's basically shorthand for sudo $SHELL -c some-command.
 
-    You can instead pass the commands to the shell's standard input, like sudo -s < my-shell-script. You could use this with a heredoc to send several commands to a single sudo call, avoiding the need to type sudo repeatedly.
+   You can instead pass the commands to the shell's standard input, like sudo -s < my-shell-script. You could use this with a heredoc to send several commands to a single sudo call, avoiding the need to type sudo repeatedly.
 
 Both of those behaviors are optional. Far more commonly, you give -s alone, so it just runs your user's shell interactively. In that mode, it differs from sudo bash in that it might run a different shell than bash, since it looks first in the SHELL environment variable, and then if that is unset, at your user's login shell setting, typically in /etc/passwd.
 
