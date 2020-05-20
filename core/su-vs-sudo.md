@@ -34,3 +34,5 @@ All of this makes sudo -i considerably more secure than sudo -s. Why? Because if
 You might say, "If they can modify PAGER, they can modify PATH, and then they can just substitute an evil sudo program," but someone sufficiently paranoid can say /usr/bin/sudo /bin/bash to avoid that trap. You're probably not so paranoid that you also avoid the traps in all the other susceptible environment variables, though. Did you also remember to check EDITOR, for example, before running any VCS command? Thus sudo -i.
 
 Because sudo -i also changes your working directory to your user's home directory, you might still want to use sudo -s for those situations where you know you want to remain in the same directory you were cd'd into when you ran sudo. It's still safer to sudo -i and cd back to where you were, though.
+
+(c) <https://unix.stackexchange.com/questions/35338/su-vs-sudo-s-vs-sudo-i-vs-sudo-bash>
