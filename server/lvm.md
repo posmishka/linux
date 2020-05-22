@@ -16,3 +16,4 @@ https://fuzzyblog.io/blog/mysql/2014/08/28/optimizing-your-filesystem-for-mysql.
 
 perfomance, journaling
 https://serverfault.com/questions/363355/io-wait-causing-so-much-slowdown-ext4-jdb2-at-99-io-during-mysql-commit
+
