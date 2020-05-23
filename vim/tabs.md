@@ -1,7 +1,7 @@
 tabs
 ====
 
-vim -p 1 2 3
+vim -p 1 2 3 # open files  
 
 **Создать новую**	
 
