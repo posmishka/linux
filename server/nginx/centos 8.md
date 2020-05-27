@@ -37,6 +37,8 @@ gpgkey=https://nginx.org/keys/nginx_signing.key
 module_hotfixes=true
 ```
 
-
 sudo yum-config-manager --enable nginx-mainline
 
+dnf install nginx
+
+### install brotloi
