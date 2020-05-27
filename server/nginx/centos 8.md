@@ -43,5 +43,4 @@ dnf install nginx
 
 ### install brotli
 
-cd /opt/
-wget https://nginx.org/download/nginx-1.19.0.tar.gz && tar 
+cd /opt/ && wget https://nginx.org/download/nginx-1.19.0.tar.gz && tar zxvf nginx-1.19.0.tar.gz
