@@ -10,5 +10,4 @@ dnf module list php
 
 
 
-php71
-`rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm && yum update`
+php7
