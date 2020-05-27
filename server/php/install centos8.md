@@ -8,9 +8,11 @@ dnf install -y https://rpms.remirepo.net/enterprise/remi-release-8.rpm
 dnf module list php
 
 
+php74,73,72 s
 
 
-php7
+
+php71
 
 rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm && yum update
 
