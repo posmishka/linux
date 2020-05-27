@@ -41,4 +41,7 @@ sudo yum-config-manager --enable nginx-mainline
 
 dnf install nginx
 
-### install brotloi
+### install brotli
+
+cd /opt/
+wget https://nginx.org/download/nginx-1.19.0.tar.gz && tar 
