@@ -45,4 +45,7 @@ dnf install nginx
 
 cd /opt/ && wget https://nginx.org/download/nginx-1.19.0.tar.gz && tar zxvf nginx-1.19.0.tar.gz
 
-cd ngx_brotli && git submodule update --init && cd ~
+git clone https://github.com/google/ngx_brotli.git
+cd ngx_brotli && git submodule update --init && cd ../nginx
+
+
