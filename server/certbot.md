@@ -16,10 +16,10 @@ $ dnf install python3-pip
 $ dnf install certbot-nginx
 ```
 **usage**
-certbot --nginx certonly
-
-certbot --nginx certonly
-
+```
+$ certbot --nginx certonly
+$ certbot --nginx certonly
+```
 ## old method
 
     $SITE=site.com
