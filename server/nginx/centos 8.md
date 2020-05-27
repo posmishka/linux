@@ -43,6 +43,9 @@ dnf install nginx
 
 ### install brotli
 
+dnf install -y pcre pcre-devel zlib zlib-devel openssl openssl-devel
+
+
 cd /opt/ && wget https://nginx.org/download/nginx-1.19.0.tar.gz && tar zxvf nginx-1.19.0.tar.gz
 
 git clone https://github.com/google/ngx_brotli.git
