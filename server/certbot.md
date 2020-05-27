@@ -10,6 +10,10 @@ $ yum -y install yum-utils
 $ yum-config-manager --enable rhui-REGION-rhel-server-extras rhui-REGION-rhel-server-optional
 $ yum install certbot python2-certbot-nginx
 ```
+**install centos8**
+```
+$ yum install python
+```
 **usage**
 certbot --nginx certonly
 
