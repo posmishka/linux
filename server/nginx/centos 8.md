@@ -62,4 +62,3 @@ vim /etc/nginx/nginx.conf
 load_module modules/ngx_http_brotli_filter_module.so;
 load_module modules/ngx_http_brotli_static_module.so;
 ```
-
