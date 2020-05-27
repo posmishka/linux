@@ -44,7 +44,7 @@ dnf install nginx
 ### install brotli
 
 dnf install -y pcre pcre-devel zlib zlib-devel openssl openssl-devel
-dnf install -y curl wget vim git unzip socat && sudo dnf groupinstall "Development Tools"
+dnf install -y tar zip git socat && sudo dnf groupinstall "Development Tools"
 
 cd /opt/ && wget https://nginx.org/download/nginx-1.19.0.tar.gz && tar zxvf nginx-1.19.0.tar.gz
 
