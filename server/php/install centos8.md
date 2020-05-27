@@ -8,7 +8,10 @@ dnf install -y https://rpms.remirepo.net/enterprise/remi-release-8.rpm
 dnf module list php
 
 
-php74,73,72 s
+php74,73,72 same time
+
+dnf module enable php:remi-7.3 -y
+
 
 
 
