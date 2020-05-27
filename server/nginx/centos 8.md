@@ -1,4 +1,4 @@
-nginx - centos 8
+centos 8
 ================
 
 dnf install dnf-utils
@@ -39,3 +39,4 @@ module_hotfixes=true
 
 
 sudo yum-config-manager --enable nginx-mainline
+
