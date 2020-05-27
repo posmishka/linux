@@ -53,3 +53,4 @@ cd ngx_brotli && git submodule update --init && cd ../nginx
 
 
 ./configure --with-compat --add-dynamic-module=../ngx_brotli
+make modules
