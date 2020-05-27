@@ -3,12 +3,13 @@ RedHat_CentOS 8
 
 ### hostname
 
-1. hostnamectl set-hostname 
+1. hostnamectl set-hostname <name>
+
     systemctl restart systemd-hostnamed
 
     /etc/hosts file.
 
-    127.0.0.1	tecmint.rhel8
+    `127.0.0.1	tecmint.rhel8`
 
    This automatically adds an entry by default to the /etc/hostname file.
 
