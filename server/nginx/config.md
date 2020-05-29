@@ -3,17 +3,17 @@ config
 ```sh
 server {
     listen 80;
-    server_name it-t.alpi.pp.ua;
-    return 301 https://it-t.alpi.pp.ua$request_uri;
+    server_name site.com;
+    return 301 https://site.com$request_uri;
 }
 
 server {
     listen 443 ssl http2;
-    server_name it-t.alpi.pp.ua;
+    server_name site.com;
 
     #SSL
-    ssl_certificate /etc/letsencrypt/live/it-t.alpi.pp.ua/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/it-t.alpi.pp.ua/privkey.pem;
+    ssl_certificate /etc/letsencrypt/live/site.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/site.com/privkey.pem;
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
 
     include /etc/nginx/conf.d/ssl.inc;
