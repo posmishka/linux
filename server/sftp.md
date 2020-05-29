@@ -11,3 +11,10 @@ Match User sftpuser
     X11Forwarding no
 ```
 
+Once that is done you have to give the right permissions as said earlier, the root should own the parent(chroot) directory /home while the user should own the final(-d) directory /sftpuser. I am goin to assume that you have an sFTP users group called sftpusers, if not; just ommit the group from the next commands or replace it with the users instead (root in the first and sftpusers in the second). As we are using -R in the command line for inheritance, you will have to start with the root ownership before the user ownership as follows:
+
+    sudo chown -R root:sftpusers /home
+
+then for the user you can run:
+
+    sudo chown -R sftpuser:sftpusers /home/sftpuser
