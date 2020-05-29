@@ -40,7 +40,6 @@ php_value[session.save_path]    = /var/lib/php/session/$pool
 php_value[soap.wsdl_cache_dir]  = /var/lib/php/wsdlcache/$pool
 
 ;php_value[error_reporting] = 22519
-
 ```
 ```
 [insecret_co]
@@ -73,6 +72,6 @@ php_admin_value[error_log] = /var/log/php-fpm/$pool-error.log
 php_admin_flag[log_errors] = on
 
 php_value[session.save_handler] = files
-php_value[session.save_path]    = /var/lib/php/session/insecret_co
-php_value[soap.wsdl_cache_dir]  = /var/lib/php/wsdlcache/insecret_co
+php_value[session.save_path]    = /var/lib/php/session/$pool
+php_value[soap.wsdl_cache_dir]  = /var/lib/php/wsdlcache/$pool
 ```
