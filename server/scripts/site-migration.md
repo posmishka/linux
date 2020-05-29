@@ -17,7 +17,7 @@ HOST=185.197.160.194
 
 #SITE_MOVEMENT
 mkdir $WORKDIR/sql
-mysqldump --add-drop-table --single-transaction -u "$DBU1" -p"$DBP1" "$DBN1" > "$WORKDIR"/sql/"$DBN1".sql
+mysqldump --add-drop-table --single-transaction -u "DBU1" -p"$DBP1" "$DBN1" > "$WORKDIR"/sql/"$DBN1".sql
 mysqldump --add-drop-table --single-transaction -u "$DBU2" -p"$DBP2" "$DBN2" > "$WORKDIR"/sql/"$DBN2".sql
 mysqldump --add-drop-table --single-transaction -u "$DBU3" -p"$DBP3" "$DBN3" > "$WORKDIR"/sql/"$DBN3".sql
 rsync -av --delete-during -compress-level=9 --chown=insecret:insecret -e "ssh -p "$PORT"" "$WORKDIR"/"$SITE1"/public_html/ "$USER"@"$HOST":/home/insecret/www/${SITE1}
