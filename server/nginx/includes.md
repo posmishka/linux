@@ -30,4 +30,7 @@ ssl_stapling_verify on;
 resolver_timeout 10s;
 ```
 
-## sta
+## static
+
+/etc/nginx/conf.d/static.inc
+
