@@ -1,4 +1,4 @@
-install
+centos 7
 =======
 
 Install NGINX
