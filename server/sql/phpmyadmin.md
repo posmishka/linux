@@ -29,9 +29,10 @@ OR
     sudo chown -R nginx:nginx /var/lib/phpmyadmin
     sudo mkdir /etc/phpmyadmin/
     
-#### create config
+#### create config & adjust variables
 
     sudo cp /usr/share/phpmyadmin/config.sample.inc.php  /usr/share/phpmyadmin/config.inc.php
     sudo vim /usr/share/phpmyadmin/config.inc.php
     
-   
+ Set a secret passphrase – Needs to be 32 chars long
+ $cfg['blowfish_secret'] = 'H2OxcGXxflSd8JwrwVlh6KW6s2rER63i';
