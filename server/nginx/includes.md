@@ -29,6 +29,7 @@ add_header X-Content-Type-Options nosniff;
 #add_header Content-Security-Policy "default-src 'self';";
 #add_header Feature-Policy "midi none;microphone none;camera none;";
 #add_header Access-Control-Allow-Origin *;
+#add_header  X-Robots-Tag "noindex, nofollow, nosnippet, noarchive";  # 
 ```
 <https://m.habr.com/ru/company/hosting-cafe/blog/315802/>
 ## static
