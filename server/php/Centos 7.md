@@ -1,4 +1,4 @@
-Centos &
+Centos 7
 ===========
 
 Install PHP

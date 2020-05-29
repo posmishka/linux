@@ -1,4 +1,4 @@
-install centos8
+Centos 8
 ===============
 
 rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
