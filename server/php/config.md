@@ -50,7 +50,7 @@ env[PATH] = /usr/local/bin:/usr/bin:/bin
 
 php_admin_value[sendmail_path] = /usr/sbin/sendmail -t -i -f no-reply@server.com
 php_flag[display_errors] = on
-php_admin_value[error_log] = /var/log/php-fpm/www-error.log
+php_admin_value[error_log] = /var/log/php-fpm/$pool-error.log
 php_admin_flag[log_errors] = on
 php_admin_value[memory_limit] = 128M
 
