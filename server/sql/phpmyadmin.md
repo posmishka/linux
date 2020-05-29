@@ -32,3 +32,6 @@ OR
 #### create config
 
     sudo cp /usr/share/phpmyadmin/config.sample.inc.php  /usr/share/phpmyadmin/config.inc.php
+    sudo vim /usr/share/phpmyadmin/config.inc.php
+    
+   
