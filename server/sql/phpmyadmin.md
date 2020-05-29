@@ -81,11 +81,4 @@ location /pma3388/ {
 }
 ```
 
-
-
-
-
-
-
-
 (c) <https://computingforgeeks.com/install-and-configure-phpmyadmin-on-rhel-8/>
