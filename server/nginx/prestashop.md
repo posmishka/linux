@@ -8,7 +8,7 @@ prestashop
 location ~ \.tpl$ { deny all; return 404; }
 
 rewrite ^/[a-zA-Z][a-zA-Z]/index.php(.*)$ /index.php$1;
-rewriteeiiapiiiiieii iwebservice/dispetcheriphpiurlii1 last;
+rewrite ^/api/?(.*)$ /webservice/dispatcher.php?url=$1 last;
 rewrite ^/([0-9])(\-[_a-zA-Z0-9-]*)?(-[0-9]+)?/.+\.jpg$ /img/p/$1/$1$2$3.jpg last;
 rewrite ^/([0-9])([0-9])(\-[_a-zA-Z0-9-]*)?(-[0-9]+)?/.+\.jpg$ /img/p/$1/$2/$1$2$3$4.jpg last;
 rewrite ^/([0-9])([0-9])([0-9])(\-[_a-zA-Z0-9-]*)?(-[0-9]+)?/.+\.jpg$ /img/p/$1/$2/$3/$1$2$3$4$5.jpg last;
