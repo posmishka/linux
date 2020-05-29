@@ -4,21 +4,16 @@ config
 server {
     listen 80;
     server_name it-t.alpi.pp.ua;
-    #server_name insecret.trade www.insecret.trade;
     return 301 https://it-t.alpi.pp.ua$request_uri;
-    #return 301 https://insecret.trade$request_uri;
 }
 
 server {
     listen 443 ssl http2;
-    #server_name insecret.trade www.insecret.trade;
     server_name it-t.alpi.pp.ua;
 
     #SSL
     ssl_certificate /etc/letsencrypt/live/it-t.alpi.pp.ua/fullchain.pem;
     ssl_certificate_key /etc/letsencrypt/live/it-t.alpi.pp.ua/privkey.pem;
-#    ssl_certificate /etc/letsencrypt/live/insecret.trade/fullchain.pem;
-#    ssl_certificate_key /etc/letsencrypt/live/insecret.trade/privkey.pem;
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
 
     include /etc/nginx/conf.d/ssl.inc;
