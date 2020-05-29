@@ -3,6 +3,7 @@ modules
 
 ### addons
 https://github.com/openresty/lua-nginx-module
+https://github.com/openresty/echo-nginx-module
 
 ### system
 
