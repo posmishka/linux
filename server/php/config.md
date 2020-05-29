@@ -1,9 +1,9 @@
 config
 ======
 ```
-[www-traverse]
+[poolname]
 
-listen = /var/run/php-fpm/traverse.sock
+listen = /var/run/php-fpm/$pool.sock
 ;listen.backlog = -1
 ;listen.allowed_clients = 127.0.0.1
 
