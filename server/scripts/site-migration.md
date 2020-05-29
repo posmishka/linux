@@ -5,20 +5,10 @@ site-migration
 # LOCAL_SERVER
 WORKDIR=/home/www
 
-SITE1=insecret.com.ua
-DBN1=insecret
-DBU1=insecret
-DBP1=DSXJEi*zkRoUZ^i^DXLpO%MH79*ZPQU!
-
-SITE2=insecret.co.ua
-DBN2=insecret-base
-DBU2=insecret-1.7
-DBP2=xjpXmPoagSMDgwq4
-
-SITE3=insecret.trade
-DBN3=insecrettrade
-DBU3=insecrettrade
-DBP3=KdcCwfjgRDscz2YOBnMI2/Uh6pESulKT4nVqbQfM
+SITE1=
+DBN1=
+DBU1=
+DBP1=
 
 #REMOTE_SERVER
 PORT=29920
