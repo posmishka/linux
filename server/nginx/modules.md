@@ -2,10 +2,11 @@ modules
 ======
 ## nginx-minify
 
+https://github.com/kyprizel/testcookie-nginx-module
+
 https://www.newmediacampaigns.com/blog/Automatic-file-minification-on-nginx
 
 https://github.com/nginx-modules/nginx-minify
-
 
 ```
 --with-file-aio \
