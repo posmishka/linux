@@ -1,5 +1,6 @@
-install
-=======
+centos 7
+========
+
 
 Install mariadb
 
