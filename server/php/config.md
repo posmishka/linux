@@ -40,7 +40,7 @@ php_value[session.save_path]    = /var/lib/php/session/$pool
 php_value[soap.wsdl_cache_dir]  = /var/lib/php/wsdlcache/$pool
 
 ;php_value[error_reporting] = 22519
-;php_value[open_basedir] = "/var/www/vhosts/server.artkamin.ua/:/tmp/:/usr/share/phpMyAdmin/:/usr/share/pear:/usr/share/php:/etc/phpMyAdmin/:doc/html/"
+
 ```
 ```
 [insecret_co]
