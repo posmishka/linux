@@ -39,3 +39,13 @@ OR
  $cfg['blowfish_secret'] = 'H2OxcGXxflSd8JwrwVlh6KW6s2rER63i';
  
  $cfg['TempDir'] = '/var/lib/phpmyadmin/tmp';
+
+
+
+
+
+
+
+
+
+(c) <https://computingforgeeks.com/install-and-configure-phpmyadmin-on-rhel-8/>
