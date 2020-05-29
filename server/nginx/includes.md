@@ -2,6 +2,7 @@ includes
 ========
 
 ## ssl
+/etc/nginx/conf.d/ssl.inc
 ```
 ssl_session_timeout 10m;
 ssl_session_cache shared:SSL:50m;
@@ -16,6 +17,7 @@ resolver_timeout 10s;
 
 ## headers
 
+/etc/nginx/conf.d/headers.inc
 ```
 ssl_session_timeout 10m;
 ssl_session_cache shared:SSL:50m;
@@ -27,3 +29,5 @@ ssl_stapling on;
 ssl_stapling_verify on;
 resolver_timeout 10s;
 ```
+
+## sta
