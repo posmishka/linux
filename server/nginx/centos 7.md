@@ -197,3 +197,9 @@ Deb пакет Nginx - сборка из исходников
 https://techlist.top/nginx-deb-package-from-source/
 
 https://blog.programs74.ru/how-to-enable-alpn-on-nginx/
+
+  
+ если ругается на openssl:
+ в файле nginx-source/auto/options
+ USE_OPENSSL=YES OPENSSL=/root/openssl OPENSSL_OPT="no-ssl2 no-ssl3 -fPIC"
+ 
