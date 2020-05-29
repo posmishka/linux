@@ -14,7 +14,6 @@ dnf module enable php:remi-7.3 -y
 
 
 
-
 php71
 
 rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm && yum update
