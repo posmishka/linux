@@ -20,7 +20,7 @@ resolver_timeout 10s;
 /etc/nginx/conf.d/headers.inc
 ```
 add_header Cache-Control public;
-add_header Strict-Transport-Security "max-age=63072000; includeSubdomains; preload";
+add_header Strict-Transport-Security "max-age=63072000; includeSubdomains; preload"; # https://hstspreload.org
 add_header X-XSS-Protection "1; mode=block";
 add_header X-Frame-Options "SAMEORIGIN";
 add_header Referrer-Policy "no-referrer-when-downgrade";
