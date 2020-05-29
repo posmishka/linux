@@ -1,4 +1,4 @@
-php-fpm
+php-fpm doc
 =======
 
 Full config including static page explained

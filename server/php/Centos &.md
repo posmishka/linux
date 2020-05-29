@@ -1,4 +1,4 @@
-php-install
+Centos &
 ===========
 
 Install PHP
