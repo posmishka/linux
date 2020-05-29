@@ -32,3 +32,5 @@ add_header X-Content-Type-Options nosniff;
 
 /etc/nginx/conf.d/static.inc
 
+
+## prestashop 1.6
