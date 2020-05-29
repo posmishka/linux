@@ -18,7 +18,7 @@ USER=root
 HOST=185.197.160.194
 
 #SITE_MOVEMENT
-mkdir $WORKDIR/sql
+[ if -d $mkdir $LOCALDIR/sql
 
 mysqldump --add-drop-table --single-transaction -u ${DBU1} -p${DBP1} ${DBN1} > ${LOCALDIR}/sql/${DBN1}.sql
 
