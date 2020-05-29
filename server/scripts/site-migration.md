@@ -1,6 +1,6 @@
 site-migration
 ==============
-
+require root
 ```
 # LOCAL_SERVER
 LOCALDIR=/home/www
@@ -13,9 +13,9 @@ DBU1=
 DBP1=
 
 #REMOTE_SERVER
-PORT=29920
+PORT=22
 USER=root
-HOST=185.197.160.194
+HOST=1.1.1.1
 
 #SITE_MOVEMENT
 [[ ! -d ${LOCALDIR}/sql ]] || mkdir ${LOCALDIR}/sql
