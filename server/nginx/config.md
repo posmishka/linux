@@ -51,6 +51,11 @@ server {
         fastcgi_cache_valid 200 301 302 1h;
         fastcgi_cache_valid 404 500 501 502 503 504 505 506 507 509 510 1m;
         fastcgi_cache_valid any 1m;
+        
+        # Temp file tweak
+        fastcgi_max_temp_file_size 0;
+        fastcgi_temp_file_write_size 256k;
+
     }
 
     access_log /home/insecret/logs/insecret.trade.access.log;
