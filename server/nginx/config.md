@@ -2,7 +2,7 @@ config
 ======
 ```sh
 server {
-    listen 80 fastopen=256;
+    listen 80 fastopen=256;         # sysctl -w net.ipv4.tcp_fastopen=3
     server_name site.com;
     return 301 https://site.com$request_uri;
 }
