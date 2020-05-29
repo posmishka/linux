@@ -1,5 +1,59 @@
 nginx.conf
 =====
+load_module modules/ngx_http_brotli_filter_module.so;
+load_module modules/ngx_http_brotli_static_module.so;
+
+user nginx;
+
+worker_processes  auto;
+
+#timer_resolution 100ms;
+worker_rlimit_nofile 200000;
+worker_priority -5;
+
+events {
+    worker_connections  20000;
+    use epoll;
+    multi_accept on;
+    accept_mutex on;
+}
+
+http {
+
+    # Basic Settings
+
+    sendfile        on;
+    tcp_nopush      on;
+    tcp_nodelay     on;
+    keepalive_timeout  70;
+    keepalive_requests 100;
+    send_timeout 2;
+    server_tokens off;
+    reset_timedout_connection on;
+    client_body_timeout 10;
+    client_header_timeout 10;
+    server_names_hash_bucket_size  64;
+    client_max_body_size 100m;
+
+    open_file_cache max=200000 inactive=20s;
+    open_file_cache_valid 60s;
+    open_file_cache_min_uses 2;
+    open_file_cache_errors on;
+
+    include       /etc/nginx/mime.types;
+    default_type  application/octet-stream;
+
+    # GZIP Config
+
+    gzip              on;
+    gzip_static       on;
+    gzip_min_length   1000;
+    gzip_buffers      128 16k;
+    gzip_disable      "msie6";
+    gzip_proxied      any;
+    gzip_comp_level   9;
+    gzip_vary         on;
+    gzip_http_version 1.1;
     gzip_types
         text/cache-manifest
         text/plain
