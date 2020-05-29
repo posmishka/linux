@@ -3,7 +3,8 @@ modules
 ## nginx-minify
 
 
-system
+### system
+
 https://github.com/vozlt/nginx-module-sysguard
 
 ### protection
@@ -16,6 +17,7 @@ https://www.newmediacampaigns.com/blog/Automatic-file-minification-on-nginx
 
 https://github.com/nginx-modules/nginx-minify
 
+## Core modules
 ```
 --with-file-aio \
 --with-threads \                                     
@@ -44,6 +46,6 @@ https://github.com/nginx-modules/nginx-minify
 --add-module=/opt/lib/ngx_pagespeed
 ```
 
-./configure --with-compat --add-dynamic-module=/path/to/module для компиляции только динамических модулей
+
 
 .
