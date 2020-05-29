@@ -1,12 +1,7 @@
 my.cnf
 ======
 
-#### BARRACUDA
-
- 
-    skip-innodb_doublewrite
-
-
+## mysql 8
 
 /etc/my.cnf.d/mysql-server.cnf
 ```
@@ -60,6 +55,7 @@ innodb_log_buffer_size         = 8M
 innodb_stats_on_metadata = 0
 
 skip-name-resolve
+
 
 #skip-log-bin
 #sync_binlog = 0
