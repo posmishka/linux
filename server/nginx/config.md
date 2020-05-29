@@ -17,6 +17,7 @@ server {
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
 
     include /etc/nginx/conf.d/ssl.inc;
+    include /etc/nginx/conf.d/deny.inc;
     include /etc/nginx/conf.d/headers.inc;
     include /etc/nginx/conf.d/cloudflare.inc;
     include /etc/nginx/conf.d/redirect.inc;
