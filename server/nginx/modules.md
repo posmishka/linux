@@ -13,6 +13,7 @@ https://github.com/vozlt/nginx-module-sysguard
 
 ### network
 
+https://github.com/themagister/Nginx-DOH-Module
 https://github.com/yaoweibin/nginx_tcp_proxy_module
 
 ### protection
