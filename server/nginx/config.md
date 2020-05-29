@@ -59,7 +59,6 @@ server {
         # Temp file tweak
         fastcgi_max_temp_file_size 0;
         fastcgi_temp_file_write_size 256k;
-
     }
 
     access_log /home/insecret/logs/insecret.trade.access.log;
