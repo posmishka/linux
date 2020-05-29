@@ -29,12 +29,7 @@ pm.max_requests = 0
 request_slowlog_timeout = 30s
 slowlog = /var/log/php-fpm/$pool-slow.log
  
-;rlimit_files = 1024
-;rlimit_core = 0
- 
-;chroot = /home/www/
-;chdir = /
- 
+
 ;catch_workers_output = yes
  
 ;security.limit_extensions = .php .php3 .php4 .php5
