@@ -1,7 +1,7 @@
 site-migration
 ==============
 require root
-```py
+```sh
 # LOCAL_SERVER
 LOCALDIR=/home/www
 
