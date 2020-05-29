@@ -8,6 +8,10 @@ https://github.com/openresty/lua-nginx-module
 
 https://github.com/vozlt/nginx-module-sysguard
 
+### network
+
+https://github.com/yaoweibin/nginx_tcp_proxy_module
+
 ### protection
 
 https://github.com/kyprizel/testcookie-nginx-module
