@@ -60,6 +60,8 @@ innodb_log_file_size           = 512M
 innodb_log_buffer_size         = 8M
 innodb_stats_on_metadata = 0
 
+skip-name-resolve
+
 #skip-log-bin
 #sync_binlog = 0
 ```
