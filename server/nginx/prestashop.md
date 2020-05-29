@@ -3,7 +3,7 @@ prestashop
 
 ### 1.6
 
-/etc/nginx/conf.d/prestashop
+/etc/nginx/conf.d/prestashop16.inc
 ```
 location ~ \.tpl$ { deny all; return 404; }
 
@@ -47,4 +47,7 @@ location /as4_seositemap {
 
 #rewrite "^/([a-z]{2})?/?s/([0-9]+)/([a-zA-Z0-9/_-]*)" /index.php?fc=module&module=pm_advancedsearch4&controller=advancedsearch4&isolang=$1&id_seo=$2&seo_url=$3 break;
 #rewrite "^/ru/s/([0-9]+)/([a-zA-Z0-9/_-]*)" /index.php?fc=module&module=pm_advancedsearch4&controller=advancedsearch4&isolang=ru&id_seo=$1&seo_url=$2 break;
+```
+
+### 1.7
 ```
