@@ -55,7 +55,7 @@ innodb_log_buffer_size         = 8M
 innodb_stats_on_metadata = 0
 
 skip-name-resolve
-
+skip-innodb_doublewrite
 
 #skip-log-bin
 #sync_binlog = 0
