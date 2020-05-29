@@ -40,6 +40,9 @@ OR
  
  $cfg['TempDir'] = '/var/lib/phpmyadmin/tmp';
 
+#### nginx config
+
+
 
 
 
