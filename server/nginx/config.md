@@ -8,7 +8,7 @@ server {
 }
 
 server {
-    listen 443 ssl http2;
+    listen 443 ssl http2 fastopen=256;
     server_name site.com;
 
     #SSL
