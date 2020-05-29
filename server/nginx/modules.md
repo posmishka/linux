@@ -1,7 +1,8 @@
 modules
 ======
-## nginx-minify
 
+### addons
+https://github.com/openresty/lua-nginx-module
 
 ### system
 
