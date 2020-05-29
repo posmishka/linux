@@ -18,3 +18,6 @@ Once that is done you have to give the right permissions as said earlier, the ro
 then for the user you can run:
 
     sudo chown -R sftpuser:sftpusers /home/sftpuser
+
+
+(c) <https://serverfault.com/questions/910789/chroot-sftp-possible-to-allow-user-to-write-to-current-chroot-directory>
