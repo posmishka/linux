@@ -10,10 +10,10 @@ listen.owner = nginx
 listen.group = nginx
 listen.mode = 0666
 
-user = sf
-group = traverse
+user = sftpuser
+group = sftpuser
 
-pm = ondemand
+pm = static
 
 pm.max_children = 10
 pm.start_servers = 3
@@ -21,8 +21,6 @@ pm.process_idle_timeout = 30s
 pm.min_spare_servers = 3
 pm.max_spare_servers = 10
 pm.max_requests = 0
-
-pm.status_path = /status1111
 
 ;pm.status_path = /status
 ;ping.path = /ping
