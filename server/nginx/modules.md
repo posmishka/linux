@@ -2,7 +2,11 @@ modules
 ======
 ## nginx-minify
 
-https://github.com/kyprizel/testcookie-nginx-module
+
+system
+https://github.com/vozlt/nginx-module-sysguard
+
+pr
 
 https://www.newmediacampaigns.com/blog/Automatic-file-minification-on-nginx
 
