@@ -26,4 +26,6 @@ OR
 #### create directories
 
     sudo mkdir -p /var/lib/phpmyadmin/tmp
-    sudo chown -R apache:apache /var/lib/phpmyadmin
+    sudo chown -R nginx:nginx /var/lib/phpmyadmin
+    
+#### 
