@@ -3,7 +3,7 @@ my.cnf
 
 #### BARRACUDA
 
-    innodb_file_format_check=ON 
+ 
     skip-innodb_doublewrite
 
 
