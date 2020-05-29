@@ -191,3 +191,9 @@ rpm -Uvh /root/rpmbuild/RPMS/x86_64/$NGINX.el7.centos.ngx.x86_64.rpm
     brotli_min_length 500;
     brotli_comp_level 7;
 
+
+Deb пакет Nginx - сборка из исходников
+
+https://techlist.top/nginx-deb-package-from-source/
+
+https://blog.programs74.ru/how-to-enable-alpn-on-nginx/
