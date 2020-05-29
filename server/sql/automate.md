@@ -1,7 +1,7 @@
-mysql
+automate
 =====
 
- г) скрипт для создания пользователей mysql
+ скрипт для создания пользователей mysql
  tee /home/sasha_fox/create_db.sh <<-'EOF'
  NAME=[ИМЯ БАЗЫ, ПОЛЬЗОВАТЕЛЯ]
  PASS=[ПАРОЛЬ БАЗЫ]
