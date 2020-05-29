@@ -6,7 +6,11 @@ modules
 system
 https://github.com/vozlt/nginx-module-sysguard
 
-pr
+### protection
+
+https://github.com/kyprizel/testcookie-nginx-module
+
+### optimization
 
 https://www.newmediacampaigns.com/blog/Automatic-file-minification-on-nginx
 
