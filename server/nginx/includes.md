@@ -46,9 +46,9 @@ location ~* ^.+\.ico  { access_log off; error_log off; expires max; gzip off; ad
 location ~* ^.+\.png  { access_log off; error_log off; expires max; gzip off; add_header Cache-Control "public";}
 location ~* ^.+\.css  { access_log off; expires 31d; add_header Vary Accept-Encoding; add_header Cache-Control "public, must-revalidate, proxy-revalidate";}
 location ~* ^.+\.(svg|eot|otf|ttf|woff(?:2)?)  { access_log off; error_log off; expires max; add_header Cache-Control "public";}
-```
- 
+``` 
 ## cloudflare
+/etc/nginx/conf.d/cloudflare.inc
 ```
 ssl_client_certificate /etc/nginx/certs/cloudflare.crt;
 ssl_verify_client on;
@@ -56,7 +56,6 @@ ssl_verify_client on;
 location ~* \.(eot|otf|ttf|woff|woff2)$ {
     add_header Access-Control-Allow-Origin *;
 }
-
 
 set_real_ip_from 173.245.48.0/20;
 set_real_ip_from 103.21.244.0/22;
