@@ -4,7 +4,8 @@ site-migration
 ```
 # LOCAL_SERVER
 WORKDIR=/home/www
-REMO
+REMOTEDIR=/home/user
+CHUSER=user
 
 SITE1=
 DBN1=
