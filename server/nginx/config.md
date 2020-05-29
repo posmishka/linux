@@ -2,7 +2,7 @@ config
 ======
 ```sh
 server {
-    listen 80;
+    listen 80 fastopen=256;
     server_name site.com;
     return 301 https://site.com$request_uri;
 }
