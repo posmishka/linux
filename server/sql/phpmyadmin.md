@@ -27,5 +27,8 @@ OR
 
     sudo mkdir -p /var/lib/phpmyadmin/tmp
     sudo chown -R nginx:nginx /var/lib/phpmyadmin
+    sudo mkdir /etc/phpmyadmin/
     
-#### 
+#### create config
+
+    sudo cp /usr/share/phpmyadmin/config.sample.inc.php  /usr/share/phpmyadmin/config.inc.php
