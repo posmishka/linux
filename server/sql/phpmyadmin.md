@@ -12,3 +12,7 @@ VER="$(echo $DATA | cut -d ' ' -f 1)"
     
 
 #### extract
+
+    tar xvf phpMyAdmin-${VER}-english.tar.gz
+OR
+    tar xvf phpMyAdmin-${VER}-all-languages.tar.gz
