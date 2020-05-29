@@ -34,7 +34,7 @@ https://github.com/nginx-modules/nginx-minify
 
 https://github.com/FRiCKLE/ngx_cache_purge
 
-## Core modules
+## core modules
 ```
 --with-file-aio \
 --with-threads \                                     
