@@ -1,5 +1,6 @@
 nginx.conf
 =====
+```
 load_module modules/ngx_http_brotli_filter_module.so;
 load_module modules/ngx_http_brotli_static_module.so;
 
@@ -110,3 +111,4 @@ http {
     include /etc/nginx/conf.d/*.conf;
     include /home/insecret/config/*.nginx;
 }
+```
