@@ -26,5 +26,4 @@ rsync -av --delete-during -compress-level=9 --chown=${CHUSER}:${CHUSER} -e "ssh 
 
 rsync -av -compress-level=9 -e "ssh -p ${PORT}" ${LOCALDIR}/sql/ ${USER}${HOST}:${REMOTEDIR}/sql/
 rsync -av -compress-level=9 -e "ssh -p ${PORT}" /etc/ ${USER}@${HOST}:${REMOTEDIR}/etc/
-
 ```
