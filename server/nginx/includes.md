@@ -25,8 +25,10 @@ add_header X-XSS-Protection "1; mode=block";
 add_header X-Frame-Options "SAMEORIGIN";
 add_header Referrer-Policy "no-referrer-when-downgrade";
 add_header X-Content-Type-Options nosniff;
+
 #add_header Content-Security-Policy "default-src 'self';";
 #add_header Feature-Policy "midi none;microphone none;camera none;";
+#add_header Access-Control-Allow-Origin
 ```
 <https://m.habr.com/ru/company/hosting-cafe/blog/315802/>
 ## static
