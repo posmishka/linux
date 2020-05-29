@@ -1,7 +1,7 @@
 site-migration
 ==============
 require root
-```
+```sh
 # LOCAL_SERVER
 LOCALDIR=/home/www
 
@@ -22,9 +22,9 @@ USER=root
 
 mysqldump --add-drop-table --single-transaction -u ${DBU1} -p${DBP1} ${DBN1} > ${LOCALDIR}/sql/${DBN1}.sql
 
-rsync -av --delete-during -compress-level=9 --chown=${CHUSER}:${CHUSER} -e "ssh -p ${POR}" ${LOCALDIR}/{$SITE1} ${USER}@${HOST}:${REMOTEDIR}/www/${SITE1}
+rsync -av --delete-during -compress-level=9 --chown=${CHUSER}:${CHUSER} -e "ssh -p ${PORT}" ${LOCALDIR}/{$SITE1} ${USER}@${HOST}:${REMOTEDIR}/www/${SITE1}
 
 rsync -av -compress-level=9 -e "ssh -p ${PORT}" ${LOCALDIR}/sql/ ${USER}@${HOST}:${REMOTEDIR}/sql/
-rsync -av -compress-level=9 -e "ssh -p ${PORT}" /etc/ ${USER}@${HOST}:/home/insecret/www/etc/
+rsync -av -compress-level=9 -e "ssh -p ${PORT}" /etc/ ${USER}@${HOST}:${REMOTEDIR}/etc/
 
 ```
