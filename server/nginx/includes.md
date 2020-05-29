@@ -26,7 +26,7 @@ add_header X-Frame-Options "SAMEORIGIN";
 add_header Referrer-Policy "no-referrer-when-downgrade";
 add_header X-Content-Type-Options nosniff;
 #add_header Content-Security-Policy "default-src 'self';";
-#    add_header Feature-Policy "midi none;microphone none;camera none;";
+#add_header Feature-Policy "midi none;microphone none;camera none;";
 ```
 
 ## static
