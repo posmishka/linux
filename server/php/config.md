@@ -43,11 +43,11 @@ php_value[soap.wsdl_cache_dir]  = /var/lib/php/wsdlcache/$pool
 ```
 ```
 [insecret_co]
-user = insecret
-group = insecret
+user = user
+group = user
 
-listen = /var/run/php-fpm/73-insecret_co.sock
-listen.backlog = 2048
+listen = /var/run/php-fpm/php-fpm.sock
+;listen.backlog = 2048
 
 listen.owner = nginx
 listen.group = nginx
