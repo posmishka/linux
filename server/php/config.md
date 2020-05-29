@@ -29,24 +29,12 @@ pm.max_requests = 0
 request_slowlog_timeout = 30s
 slowlog = /var/log/php-fpm/$pool-slow.log
  
-
-;catch_workers_output = yes
- 
-;security.limit_extensions = .php .php3 .php4 .php5
-
-;env[HOSTNAME] = $HOSTNAME
-env[PATH] = /usr/local/bin:/usr/bin:/bin
-;env[TMP] = /tmp
-;env[TMPDIR] = /tmp
-;env[TEMP] = /tmp
-
 php_admin_value[sendmail_path] = /usr/sbin/sendmail -t -i -f no-reply@server.com
 php_flag[display_errors] = on
 php_admin_value[error_log] = /var/log/php-fpm/$pool-error.log
 php_admin_flag[log_errors] = on
 php_admin_value[memory_limit] = 128M
 
-; Set session path to a directory owned by process user
 php_value[session.save_handler] = files
 php_value[session.save_path]    = /var/lib/php/session/$pool
 php_value[soap.wsdl_cache_dir]  = /var/lib/php/wsdlcache/$pool
