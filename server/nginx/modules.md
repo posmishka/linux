@@ -3,10 +3,14 @@ modules
 
 ### addons
 https://github.com/openresty/lua-nginx-module
+
 https://github.com/openresty/stream-lua-nginx-module
+
 https://github.com/openresty/echo-nginx-module
+
 https://github.com/openresty/headers-more-nginx-module
-https://github.com/alexazhou/VeryNginx  # WAF
+
+https://github.com/alexazhou/VeryNginx  # WAF, statistic and more
 
 ### system
 
