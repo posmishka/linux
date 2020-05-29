@@ -23,4 +23,7 @@ OR
     rm phpMyAdmin-*.tar.g
     sudo mv phpMyAdmin-*/ /usr/share/phpmyadmin
     
- 
+#### create directories
+
+    sudo mkdir -p /var/lib/phpmyadmin/tmp
+    sudo chown -R apache:apache /var/lib/phpmyadmin
