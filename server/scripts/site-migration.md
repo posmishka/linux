@@ -4,8 +4,6 @@ require root
 ```
 # LOCAL_SERVER
 LOCALDIR=/home/www
-REMOTEDIR=/home/user
-CHUSER=user
 
 SITE1=
 DBN1=
@@ -13,9 +11,11 @@ DBU1=
 DBP1=
 
 #REMOTE_SERVER
+REMOTEDIR=/home/user
+CHUSER=user
+HOST=1.1.1.1
 PORT=22
 USER=root
-HOST=1.1.1.1
 
 #SITE_MOVEMENT
 [[ ! -d ${LOCALDIR}/sql ]] || mkdir ${LOCALDIR}/sql
