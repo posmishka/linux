@@ -19,17 +19,20 @@ https://github.com/vozlt/nginx-module-sysguard
 ### network
 
 https://github.com/themagister/Nginx-DOH-Module
+
 https://github.com/yaoweibin/nginx_tcp_proxy_module
 
 ### protection
 
 https://github.com/kyprizel/testcookie-nginx-module
 
-### optimization
+### optimization & cache
 
 https://www.newmediacampaigns.com/blog/Automatic-file-minification-on-nginx
 
 https://github.com/nginx-modules/nginx-minify
+
+https://github.com/FRiCKLE/ngx_cache_purge
 
 ## Core modules
 ```
