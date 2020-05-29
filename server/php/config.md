@@ -5,13 +5,12 @@ config
 
 listen = /var/run/php-fpm/$pool.sock
 ;listen.backlog = -1
-;listen.allowed_clients = 127.0.0.1
 
 listen.owner = nginx 
 listen.group = nginx
 listen.mode = 0666
 
-user = traverse
+user = sf
 group = traverse
 
 pm = ondemand
