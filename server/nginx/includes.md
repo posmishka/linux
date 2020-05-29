@@ -47,9 +47,6 @@ location ~* ^.+\.png  { access_log off; error_log off; expires max; gzip off; ad
 location ~* ^.+\.css  { access_log off; expires 31d; add_header Vary Accept-Encoding; add_header Cache-Control "public, must-revalidate, proxy-revalidate";}
 location ~* ^.+\.(svg|eot|otf|ttf|woff(?:2)?)  { access_log off; error_log off; expires max; add_header Cache-Control "public";}
 ```
-
-## prestashop 1.6
-
  
 ## cloudflare
 ```
