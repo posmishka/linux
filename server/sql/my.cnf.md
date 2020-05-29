@@ -8,8 +8,8 @@ my.cnf
     skip-innodb_doublewrite
 
 
-skip-name-resolve
 
+/etc/my.cnf.d/mysql-server.cnf
 ```
 [mysqld]
 datadir=/var/lib/mysql
