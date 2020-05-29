@@ -27,7 +27,7 @@ pm.max_requests = 0
 
 ;request_terminate_timeout = 0
 request_slowlog_timeout = 30s
-slowlog = /home/traverse/logs/slow.log
+slowlog = /var/log/php-fpm/$pool-slow.log
  
 ;rlimit_files = 1024
 ;rlimit_core = 0
