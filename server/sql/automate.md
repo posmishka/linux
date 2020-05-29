@@ -1,7 +1,8 @@
 automate
 =====
 
-##
+### create user sh
+```
  tee create_db.sh <<-'EOF'
  NAME=[ИМЯ БАЗЫ, ПОЛЬЗОВАТЕЛЯ]
  PASS=[ПАРОЛЬ БАЗЫ]
@@ -9,3 +10,4 @@ automate
  mysql -u root -p -e 'grant all privileges on ${NAME}.* to ${NAME}@localhost identified by "${PASS}";'
  mysql -u root -p -e 'flush privileges;'
  EOF
+ ```
