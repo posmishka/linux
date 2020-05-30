@@ -22,3 +22,6 @@ $ vim /etc/rc.local
 $ ip tcp_metrics
 
 $ grep '^TcpExt:' /proc/net/netstat | cut -d ' ' -f 87-92 | column -t
+
+(c) <https://blog.wasin.io/blog/2016/12/26/how-to-enable-fast-tcp-open-on-ubuntu.html>
+
