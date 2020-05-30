@@ -1,4 +1,4 @@
-Basic setup (Centos7)
+Centos7
 ========================
 
 **Update and install software**  
