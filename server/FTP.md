@@ -2,16 +2,6 @@ FTP
 =============
 vsftp is not equal and should be updated
 
-# SFTP
-
-open ssh config
-
-`$ vim /etc/ssh/sshd_config`
-
-comment string
-
-`#Subsystem sftp /usr/lib/openssh/sftp-server`
-
 
 # vsftpd 
 
