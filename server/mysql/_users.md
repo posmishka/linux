@@ -8,7 +8,6 @@ flush privileges;
 
 
 
-
 ### create user sh
 ```
  tee create_db.sh <<-'EOF'
