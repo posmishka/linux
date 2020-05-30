@@ -33,10 +33,10 @@ server {
         try_files $uri $uri/ /index.php$is_args$args;
     }
 
-    client_max_body_size 100m;
-    client_body_buffer_size 1m;
-    client_header_buffer_size 2k;
-    large_client_header_buffers 4 8k;
+    client_max_body_size            100m;
+    client_body_buffer_size         1m;
+    client_header_buffer_size       2k;
+    large_client_header_buffers     4 8k;
 
     location ~ \.php$ {
         try_files                   $fastcgi_script_name =404;
@@ -58,7 +58,7 @@ server {
         fastcgi_cache_valid any     1m;
         
         # Temp file tweak
-        fastcgi_max_temp_file_size     0;
+        fastcgi_max_temp_file_size   0;
         fastcgi_temp_file_write_size 256k;
     }
 
