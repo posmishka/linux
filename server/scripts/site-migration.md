@@ -1,7 +1,7 @@
 site-migration
 ==============
 require root
-```sh
+`
 # LOCAL_SERVER
 LOCALDIR=/home/www
 
