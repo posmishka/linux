@@ -1,6 +1,9 @@
 stuff
 ========
 
+**Awesome Nginx Security**
+https://github.com/wallarm/awesome-nginx-security
+
 **Проверка безопасности конфига nginx gixy**
 
     https://github.com/yandex/gixy/
