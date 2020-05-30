@@ -17,9 +17,9 @@ backup-prestashop
 
 DATE_FORMAT='+[%d-%m-%Y] %H:%M:%S'
 
-USER=insecret
+USER=username
 
-site=insected.trade
+site=site.com
 workdir=/home/${USER}/backup
 sitedir=/home/${USER}/www
 
@@ -79,3 +79,43 @@ zip -rq $workdir/$site/$site-img.zip $sitedir/img/p/
     then
         echo $(date "$DATE_FORMAT") "| Error creating images archive. Return code "$returncode"" 
         echo "Error when creating "$site" archieve. ZIP returned code $returncode" | mail -s "Error creating backup "$site"" -a "$backuplog" "$email"
+        rm -rf "$workdir"/"$site"/"$site".zip
+    else
+        rm -rf "$workdir"/"$site"/"$site".sql
+        rm -rf "$workdir"/"$site"/"$site".zip.old
+        echo $(date "$DATE_FORMAT") "| Archive created. Old archive deleted"
+    fi
+
+echo $(date "$DATE_FORMAT") "| Archiving images"
+
+zip -rq $workdir/$site/$site-img.zip $sitedir/img/p/
+
+   returncode=$?
+
+    if [ $returncode -ne 0 ]
+    then
+        echo $(date "$DATE_FORMAT") "| Error creating images archive. Return code "$returncode"" 
+        echo "Error when creating "$site" archieve. ZIP returned code $returncode" | mail -s "Error creating backup "$site"" -a "$backuplog" "$email"
+        rm -rf "$workdir"/"$site"/"$site"-img.zip
+    else
+        rm -rf "$workdir"/"$site"/"$site"-img.zip.old &&
+        echo $(date "$DATE_FORMAT") "| Images archive created. Old archive deleted"
+    fi
+
+echo $(date "$DATE_FORMAT") "| Starting upload to the google disk"
+
+[ -f ""$workdir"/"$site"/"$site".zip" ] && [ -f ""$workdir"/"$site"/"$site"-img.zip" ] &&                                                                     "$workdir"/drive push -ignore-conflict -ignore-name-clashes -quiet "$workdir"/"$site"/"$site".zip "$workdir"/"$site"/"$site"-img.zip > /dev/null || echo $(date "$DATE_FORMAT") "| No files to upload, cancelling" 
+
+    returncode=$?
+
+    if [ $returncode -ne 0 ]
+    then
+        echo $(date "$DATE_FORMAT") "| Error occured. Upload NOT complete. Return code is "$returncode""
+        echo "Error occured while uploading archive to google" | mail -s "Error while uploading "$site" backup" -a "$backuplog" "$email"
+    else
+        echo $(date "$DATE_FORMAT") "| Task complete"
+    fi
+
+# IN CASE WE ARE UNDER ROOT
+chown -R ${USER}:${USER} ${workdir}
+```
