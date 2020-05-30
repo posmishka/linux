@@ -9,6 +9,10 @@ Goal: Keep the user chroot but allow WRITE access to the relative chroot directo
 comment string
 
 `#Subsystem sftp /usr/lib/openssh/sftp-server`
+
+add
+
+`Subsystem sftp internal-sftp -f AUTH -l VERBOSE`
 ```
 Match User sftpuser
     ChrootDirectory /home
