@@ -13,7 +13,7 @@ networking related stuff
 # dev
 software development stuff
 ## vim
-## pyt
+## python
 
 # server
 specific for the server usage things
