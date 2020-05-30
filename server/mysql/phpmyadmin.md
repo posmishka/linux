@@ -50,10 +50,10 @@ location /myadminalias/ {
       #  auth_basic           "closed site";
       #  auth_basic_user_file ./pass/pma;
 
-     alias /usr/share/phpMyAdmin/;
+     alias /usr/share/phpmyadmin/;
 
      location ~* ^/myadminalias/(.+\.(jpg|jpeg|gif|css|png|js|ico|html|xml|txt))$ {
-        alias /usr/share/phpMyAdmin/$1;
+        alias /usr/share/phpmyadmin/$1;
         }
      
      location ~ /(libraries|setup) {
