@@ -65,17 +65,15 @@ location /pma3388/ {
         fastcgi_split_path_info ^(.+\.php)(.*)$;
         fastcgi_pass   unix:/var/run/php-fpm/pma.sock;
         fastcgi_index  index.php;
-        fastcgi_param  HTTPS on;
 
+        fastcgi_param  HTTPS on;
         fastcgi_param SCRIPT_FILENAME $request_filename;
         fastcgi_param  HTTP_MOD_REWRITE On;
-
-        include fastcgi_params;
+        
         fastcgi_connect_timeout 300s;
         fastcgi_send_timeout 300s;
         fastcgi_read_timeout 12000s;
         fastcgi_ignore_client_abort off;
-
         fastcgi_buffer_size 16k;
         fastcgi_buffers 4 16k;
         }
