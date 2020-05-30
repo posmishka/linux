@@ -39,8 +39,8 @@ server {
     large_client_header_buffers 4 8k;
 
     location ~ \.php$ {
-        try_files             $fastcgi_script_name =404;
-        fastcgi_pass        unix:/var/run/php-fpm.sock;
+        try_files                   $fastcgi_script_name =404;
+        fastcgi_pass                unix:/var/run/php-fpm.sock;
         fastcgi_index   index.php;
         fastcgi_keep_conn on;
         fastcgi_intercept_errors on;
