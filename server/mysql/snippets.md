@@ -41,3 +41,7 @@ $ /usr/sbin/mysqld --verbose --help | grep -A 1 "Default options"
 
 **optimize database**  
 `mysqlcheck -u user -p --optimize database_name`
+
+# Prestashop
+
+UPDATE ps_shop_url SET domain_ssl="ic-t.alpi.pp.ua" WHERE ps_shop_url.id_shop_url=1;
