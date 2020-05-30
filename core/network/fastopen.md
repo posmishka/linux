@@ -17,8 +17,8 @@ $ vim /etc/rc.local
 
     echo 3 > /proc/sys/net/ipv4/tcp_fastopen
 
+**check**
 
+$ ip tcp_metrics
 
-ip tcp_metrics
-
-grep '^TcpExt:' /proc/net/netstat | cut -d ' ' -f 87-92 | column -t
+$ grep '^TcpExt:' /proc/net/netstat | cut -d ' ' -f 87-92 | column -t
