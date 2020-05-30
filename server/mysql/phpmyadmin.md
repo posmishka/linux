@@ -45,14 +45,14 @@ OR
 #### nginx config
 
 ```
-location /pma3388/ {
+location /myadminalias/ {
 
       #  auth_basic           "closed site";
       #  auth_basic_user_file ./pass/pma;
 
      alias /usr/share/phpMyAdmin/;
 
-     location ~* ^/pma3388/(.+\.(jpg|jpeg|gif|css|png|js|ico|html|xml|txt))$ {
+     location ~* ^/myadminalias/(.+\.(jpg|jpeg|gif|css|png|js|ico|html|xml|txt))$ {
         alias /usr/share/phpMyAdmin/$1;
         }
      
