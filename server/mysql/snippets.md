@@ -16,11 +16,11 @@ snippets
 
 **export all databases**
 
-    $ mysqldump -uroot -p -A > alldb.sql
+    $ mysqldump --add-drop-table --single-transaction -uroot -p -A > alldb.sql   # not blocking innodb
     
 **export and archieve**
 
-    mysqldump -u USER -pPASSWORD DATABASE | gzip > db_name.sql.gz
+    mysqldump --add-drop-table --single-transaction -u USER -pPASSWORD DATABASE | gzip > db_name.sql.gz
 
 # Variables
 
