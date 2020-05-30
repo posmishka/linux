@@ -1,4 +1,4 @@
-RedHat_CentOS 8
+Centos 8
 ========
 
 ### hostname
