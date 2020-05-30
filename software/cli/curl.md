@@ -20,3 +20,9 @@ Curl POST
 
 
 https://superuser.com/questions/149329/what-is-the-curl-command-line-syntax-to-do-a-post-request
+
+
+
+Погода  
+
+	curl http://v2.wttr.in
