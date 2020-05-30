@@ -5,22 +5,15 @@ README
 # core
 core system stuff
 
+## network
+networking related stuff
+
 # dev
 software development stuff
 
-# family
-things specific to concrete linux branch
-
-
-
-# network
-networking related stuff
-
-# security
-itself
 
 # server
-specific for the server usage things (CentOS7 mostly)
+specific for the server usage things
 
 # software
 different apps and software
