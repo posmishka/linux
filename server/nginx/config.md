@@ -41,12 +41,12 @@ server {
     location ~ \.php$ {
         try_files                   $fastcgi_script_name =404;
         fastcgi_pass                unix:/var/run/php-fpm.sock;
-        fastcgi_index   index.php;
-        fastcgi_keep_conn on;
-        fastcgi_intercept_errors on;
-        fastcgi_ignore_headers "Cache-Control" "Expires";
-        fastcgi_param   SCRIPT_FILENAME  $document_root$fastcgi_script_name;
-        include         fastcgi_params;
+        fastcgi_index               index.php;
+        fastcgi_keep_conn           on;
+        fastcgi_intercept_errors    on;
+        fastcgi_ignore_headers      "Cache-Control" "Expires";
+        fastcgi_param               SCRIPT_FILENAME  $document_root$fastcgi_script_name;
+        include                     fastcgi_params;
 
         fastcgi_connect_timeout 300s;
         fastcgi_send_timeout 300s;
