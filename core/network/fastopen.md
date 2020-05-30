@@ -11,3 +11,7 @@ Edit /etc/sysctl.conf and add the following line to its end of file
 
 sysctl -p
 
+
+
+/etc/rc.local
+
