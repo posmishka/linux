@@ -48,17 +48,17 @@ server {
         fastcgi_param               SCRIPT_FILENAME  $document_root$fastcgi_script_name;
         include                     fastcgi_params;
 
-        fastcgi_connect_timeout 300s;
-        fastcgi_send_timeout 300s;
-        fastcgi_read_timeout 1200s;
-        fastcgi_buffer_size 1m;
-        fastcgi_buffers 8 8m;
+        fastcgi_connect_timeout     300s;
+        fastcgi_send_timeout        300s;
+        fastcgi_read_timeout        1200s;
+        fastcgi_buffer_size         1m;
+        fastcgi_buffers             8 8m;
         fastcgi_cache_valid 200 301 302 1h;
         fastcgi_cache_valid 404 500 501 502 503 504 505 506 507 509 510 1m;
-        fastcgi_cache_valid any 1m;
+        fastcgi_cache_valid any     1m;
         
         # Temp file tweak
-        fastcgi_max_temp_file_size 0;
+        fastcgi_max_temp_file_size     0;
         fastcgi_temp_file_write_size 256k;
     }
 
