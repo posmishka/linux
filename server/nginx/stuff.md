@@ -4,13 +4,9 @@ stuff
 **Awesome Nginx Security**
 https://github.com/wallarm/awesome-nginx-security
 
-**Проверка безопасности конфига nginx gixy**
+**Проверка безопасности конфига nginx gixy**  https://github.com/yandex/gixy/
 
-    https://github.com/yandex/gixy/
-
-**Защита от Л7 ддос**
-
-    https://github.com/kyprizel/testcookie-nginx-module
+**Защита от Л7 ддос** https://github.com/kyprizel/testcookie-nginx-module
     
   
 **Nemesida WAF Free** 
