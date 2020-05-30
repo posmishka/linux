@@ -67,10 +67,7 @@ location /pma3388/ {
         fastcgi_index  index.php;
         fastcgi_param  HTTPS on;
 
-        #fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
         fastcgi_param SCRIPT_FILENAME $request_filename;
-        #fastcgi_param  PATH_TRANSLATED  $document_root$fastcgi_script_name;
-
         fastcgi_param  HTTP_MOD_REWRITE On;
 
         include fastcgi_params;
@@ -81,9 +78,7 @@ location /pma3388/ {
 
         fastcgi_buffer_size 16k;
         fastcgi_buffers 4 16k;
-
-
-    }
+        }
 }
 ```
 
