@@ -2,6 +2,7 @@ phpmyadmin
 ==========
 
 (c) <https://computingforgeeks.com/install-and-configure-phpmyadmin-on-rhel-8/>
+
 #### save version
 ```
 DATA="$(wget https://www.phpmyadmin.net/home_page/version.txt -q -O-)"
