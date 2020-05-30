@@ -1,16 +1,19 @@
 README
 ======
 
-
 # core
 core system stuff
+
+## kernel
+deep stuff
 
 ## network
 networking related stuff
 
 # dev
 software development stuff
-
+## vim
+## pyt
 
 # server
 specific for the server usage things
