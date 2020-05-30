@@ -54,8 +54,12 @@ location /pma3388/ {
 
      location ~* ^/pma3388/(.+\.(jpg|jpeg|gif|css|png|js|ico|html|xml|txt))$ {
         alias /usr/share/phpMyAdmin/$1;
-     }
-
+        }
+     
+     location ~ /(libraries|setup) {
+        return 404;
+        }
+        
      location ~ \.php$ {
 
         fastcgi_split_path_info ^(.+\.php)(.*)$;
