@@ -9,3 +9,5 @@ Edit /etc/sysctl.conf and add the following line to its end of file
 
    net.ipv4.tcp_fastopen = 3
 
+sysctl -p
+
