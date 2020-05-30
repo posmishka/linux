@@ -1,4 +1,4 @@
-_navigation
+bash
 ======
 
 # bash ввод тексту
