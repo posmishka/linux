@@ -5,6 +5,7 @@ Goal: Keep the user chroot but allow WRITE access to the relative chroot directo
 
 `$ vim /etc/ssh/sshd_config`
 
+
 comment string
 
 `#Subsystem sftp /usr/lib/openssh/sftp-server`
