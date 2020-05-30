@@ -1,7 +1,6 @@
 README
 ======
-# cli
-everything related to shell using and scripting, using of common utilities
+
 
 # core
 core system stuff
@@ -12,8 +11,7 @@ software development stuff
 # family
 things specific to concrete linux branch
 
-# i3
-the place where magic is happening
+
 
 # network
 networking related stuff
@@ -26,3 +24,8 @@ specific for the server usage things (CentOS7 mostly)
 
 # software
 different apps and software
+
+## cli
+everything related to shell using and scripting, using of common utilities
+## i3
+the place where magic is happening
