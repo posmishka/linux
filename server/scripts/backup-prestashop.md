@@ -28,7 +28,7 @@ mysqluser=username
 mysqlpass=MYSQLPASS
 
 backuplog=/home/${USER}/logs/${site}.backup.log
-email=user@
+email=alert@email.com
 
 echo $(date "$DATE_FORMAT") "| Starting..."
 echo $(date "$DATE_FORMAT") "| Backuping database"
