@@ -1,5 +1,13 @@
 _users
 =====
+### MYSQL 8
+
+CREATE USER 'yourUserName'@'localhost' IDENTIFIED BY 'yourPassword';
+GRANT ALL ON *.* TO 'yourUserName'@'localhost';
+flush privileges;
+
+
+
 
 ### create user sh
 ```
