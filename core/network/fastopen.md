@@ -5,16 +5,17 @@ https://github.com/yuryu/tfoecho/
 
 **You need to have linux kernel at least 3.7**
 
-    vim /etc/sysctl.conf 
-   net.ipv4.tcp_fastopen = 3
+ $ vim /etc/sysctl.conf 
+   
+       net.ipv4.tcp_fastopen = 3
     
-    sysctl -p
+ $ sysctl -p
 
 
 
-/etc/rc.local
+$ vim /etc/rc.local
 
-echo 3 > /proc/sys/net/ipv4/tcp_fastopen
+    echo 3 > /proc/sys/net/ipv4/tcp_fastopen
 
 
 
