@@ -17,3 +17,8 @@ troubleshoot
     
 ### подсчет соединений с ip-адресами
     netstat -an | grep -E '\:80|\:443'| awk '{print $5}' | grep -Eo '[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}' | sort | uniq -c | sort -n
+    
+    
+    
+Как понять, что происходит на сервере
+https://habr.com/ru/company/oleg-bunin/blog/319020/
