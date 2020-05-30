@@ -23,12 +23,12 @@ site=site.com
 workdir=/home/${USER}/backup
 sitedir=/home/${USER}/www
 
-mysqldb=insecret_trade
-mysqluser=insecret_trade
-mysqlpass=KdcCwfjgRDscz2YOBnMI2/Uh6pESulKT4nVqbQfM
+mysqldb=dbname
+mysqluser=username
+mysqlpass=MYSQLPASS
 
 backuplog=/home/${USER}/logs/${site}.backup.log
-email=evgenij.sobolev@gmail.com
+email=user@
 
 echo $(date "$DATE_FORMAT") "| Starting..."
 echo $(date "$DATE_FORMAT") "| Backuping database"
