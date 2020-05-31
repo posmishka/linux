@@ -22,3 +22,6 @@ troubleshoot
     
 Как понять, что происходит на сервере
 https://habr.com/ru/company/oleg-bunin/blog/319020/
+
+
+ps axufS
