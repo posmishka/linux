@@ -33,8 +33,8 @@ email=alert@email.com
 echo $(date "$DATE_FORMAT") "| Starting..."
 echo $(date "$DATE_FORMAT") "| Backuping database"
 
-[ -d ${workdir}/${site} ] || mkdir ${workdir}/${site}
 [ -f ${backuplog} ] || touch ${backuplog}
+[ -d ${workdir}/${site} ] || mkdir ${workdir}/${site}
 
 mysqldump -u "$mysqluser" -p"$mysqlpass" "$mysqldb" > "$workdir"/"$site"/"$site".sql
 
