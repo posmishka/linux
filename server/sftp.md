@@ -39,8 +39,8 @@ IIRC it uses the users login shell, but I think in non-interactive mode, which m
 If it's a login shell in interactive mode, then the same $BASH_ENV will be sourced (in case of bash, ~/.bashrc), 
 else it's the sequence 
 * /etc/profile
-* /.bash_profile
-* /.bash_login
-* ~/.profile
+* .bash_profile
+* .bash_login
+* .profile
 
 in that order.
