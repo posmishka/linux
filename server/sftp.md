@@ -47,3 +47,5 @@ else it's the sequence in that order:
 * .bash_profile
 * .bash_login
 * .profile
+
+More : https://linuxandevops.wordpress.com/2017/07/30/ssh-scp-sftp-connections-and-file-permissions-part-2/
