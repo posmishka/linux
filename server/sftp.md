@@ -45,10 +45,9 @@ then for the user you can run:
     
     session    optional pam_umask.so umask=0002
 
-(c) umask description:
-https://linuxandevops.wordpress.com/2017/07/30/ssh-scp-sftp-connections-and-file-permissions-part-2/
+(c) /etc/login.defs
 
-* /etc/profile
-* .bash_profile
-* .bash_login
-* .profile
+
+
+umask description:
+https://linuxandevops.wordpress.com/2017/07/30/ssh-scp-sftp-connections-and-file-permissions-part-2/
