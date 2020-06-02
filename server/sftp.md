@@ -42,11 +42,13 @@ then for the user you can run:
 
 
 (b) In /etc/pam.d/sshd
-    
+
     session    optional pam_umask.so umask=0002
 
 (c) /etc/pam.d/common-session
-/etc/login.defs
+
+    session optional pam_umask.so
+    /etc/login.defs # change U
 
 (d) /etc/ssh/sshd_config
 
