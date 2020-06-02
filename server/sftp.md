@@ -36,6 +36,9 @@ then for the user you can run:
 
 ### Where do I set up the file creation mask permissions for Secure FTP over SSH (SFTP)?
 
+    ForceCommand internal-sftp -d /sftpuser -u 0002
+
+
 IIRC it uses the users login shell, but I think in non-interactive mode, which means $BASH_ENV is called to be sourced. If that's not the case (meaning it uses interactive mode), then it depends on if it uses the shell as login shell or not.
 If it's a login shell in interactive mode, then the same $BASH_ENV will be sourced (in case of bash, ~/.bashrc),
 
@@ -44,6 +47,3 @@ else it's the sequence in that order:
 * .bash_profile
 * .bash_login
 * .profile
-
-
-    ForceCommand internal-sftp -d /sftpuser -u 0002
