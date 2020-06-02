@@ -49,8 +49,10 @@ then for the user you can run:
 
 (d) /etc/ssh/sshd_config
 
-Match Group managedgroup
-ForceCommand /bin/sh -c 'umask 0002; ${SSH_ORIGINAL_COMMAND:-$SHELL}'
+    Match Group managedgroup
+    ForceCommand /bin/sh -c 'umask 0002; ${SSH_ORIGINAL_COMMAND:-$SHELL}'
+
+more : <https://serverfault.com/questions/228396/how-to-setup-sshs-umask-for-all-type-of-connections>
 
 umask description:
 https://linuxandevops.wordpress.com/2017/07/30/ssh-scp-sftp-connections-and-file-permissions-part-2/
