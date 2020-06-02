@@ -17,6 +17,7 @@ add
 Match User sftpuser
     ChrootDirectory /home
     ForceCommand internal-sftp -d /sftpuser
+    AllowAgentForwarding no
     AllowTCPForwarding no
     X11Forwarding no
 ```
