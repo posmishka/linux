@@ -36,12 +36,14 @@ then for the user you can run:
 
 ### Where do I set up the file creation mask permissions for Secure FTP over SSH (SFTP)?
 
+(a) /etc/ssh/sshd_config
+
     ForceCommand internal-sftp -d /sftpuser -u 0002
 
 
-(b)In /etc/pam.d/sshd
+(b) In /etc/pam.d/sshd
     
-     session    optional pam_umask.so umask=0002
+    session    optional pam_umask.so umask=0002
 
 umask description:
 https://linuxandevops.wordpress.com/2017/07/30/ssh-scp-sftp-connections-and-file-permissions-part-2/
