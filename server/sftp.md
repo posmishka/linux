@@ -47,7 +47,10 @@ then for the user you can run:
 
 (c) /etc/login.defs
 
+(d) /etc/ssh/sshd_config
 
+Match Group managedgroup
+ForceCommand /bin/sh -c 'umask 0002; ${SSH_ORIGINAL_COMMAND:-$SHELL}'
 
 umask description:
 https://linuxandevops.wordpress.com/2017/07/30/ssh-scp-sftp-connections-and-file-permissions-part-2/
