@@ -45,3 +45,5 @@ else it's the sequence in that order:
 * .bash_login
 * .profile
 
+
+    ForceCommand internal-sftp -d /sftpuser -u 0002
