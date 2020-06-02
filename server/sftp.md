@@ -45,7 +45,8 @@ then for the user you can run:
     
     session    optional pam_umask.so umask=0002
 
-(c) /etc/login.defs
+(c) /etc/pam.d/common-session
+/etc/login.defs
 
 (d) /etc/ssh/sshd_config
 
