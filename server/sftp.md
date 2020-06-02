@@ -39,6 +39,9 @@ then for the user you can run:
     ForceCommand internal-sftp -d /sftpuser -u 0002
 
 
+(b)In /etc/pam.d/sshd
+    
+     session    optional pam_umask.so umask=0002
 
 umask description:
 https://linuxandevops.wordpress.com/2017/07/30/ssh-scp-sftp-connections-and-file-permissions-part-2/
@@ -47,5 +50,3 @@ https://linuxandevops.wordpress.com/2017/07/30/ssh-scp-sftp-connections-and-file
 * .bash_profile
 * .bash_login
 * .profile
-
-More : 
