@@ -10,9 +10,9 @@ https://en.terminalroot.com.br/45-examples-of-variables-and-arrays-in-shell-scri
 **debugging**
 
  `set -ex` падать при первом возврате не 0 команды
- 
+
  `set -x`  display the expanded trace before running the command
- 
+
  `set -v`  display the input line as it is parsed
 
 
