@@ -1,8 +1,11 @@
 mac
 ===
 
+ip link set dev eth0 address XX:XX:XX:XX:XX:XX
+
 **find original mac**
 
+    dmesg | grep eth0
 
 **restore mac address**
 
