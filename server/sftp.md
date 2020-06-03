@@ -58,4 +58,4 @@ Than in /etc/login.defs # change UMASK
 more : <https://serverfault.com/questions/228396/how-to-setup-sshs-umask-for-all-type-of-connections>
 
 umask description:
-<https://linuxandevops.wordpress.com/2017/07/30/ssh-scp-sftp-connections-and-file-permissions-part-2/>
+https://www.cyberciti.biz/tips/understanding-linux-unix-umask-value-usage.html
