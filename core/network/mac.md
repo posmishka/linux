@@ -1,6 +1,9 @@
 mac
 ===
 
+**find original mac**
+
+
 **restore mac address**
 
     #!/bin/sh
