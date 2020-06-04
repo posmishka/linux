@@ -3,7 +3,7 @@ backup-mysql
 ```
 #!/bin/bash
 CURRENT_DATE=$(date +"%d-%m-%Y-%H%M%S")
-INSTANCEHOST=$(</opt/projects/mysql_backup/hosts.txt)
+INSTANCEHOST=$(</path/to/hosts.txt)
 INSTANCEPORT="3306"
 MYSQLDUMPFLAGS0="--routines --extended-insert --add-drop-table --force --create-options --master-data=2"
 MYSQLDUMPFLAGS1="--no-data --routines --extended-insert --add-drop-table --force --create-options --master-data=2"
@@ -33,7 +33,7 @@ let WAIT_FOR_MYSQL=0
 while [ $MOUNT_CHECK ] && [ $(pidof mysql) ]
 do
   sleep 60
-  [ $WAIT_FOR_MYSQL -gt 3600 ] && echo "MYSQL SHARE BLOCKED AT s-kv-center-i71. MYSQL IS ALREADY ACTIVE" | mailx -s "Backup script failed" it-unixsys@fozzy.ua && exit 1
+  [ $WAIT_FOR_MYSQL -gt 3600 ] && echo "MYSQL SHARE BLOCKED AT ${SERVERNAME}. MYSQL IS ALREADY ACTIVE" | mailx -s "Backup script failed" it-unixsys@fozzy.ua && exit 1
   let WAIT_FOR_MYSQL+=60
   (( $WAIT_FOR_MYSQL % 600 )) || echo "$(date +"%H%M%S") Stil waiting..."  
 done
