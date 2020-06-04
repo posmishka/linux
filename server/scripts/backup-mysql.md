@@ -1,6 +1,6 @@
 backup-mysql
 ============
-Backup mysql databases on the remote servers
+Backup mysql databases on the remote servers to network share
 
 ```
 #!/bin/bash
