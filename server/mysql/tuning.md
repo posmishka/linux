@@ -1,5 +1,8 @@
 tuning
 ======
+**Memory Calculator**
+https://blog-xtraffic.pep.vn/mysql-memory-ram-calculator/
+
 **Mysqltuner 2GB ram**
 
 https://forums.cpanel.net/threads/mysql-my-cnf-tuning-me-too.239611/
