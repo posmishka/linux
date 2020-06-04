@@ -3,6 +3,7 @@ backup-mysql
 ```
 #!/bin/bash
 CURRENT_DATE=$(date +"%d-%m-%Y-%H%M%S")
+SERVER=$
 INSTANCEHOST=$(</path/to/hosts.txt)
 INSTANCEPORT="3306"
 MYSQLDUMPFLAGS0="--routines --extended-insert --add-drop-table --force --create-options --master-data=2"
