@@ -1,5 +1,7 @@
 backup-mysql
 ============
+Backup mysql databases on the remote servers
+
 ```
 #!/bin/bash
 CURRENT_DATE=$(date +"%d-%m-%Y-%H%M%S")
