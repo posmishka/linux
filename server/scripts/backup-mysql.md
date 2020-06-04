@@ -16,7 +16,7 @@ MYSQLDUMPUSER="backup"
 MYSQLDUMPPASSWD=""
 MYSQLUSER="backup"
 MYSQLPASSWD=""
-BACKUP_PREFIXPATH="/mnt/qnap/unix/backup/mysql"
+BACKUP_PREFIXPATH="/mnt/networkshare"
 DUMPER="`which mysqldump`"
 MYSQLCLNT="`which mysql`"
 
