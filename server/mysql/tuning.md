@@ -2,6 +2,7 @@ tuning
 ======
 **Memory Calculator 1**
 https://blog-xtraffic.pep.vn/mysql-memory-ram-calculator/
+
 **Memory Calculator 2** https://www.abhinavbit.com/p/mysql-memory-calculator.html
 
 **Mysqltuner 2GB ram** 
