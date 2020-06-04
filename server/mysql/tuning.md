@@ -5,6 +5,8 @@ https://blog-xtraffic.pep.vn/mysql-memory-ram-calculator/
 
 **Memory Calculator 2** https://www.abhinavbit.com/p/mysql-memory-calculator.html
 
+**MySQL Tuning Primer Script** https://launchpad.net/mysql-tuning-primer
+
 **Mysqltuner 2GB ram** 
 https://forums.cpanel.net/threads/mysql-my-cnf-tuning-me-too.239611/
 
