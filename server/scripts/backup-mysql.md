@@ -12,7 +12,7 @@ MYSQLDUMPFLAGS0="--routines --extended-insert --add-drop-table --force --create-
 MYSQLDUMPFLAGS1="--no-data --routines --extended-insert --add-drop-table --force --create-options --master-data=2"
 MYSQLDUMPFLAGS2="--routines --extended-insert --add-drop-table --force --no-create-info --master-data=2"
 MYSQLDUMPFLAGS3="--single-transaction --no-data --no-create-info --routines --skip-triggers"
-MYSQLDUMPUSER="backup"
+MYSQLDUMPUSER="backup"о
 MYSQLDUMPPASSWD=""
 MYSQLUSER="backup"
 MYSQLPASSWD=""
