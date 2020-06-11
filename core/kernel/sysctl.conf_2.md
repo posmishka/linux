@@ -15,3 +15,5 @@ net.ipv4.conf.all.rp_filter = 2
 net.ipv4.conf.default.rp_filter = 2
 fs.aio-max-nr = 1048576
 net.ipv4.ip_local_port_range = 9000 65500
+
+https://easyengine.io/tutorials/linux/sysctl-conf/
