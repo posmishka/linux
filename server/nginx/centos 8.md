@@ -25,9 +25,7 @@ module_hotfixes=true
 [nginx-mainline]
 
 name=nginx mainline repo
-
 baseurl=http://nginx.org/packages/mainline/centos/$releasever/$basearch/
-
 gpgcheck=1
 
 enabled=0
