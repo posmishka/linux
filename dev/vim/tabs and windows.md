@@ -1,4 +1,4 @@
-tabs
+tabs and windows
 ====
 
 vim -p 1 2 3 # open files in tabs 
