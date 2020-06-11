@@ -11,3 +11,6 @@ ssh
 
 Проброс ключей
 https://www.youtube.com/watch?v=7Log2jJtQqg
+
+bash-ssh menu
+https://github.com/vaniacer/sshto
