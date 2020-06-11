@@ -4,4 +4,4 @@ credentials
 git config credential.helper store
 
 **ssh**
-git remote set-url origin git@github.com:<Username>/<Project>.git
+git remote set-url origin git@github.com:\<Username>/\<Project>.git
