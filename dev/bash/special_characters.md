@@ -2,10 +2,9 @@ special_characters
 ==================
 
 
-
-
+| Char | Description |
+| --- | --- |
 |{ }                                                                                                                                                                                                                                            |Inline group — commands inside the curly braces are treated as if they were one command. It is convenient to use these when Bash syntax requires only one command and a function doesn't feel warranted.                                       |
-
 |( )                                                                                                                                                                                                                                            |Subshell group — similar to the above but where commands within are executed in a subshell (a new process). Used much like a sandbox, if a command causes side effects (like changing variables), it will have no effect on the current shell. |
 |(( ))                                                                                                                                                                                                                                          |Arithmetic expression — with an arithmetic expression, characters such as +, -, *, and / are mathematical operators used for calculations. They can be used for variable assignments like (( a = 1 + 4 )) as well as tests like if (( a < b )) |
 |$(( ))                                                                                                                                                                                                                                         |Arithmetic expansion — Comparable to the above, but the expression is replaced with the result of its arithmetic evaluation. Example: echo "The average is $(( (a+b)/2 ))".                                                                    |
