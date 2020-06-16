@@ -16,10 +16,10 @@ special_characters
 | $$ 	| Process identification number| 
 | $! 	| PID of last background job| 
 
-
+sh / csh
 
 | Char | Decription |
-| === | === |
+| --- | --- |
 | >ofile 	|	Standard output |
 | >>ofile 	| 	Append to standard output |
 | <ifile 	| 	Standard Input |
