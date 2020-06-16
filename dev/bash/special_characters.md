@@ -17,6 +17,6 @@ This group of characters will also be evaluated by Bash to have a non-literal me
 
 
 
-|  |  |
-|  |  |
-|  |  |
+| \` ` | Command substitution - use $( ) instead. |
+| [ ] | Test - an alias for the old test command. Commonly used in POSIX shell scripts. Lacks many features of [[ ]]. |
+| $[ ] |  |
