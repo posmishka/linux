@@ -9,13 +9,13 @@ special_characters
 |(( ))                                                                                                                                                                                                                                          |Arithmetic expression — with an arithmetic expression, characters such as +, -, *, and / are mathematical operators used for calculations. They can be used for variable assignments like (( a = 1 + 4 )) as well as tests like if (( a < b )) |
 |$(( ))                                                                                                                                                                                                                                         |Arithmetic expansion — Comparable to the above, but the expression is replaced with the result of its arithmetic evaluation. Example: echo "The average is $(( (a+b)/2 ))".                                                                    |
 
-$#  	Number of arguments to script
-$* 	 	Arguments to script
-$@ 	sh 	Original arguments to script
-$- 	sh 	Flags passed to shell
-$? 	sh 	Status of previous command
-$$ 	sh 	Process identification number
-$! 	sh 	PID of last background job
+$#  	| Number of arguments to script
+$* 	| Arguments to script
+$@ 	| Original arguments to script
+$- 	    | Flags passed to shell
+$? 	| Status of previous command
+$$ 	| Process identification number
+$! 	| PID of last background job
 
 
 
