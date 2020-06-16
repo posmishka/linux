@@ -21,16 +21,16 @@ special_characters
 |<ifile 	csh, sh 	Standard Input
 |<<word 	csh, sh 	Read until word, substitute variables
 |<<\word 	csh, sh 	Read until word, no substitution
-|<<-word 	sh 	Read until word, ignoring TABS
-|>>!file 	csh 	Append to file, ignore error if not there
-|>!file 	csh 	Output to new file, ignore error if not there
-|>&file 	csh 	Send standard & error output to file
-|<&digit 	sh 	Switch Standard Input to file
-|<&- 	sh 	Close Standard Input
-|>&digit 	sh 	Switch Standard Output to file
-|>&- 	sh 	Close Standard Output
-|digit1<&digit2 	sh 	Connect digit2 to digit1
-|digit<&- 	sh 	Close file digit
+|<<-word 	|	Read until word, ignoring TABS
+|>>!file 	|	Append to file, ignore error if not there
+|>!file 	|	Output to new file, ignore error if not there
+|>&file 	|	Send standard & error output to file
+|<&digit 	|	Switch Standard Input to file
+|<&- 	|	Close Standard Input
+|>&digit 	|	Switch Standard Output to file
+|>&- 	|	Close Standard Output
+|digit1<&digit2 |	Connect digit2 to digit1
+|digit<&- 	|	Close file digit
 |digit2>&digit1 |	Connect digit2 to digit1
 |digit>&- 	|	Close file digit
 
