@@ -16,13 +16,13 @@ special_characters
 | $$ 	| Process identification number| 
 | $! 	| PID of last background job| 
 
-|>ofile 	csh, sh 	Standard output
-|>>ofile 	csh, sh 	Append to standard output
-|<ifile 	csh, sh 	Standard Input
-|<<word 	csh, sh 	Read until word, substitute variables
-|<<\word 	csh, sh 	Read until word, no substitution
-|<<-word 	|	Read until word, ignoring TABS
-|>>!file 	|	Append to file, ignore error if not there
+|>ofile 	|	Standard output |
+|>>ofile 	| 	Append to standard output |
+|<ifile 	| 	Standard Input|
+|<<word 	| 	Read until word, substitute variables|
+|<<\word 	| 	Read until word, no substitution|
+|<<-word 	|	Read until word, ignoring TABS|
+|>>!file 	|	Append to file, ignore error if not there|
 |>!file 	|	Output to new file, ignore error if not there
 |>&file 	|	Send standard & error output to file
 |<&digit 	|	Switch Standard Input to file
