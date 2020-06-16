@@ -22,12 +22,12 @@ special_characters
 | === | === |
 | >ofile 	|	Standard output |
 | >>ofile 	| 	Append to standard output |
-| <ifile 	| 	Standard Input|
-| <<word 	| 	Read until word, substitute variables|
-| <<\word 	| 	Read until word, no substitution|
-| <<-word 	|	Read until word, ignoring TABS|
-| >>!file 	|	Append to file, ignore error if not there|
-| >!file 	|	Output to new file, ignore error if not there|
+| <ifile 	| 	Standard Input |
+| <<word 	| 	Read until word, substitute variables |
+| <<\word 	| 	Read until word, no substitution |
+| <<-word 	|	Read until word, ignoring TABS |
+| >>!file 	|	Append to file, ignore error if not there |
+| >!file 	|	Output to new file, ignore error if not there |
 | >&file 	|	Send standard & error output to file |
 | <&digit 	|	Switch Standard Input to file |
 | <&- 	|	Close Standard Input |
