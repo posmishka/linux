@@ -16,6 +16,9 @@ special_characters
 | $$ 	| Process identification number| 
 | $! 	| PID of last background job| 
 
+  
+| Char
+| == | == |
 |>ofile 	|	Standard output |
 |>>ofile 	| 	Append to standard output |
 |<ifile 	| 	Standard Input|
@@ -23,16 +26,16 @@ special_characters
 |<<\word 	| 	Read until word, no substitution|
 |<<-word 	|	Read until word, ignoring TABS|
 |>>!file 	|	Append to file, ignore error if not there|
-|>!file 	|	Output to new file, ignore error if not there
-|>&file 	|	Send standard & error output to file
-|<&digit 	|	Switch Standard Input to file
-|<&- 	|	Close Standard Input
-|>&digit 	|	Switch Standard Output to file
-|>&- 	|	Close Standard Output
-|digit1<&digit2 |	Connect digit2 to digit1
-|digit<&- 	|	Close file digit
-|digit2>&digit1 |	Connect digit2 to digit1
-|digit>&- 	|	Close file digit
+|>!file 	|	Output to new file, ignore error if not there|
+|>&file 	|	Send standard & error output to file|
+|<&digit 	|	Switch Standard Input to file|
+|<&- 	|	Close Standard Input|
+|>&digit 	|	Switch Standard Output to file|
+|>&- 	|	Close Standard Output|
+|digit1<&digit2 |	Connect digit2 to digit1|
+|digit<&- 	|	Close file digit|
+|digit2>&digit1 |	Connect digit2 to digit1|
+|digit>&- 	|	Close file digit|
 
 
 
