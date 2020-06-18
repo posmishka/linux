@@ -15,5 +15,5 @@ https://www.youtube.com/watch?v=7Log2jJtQqg
 bash-ssh menu
 https://github.com/vaniacer/sshto
 
-
+**Магия SSH**
 https://habr.com/ru/post/331348/
