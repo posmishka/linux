@@ -82,7 +82,7 @@ real_ip_header CF-Connecting-IP;
 ```
 
 ## prestashop 1.6
-
+```
 location ~ \.tpl$ { deny all; return 404; }
 
 rewrite ^/[a-zA-Z][a-zA-Z]/index.php(.*)$ /index.php$1;
@@ -114,3 +114,6 @@ rewrite ^/c/([a-zA-Z_-]+)(-[0-9]+)?/.+\.webp$ /img/c/$1$2.webp last;
 location /as4_seositemap {
     rewrite ^/as4_seositemap-([0-9]+).xml$ /modules/pm_advancedsearch4/sitemap/seositemap-$1.xml break;
 }
+```
+
+## prestashop 1.7
