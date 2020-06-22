@@ -28,7 +28,7 @@ add_header X-Content-Type-Options nosniff;
 
 #add_header Content-Security-Policy "default-src 'self';";
 #add_header Access-Control-Allow-Origin *;
-#add_header  X-Robots-Tag "noindex, nofollow, nosnippet, noarchive"; # Prevent search engines from indexing development server
+#add_header X-Robots-Tag "noindex, nofollow, nosnippet, noarchive"; # Prevent search engines from indexing development server
 ```
 <https://m.habr.com/ru/company/hosting-cafe/blog/315802/>
 ## static
