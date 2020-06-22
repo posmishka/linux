@@ -11,7 +11,6 @@ VER="$(echo $DATA | cut -d ' ' -f 1)"
 ```
 #### download
     curl -o phpMyAdmin-${VER}-all-languages.tar.gz https://files.phpmyadmin.net/phpMyAdmin/${VER}/phpMyAdmin-${VER}-all-languages.tar.gz
-    
 
 #### extract
 
@@ -19,7 +18,7 @@ VER="$(echo $DATA | cut -d ' ' -f 1)"
 OR
 
     tar xvf phpMyAdmin-${VER}-all-languages.tar.gz
-    
+
 #### move to /usr/share/phpmyadmin
 
     rm phpMyAdmin-*.tar.g
