@@ -11,4 +11,4 @@ vim /etc/tmpfiles.d/tmp.conf
 ### lastlog fix
 /etc/tmpfiles.d/var-part.conf
 
-``f /var/log/lastlog 0664 root utmp -
+`f /var/log/lastlog 0664 root utmp -`
