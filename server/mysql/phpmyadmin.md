@@ -20,8 +20,8 @@ OR
 
     tar xvf phpMyAdmin-${VER}-all-languages.tar.gz
     
- #### move to /usr/share/phpmyadmin
- 
+#### move to /usr/share/phpmyadmin
+
     rm phpMyAdmin-*.tar.g
     sudo mv phpMyAdmin-*/ /usr/share/phpmyadmin
     
@@ -37,9 +37,9 @@ OR
     sudo vim /usr/share/phpmyadmin/config.inc.php
     
  Set a secret passphrase – Needs to be 32 chars long
- 
+
  $cfg['blowfish_secret'] = 'H2OxcGXxflSd8JwrwVlh6KW6s2rER63i';
- 
+
  $cfg['TempDir'] = '/var/lib/phpmyadmin/tmp';
 
 #### nginx config
