@@ -7,9 +7,8 @@ GRANT ALL ON *.* TO 'yourUserName'@'localhost';
 flush privileges;
 
 Reset ROOT
-https://stackoverflow.com/questions/50691977/how-to-reset-the-root-password-in-mysql-8-0-11
-
-
++  https://stackoverflow.com/questions/50691977/how-to-reset-the-root-password-in-mysql-8-0-11
++  https://www.tecmint.com/reset-root-password-in-mysql-8/h
 
 ### create user sh
 ```
