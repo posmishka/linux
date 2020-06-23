@@ -17,3 +17,6 @@ https://github.com/vaniacer/sshto
 
 **Магия SSH**
 https://habr.com/ru/post/331348/
+
+**Secure ssh keys**
+https://blog.g3rt.nl/upgrade-your-ssh-keys.html
