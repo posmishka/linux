@@ -23,22 +23,12 @@ URxvt.tabbed.tabcmds.2: R|root|su -
 URxvt.tabbed.tabcmds.3: M|mc|mc
 URxvt.tabbed.tabcmds.4: F|ranger|ranger
 
-!URxvt*background: [70]#777777
-!URxvt*depth: 32
 URxvt*foreground: #dddddd
-
-!urxvt*depth: 32
-!urxvt*background: rgba:0000/0000/0200/c800
-
-!- For fake transparency:
-
-!urxvt*transparent: true
-!urxvt*shading: 20
-
 URxvt*inheritPixmap: true
 URxvt*transparent: true
 ! URxvt*shading: 0 to 99 darkens, 101 to 200 lightens
 URxvt*shading: 20
+
 ! solarized theme
 ! foreground/background
 ! black
