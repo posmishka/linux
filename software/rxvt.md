@@ -91,7 +91,3 @@ URxvt*foreground: #dddddd
 ```
 
 https://wiki.archlinux.org/index.php/Rxvt-unicode
-
-   From the silly examples department, this will rot13-"encrypt" urxvt's selection when Alt-Control-c is pressed on typical PC
-               keyboards:
-
