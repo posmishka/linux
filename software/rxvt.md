@@ -71,8 +71,8 @@ URxvt.boldfont:xft:Monospace-Bold:pixelsize=15
 
 plugin:
 
-resize-font
-https://github.com/gryf/tabbed
+- resize-font
+- https://github.com/gryf/tabbed
 
 Background different ways
 ```
