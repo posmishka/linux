@@ -73,6 +73,7 @@ plugin:
 
 - resize-font
 - https://github.com/gryf/tabbed
+- https://funloop.org/post/2015-06-25-urxvt-plugins.html
 
 Background different ways
 ```
