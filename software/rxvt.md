@@ -87,3 +87,5 @@ URxvt*foreground: #dddddd
 !urxvt*transparent: true
 !urxvt*shading: 20
 ```
+
+https://wiki.archlinux.org/index.php/Rxvt-unicode
