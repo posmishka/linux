@@ -3,7 +3,7 @@ apps
 
 feh - image
 
-raner - file manager
+ranger - file manager
 
 https://taskwarrior.org
 
