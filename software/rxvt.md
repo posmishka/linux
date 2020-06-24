@@ -30,7 +30,7 @@ URxvt*transparent: true
 URxvt*shading: 20
 
 ! solarized theme
-! foreground/background
+! foreground/backgroundb
 ! black
 URxvt.color0  : #000000
 URxvt.color8  : #555555
