@@ -69,4 +69,6 @@ URxvt.boldfont:xft:Monospace-Bold:pixelsize=15
 
 ```
 
-modul
+modules: 
+
+resize-font
