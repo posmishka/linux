@@ -73,7 +73,17 @@ modules:
 
 resize-font
 
-
+Background different ways
 ```
+!URxvt*background: [70]#777777
+!URxvt*depth: 32
+URxvt*foreground: #dddddd
 
+!urxvt*depth: 32
+!urxvt*background: rgba:0000/0000/0200/c800
+
+!- For fake transparency:
+
+!urxvt*transparent: true
+!urxvt*shading: 20
 ```
