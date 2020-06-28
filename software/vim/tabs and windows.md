@@ -35,14 +35,14 @@ tabs and windows
 ## Окна
 **Разделить по горизонтали / вертикали**
 
-|   | cmd open file | cmd empty
+|   | cmd open file | cmd empty | 
 | --- | --- | --- | --- |
-| По вертикали | :vs \<filepath> |
-| По горизонтали | :sp \<filepath> |
+| По вертикали | :vs \<filepath> | :verticalsplit |
+| По горизонтали | :sp \<filepath> | :split |
 
 		:sp <filepath>
 		Ctrl-W s
-		:split
+		
 		vim -o file1 file2
      :sview file	Разделить окно и открыть file только для чтения
 
@@ -50,7 +50,7 @@ tabs and windows
 
 		
 		Ctrl-W v
-		:verticalsplit
+		
 		vim -O file1 file2
 
 **Переключение**
