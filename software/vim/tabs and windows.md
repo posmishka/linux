@@ -6,7 +6,6 @@ vim -p 1 2 3 # open files in tabs
 **Создать новую**	
 
     :tabe <filepath>
-    
 **Следующая**
 
 	:tabn
@@ -18,8 +17,7 @@ vim -p 1 2 3 # open files in tabs
 **Закрыть**
 
 	:q / :wq
-	
-	
+
 <https://www.youtube.com/watch?v=B-EPvfxcgl0>
 
 
