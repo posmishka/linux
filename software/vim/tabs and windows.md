@@ -60,12 +60,13 @@ ctrl-w=	Подогнать окна по размеру
 		vim -o file1 file2
      :sview file	Разделить окно и открыть file только для чтения
 
+**Разделить  вертикали**
 
 		:vs <filepath>
 		Ctrl-W v
 		:verticalsplit
-		запуск vim -O file1 file2
-		
+		vim -O file1 file2
+
 **Переключение**
 
 		Ctrl-W, потом стрелками
