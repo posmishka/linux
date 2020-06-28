@@ -3,7 +3,9 @@ tabs and windows
 
 ### табы
 
-`vim -p 1 2 3` open files in tabs 
+`vim -p 1 2 3` open files in tabs
+
+`:tabs`      вывести список табов
 
 **Создать новый**	
 
