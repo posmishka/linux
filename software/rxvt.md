@@ -111,7 +111,7 @@ URxvt.keysym.Control-Meta-c: builtin-string:
 URxvt.keysym.Control-Meta-v: builtin-string:
 
 URxvt.keysym.Shift-Control-V: eval:paste_clipboard
-U
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
 ```
 
 plugin:
