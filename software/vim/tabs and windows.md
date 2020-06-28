@@ -13,11 +13,11 @@ tabs and windows
 
 `  :tabnew [fname] `         создать таб
 
-**Н**
+**Навигация**
 
-	:tabn
-	gt
-**Предидущий**
+`<n>gt`                    перейти на таб #n
+`:tabn`
+`gt`
 
 	:tabp
 	gT
