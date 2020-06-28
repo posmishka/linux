@@ -7,4 +7,5 @@ registers
 "*p - paste from system clipboard
 
 "*yy - copy the current line
-gg, then "*yG - copy whole file / buffer
+
+`gg`, then `"*yG` - copy whole file / buffer
