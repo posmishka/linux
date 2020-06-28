@@ -1,10 +1,6 @@
 marks
 =====
 
-`ma`                        установить локальный маркер a
-
-`mB`                        установить глобальный маркер B
-
 `c`                        перейти к локальному маркеру c
 
 set viminfo='1000,f1      маркеры пишутся в ~/.viminfo, восстанавливаясь
@@ -13,7 +9,9 @@ set viminfo='1000,f1      маркеры пишутся в ~/.viminfo, восс�
 
 **Each file a ; one file A**
 
-		ma	set mark a at current cursor location
+		ma	set local mark a at current cursor location
+		mB	set global mark a at current cursor location
+	
 		'a	jump to line of mark a (first non-blank character in line)
 		`a	jump to position (line and column) of mark a
 		d'a	delete from current line to line of mark a
