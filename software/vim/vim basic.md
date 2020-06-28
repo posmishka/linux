@@ -1,4 +1,4 @@
-vim simple
+vim basic
 ==========
 
 vim simple
