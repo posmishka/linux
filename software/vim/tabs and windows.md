@@ -5,10 +5,12 @@ tabs and windows
 
 `vim -p 1 2 3` open files in tabs 
 
-**Создать новую**	
+**Создать новый**	
 
- `:tabe <filepath>` открыть в новом табе
-   :tabnew [fname]          создать таб
+`:tabe <filepath>` открыть в новом табе
+
+`  :tabnew [fname] `         создать таб
+
 **Следующая**
 
 	:tabn
