@@ -89,8 +89,7 @@ zf                        см :set foldmethod=manual
 
 
 == Сессии ==
-mksession file.session    сохранить текущую сессию
-source file.session       восстановить ранее сохраненную сессию
+
 
 
 == Макросы ==
