@@ -2,19 +2,21 @@ tabs and windows
 ====
 
 ### табы
+
 `vim -p 1 2 3` open files in tabs 
 
 **Создать новую**	
 
     :tabe <filepath>
+    :tabnew [fname]          создать таб
 **Следующая**
 
 	:tabn
-	
+	gt
 **Предидущая**
 
 	:tabp
-	
+	gT
 **Закрыть**
 
 	:q / :wq
@@ -23,7 +25,7 @@ tabs and windows
 
 
 == Работа с вкладками (a.k.a табами) ==
-:tabnew [fname]          создать таб
+
 :tabs                    вывести список табов
 :tabn                    следующий таб
 :tabp                    предыдущий таб
