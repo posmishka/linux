@@ -37,12 +37,10 @@ tabs and windows
 
 |   | cmd open file | cmd empty | hotkey | vim open |
 | --- | --- | --- | --- | --- |
-| По вертикали | :vs \<filepath> | :verticalsplit | Ctrl-W v |
+| По вертикали | :vs \<filepath> | :verticalsplit | Ctrl-W v | vim -O file1 file2 |
 | По горизонтали | :sp \<filepath> | :split | Ctrl-W s | vim -o file1 file2 |
 
-		:sp <filepath>
-		
-		
+
 		
      :sview file	Разделить окно и открыть file только для чтения
 
@@ -51,7 +49,7 @@ tabs and windows
 		
 		
 		
-		vim -O file1 file2
+		
 
 **Переключение**
 
