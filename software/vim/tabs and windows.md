@@ -35,7 +35,7 @@ tabs and windows
 ## Окна
 **Разделить по горизонтали / вертикали**
 
-|   | cmd | 
+|   | cmd open file | cmd empty
 | --- | --- | --- | --- |
 | По вертикали | :vs \<filepath> |
 | По горизонтали | :sp \<filepath> |
