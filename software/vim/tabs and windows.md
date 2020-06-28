@@ -15,12 +15,11 @@ tabs and windows
 
 **Навигация**
 
-`<n>gt`                    перейти на таб #n
-`:tabn / gt`
-`:tabp / gT`
-**Закрыть**
+`<n>gt`       перейти на таб #n
+`:tabn / gt`  следующий
+`:tabp / gT`  предидущий
 
-	:q / :wq
+**П**
 
 <https://www.youtube.com/watch?v=B-EPvfxcgl0>
 
