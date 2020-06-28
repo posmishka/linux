@@ -12,4 +12,4 @@ registers
 
 `gg`, then `"*yG` - copy whole file / buffer
 
-vmap <C-c> "*y - put to .vimrc to have Ctrl+c w
+vmap <C-c> "*y - put to .vimrc to have Ctrl+c working with clipboard
