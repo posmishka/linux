@@ -12,5 +12,4 @@ registers
 
 `gg`, then `"*yG` - copy whole file / buffer
 
-nnoremap <leader>c "*
-nnoremap <leader>v "*
+vmap <C-c> "+y
