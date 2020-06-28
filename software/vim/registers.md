@@ -1,4 +1,5 @@
 registers
 =========
 
-"*y  -  copy to clipboard
+"*y  -  copy to system clipboard (middle mouse button to paste)
+"*p - 
