@@ -2,8 +2,7 @@ rxvt
 ====
 
 ```
- fix ssh 
-
+!fix ssh 
 XTerm*termName: xterm-256color
 URxvt*termName: rxvt-unicode
 
