@@ -35,10 +35,10 @@ tabs and windows
 ## Окна
 **Разделить по горизонтали / вертикали**
 
-|   | 
+|   | cmd | 
 | --- | --- | --- | --- |
-| По вертикали |  |
-| По горизонтали |
+| По вертикали | :vs \<filepath> |
+| По горизонтали | :sp \<filepath> |
 
 		:sp <filepath>
 		Ctrl-W s
@@ -48,7 +48,7 @@ tabs and windows
 
 **Разделить вертикали**
 
-		:vs <filepath>
+		
 		Ctrl-W v
 		:verticalsplit
 		vim -O file1 file2
