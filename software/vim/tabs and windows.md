@@ -16,11 +16,8 @@ tabs and windows
 **Навигация**
 
 `<n>gt`                    перейти на таб #n
-`:tabn`
-`gt`
-
-	:tabp
-	gT
+`:tabn / gt`
+`:tabp / gT`
 **Закрыть**
 
 	:q / :wq
