@@ -1,5 +1,6 @@
 spelling
 ========
+Проверка орфографии
 
     mkdir -p ~/.vim/spell
     cd ~/.vim/spell
