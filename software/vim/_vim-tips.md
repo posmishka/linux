@@ -1,4 +1,4 @@
-vim-tips
+_vim-tips
 ========
 
 ### Remove ^M from the end of line
