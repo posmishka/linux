@@ -48,6 +48,8 @@ URxvt*inheritPixmap: true
 URxvt*transparent: true
 URxvt*shading: 20
 
+URxvt*foreground: #dddddd
+
 ! solarized theme
 ! foreground/background
 ! black
