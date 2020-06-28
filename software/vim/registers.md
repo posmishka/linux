@@ -17,6 +17,8 @@ Generally on Linux, + and * are different: + corresponds to the desktop clipboar
 `gg`, then `"*yG` - copy whole file / buffer
 
 ### \+ - XA_SECONDARY
-:inoremap <C-v> <ESC>"+pa
-:vnoremap <C-c> "+y
-:vnoremap <C-x> "+d
+Key maps to emulate the "system clipboard" shortcuts would be: 
+
+    :inoremap <C-v> <ESC>"+pa
+    :vnoremap <C-c> "+y
+    :vnoremap <C-x> "+d
