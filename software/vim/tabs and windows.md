@@ -7,8 +7,8 @@ tabs and windows
 
 **Создать новую**	
 
-    :tabe <filepath>
-    :tabnew [fname]          создать таб
+ `:tabe <filepath>` открыть в новом табе
+   :tabnew [fname]          создать таб
 **Следующая**
 
 	:tabn
