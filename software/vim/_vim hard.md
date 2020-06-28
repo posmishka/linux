@@ -19,19 +19,6 @@ _vim hard
 :set printoptions=duplex:off  отключить двустороннюю печать
 
 
-== Сворачивание ==
-zc                        свернуть блок
-zo                        развернуть блок
-zM                        закрыть все блоки
-zR                        открыть все блоки
-za                        инвертирование
-zf                        см :set foldmethod=manual
-:set foldenable           включить свoрачивание
-:set foldmethod=syntax    сворачивание на основе синтаксиса
-:set foldmethod=indent    сворачивание на основе отступов
-:set foldmethod=manual    выделяем участок с помощью v и говорим zf
-:set foldmethod=marker    сворачивание на основе маркеров в тексте
-:set foldmarker=bigin,end задаем маркеры начала и конца блока
 
 
 
