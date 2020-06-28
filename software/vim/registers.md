@@ -1,12 +1,12 @@
 registers
 =========
 
-
+## System
 Generally on Linux, + and * are different: + corresponds to the desktop clipboard (XA_SECONDARY) that is accessed using CTRL-C, CTRL-X, and CTRL-V, while * corresponds to the X11 primary selection (XA_PRIMARY), which stores the mouse selection and is pasted using the middle mouse button in most applications.
 
 https://vim.fandom.com/wiki/Accessing_the_system_clipboard
 
-### \* - XA_PRIMARY
+### \* XA_PRIMARY
 > *vim-gtk (or vim with +clipboard option) should be used*
  
 `"*y` -  copy to system clipboard (middle mouse button to paste outside the vim)
@@ -19,7 +19,7 @@ https://vim.fandom.com/wiki/Accessing_the_system_clipboard
 
 `gg`, then `"*yG` - copy whole file / buffer
 
-### \+ - XA_SECONDARY
+### \+ XA_SECONDARY
 Key maps to emulate the "system clipboard" shortcuts would be: 
 
     :inoremap <C-v> <ESC>"+pa
