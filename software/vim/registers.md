@@ -1,7 +1,7 @@
 registers
 =========
 
-### \* - system clipboard register
+### \* - system  clipboard register
 > *vim-gtk (or vim with +clipboard option) should be used*
  
 `"*y` -  copy to system clipboard (middle mouse button to paste outside the vim)
@@ -12,4 +12,7 @@ registers
 
 `gg`, then `"*yG` - copy whole file / buffer
 
-### \+ - 
+### \+ - secondary system clipboard register 
+:inoremap <C-v> <ESC>"+pa
+:vnoremap <C-c> "+y
+:vnoremap <C-x> "+d
