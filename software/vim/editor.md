@@ -1,3 +1,3 @@
-mode_editor
+editor
 ===========
 
