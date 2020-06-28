@@ -11,9 +11,6 @@ sudo update-alternatives --set vim /usr/bin/vim.nox-py2
 sudo update-alternatives --set vim /usr/bin/vim.gtk3
 
 Файл настройки: ~/.vimrc
-Можно редактировать файлы через сеть, например
-:e <scp|ftp|ftps>://user@host/path/to/the/file.txt
-:Ex или :e ./ - файловый менеджер
 
 
 == Основы ==
