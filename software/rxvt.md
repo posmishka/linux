@@ -10,8 +10,7 @@ URxvt*termName: rxvt-unicode
 URxvt.iso14755: false
 URxvt.iso14755_52: false
 
-! scrollbar style - rxvt (default),
-! plain (compact), NeXT, or xtermn
+! scrollbar style - rxvt (default), plain (compact), NeXT, or xterm
 URxvt.scrollstyle: plain
 URxvt.scrollBar_right: True
 
@@ -34,9 +33,6 @@ URxvt.tabbed.tabcmds.2: R|root|su -
 URxvt.tabbed.tabcmds.3: M|mc|mc
 URxvt.tabbed.tabcmds.4: F|ranger|ranger
 
-!URxvt*background: [70]#777777
-!URxvt*depth: 32
-URxvt*foreground: #dddddd
 
 !for tabbedx
 !URxvt.tabbed.no-tabbedex-keys: true
