@@ -1,7 +1,7 @@
 tabs and windows
 ====
 
-### табы
+## Табы
 
 `vim -p 1 2 3` open files in tabs
 
@@ -16,19 +16,12 @@ tabs and windows
 **Навигация**
 
 `<n>gt`       перейти на таб #n
+
 `:tabn / gt`  следующий
+
 `:tabp / gT`  предидущий
 
-**П**
-
-<https://www.youtube.com/watch?v=B-EPvfxcgl0>
-
-
-== Работа с вкладками (a.k.a табами) ==
-
-
-
-
+**Перемещение**
 
 `:tabm +1`                 переместить таб вперед на одну позицию
 
@@ -36,7 +29,10 @@ tabs and windows
 
 `:tabm 2`                  переместить таб на заданную позицию (нумерация начинается с нуля)
 
-### окна
+<https://www.youtube.com/watch?v=B-EPvfxcgl0>
+
+
+## Окна
 **Разделить по горизонтали / вертикали**
 	
 		:sp <filepath>
