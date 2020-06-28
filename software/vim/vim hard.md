@@ -1,8 +1,6 @@
 vim hard
 ========
 
-vim hard
-
 :help ^w
 :help NERDTree
 
