@@ -10,6 +10,8 @@ registers
 
 `"*yy` - copy the current line
 
+`"*dd` – cut the current line into *
+
 `gg`, then `"*yG` - copy whole file / buffer
 
 ### \+ - secondary system clipboard register 
