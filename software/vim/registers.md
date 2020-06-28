@@ -24,4 +24,9 @@ Key maps to emulate the "system clipboard" shortcuts would be:
     :inoremap <C-v> <ESC>"+pa
     :vnoremap <C-c> "+y
     :vnoremap <C-x> "+d
- 
+
+
+`"ayy`                      скопировать строку в регистр a
+`"bdd`                      вырезать строку и поместить в регистр b
+`"С2d`                      вырезать три строки и дописать в конец регистра C
+:reg [name1][name2][...]  просмотреть содержимое регистров
