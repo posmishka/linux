@@ -89,33 +89,6 @@ mk	Пометить текущую позиция как k
 
 
 
-Вставить  символ в начало большого количества подряд идущих строк:
-
-Вариант 1
-
-Use Ctrl+v to select the first column of text in the lines you want to comment.
-
-Then hit 'I' and type the text you want to insert.
-
-Then hit 'Esc', wait 1 second and the inserted text will appear on every line.
-
-Вариант 2
-This replaces the beginning of each line with "//":
-
-
-:%s!^!//!
-
-This replaces the beginning of each selected line (use visual mode to select) with "//":
-
-
-:'<,'>s!^!//! 
-
----
-What if you’ve forgot to give sudo when you’ve opened the /etc/group file as shown below? In this case, instead of coming out of the file (and loosing all your changes) and executing the vim command with sudo, you can do the following.
-
-$ vim /etc/group
-
-:w !sudo tee %
 
 
 
