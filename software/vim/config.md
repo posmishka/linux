@@ -30,10 +30,6 @@ set [no]expandtab         заменять ли табуляцию на соот
 :set syntax=perl	Установить режим подсветки
 
 
-:syntax on                включить подсветку
-:syntax off               выключить подсветку (по умолчанию)
-
-
 == Перенос строк ==
 :set wrap                 разрешить word wrap (по умолчанию)
 :set nowrap               запретить word wrap
