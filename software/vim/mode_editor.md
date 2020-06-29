@@ -22,3 +22,6 @@ zf                        см :set foldmethod=manual
 :set foldmarker=bigin,end задаем маркеры начала и конца блока
 
 
+Ctrl+n Ctrl+p (в режиме вставки)	Дополнить слово
+Ctrl+x Ctrl+l	Дополнить строку
+Ctrl+x Ctrl+k	Дополнение из словаря

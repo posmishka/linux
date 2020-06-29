@@ -16,7 +16,8 @@ set viminfo='1000,f1      маркеры пишутся в ~/.viminfo, восс�
 		y`a	yank text to unnamed buffer from cursor to position of mark a
 		:marks	list all the current marks
 		:marks aB	list marks a, B
-		
+		d’k	Удалить все до метки k
+d’a,’k	Удалить все от метки a до метки k
 **-= Navigate =-**
 	
 		]'	jump to next line with a lowercase mark
