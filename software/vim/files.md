@@ -32,3 +32,6 @@ gf	Открыть файл с именем, равным слову, наход�
 быстро вставить текст при включенном autoindent (set ai)  - борьба с "лесенкой"
 
 :r !cat
+
+
+:w !sudo tee % will save the file as root privilege, even if you didn’t use sudo command to open it.
