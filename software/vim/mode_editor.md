@@ -25,3 +25,5 @@ zf                        см :set foldmethod=manual
 Ctrl+n Ctrl+p (в режиме вставки)	Дополнить слово
 Ctrl+x Ctrl+l	Дополнить строку
 Ctrl+x Ctrl+k	Дополнение из словаря
+
+ctrl-t, ctrl-d	Убрать/добавить отступ в режиме вставки
