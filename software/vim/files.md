@@ -34,4 +34,4 @@ gf	Открыть файл с именем, равным слову, наход�
 :r !cat
 
 
-:w !sudo tee % will save the file as root privilege, even if you didn’t use sudo command to open it.
+`:w !sudo tee %` will save the file as root privilege, even if you didn’t use sudo command to open it.
