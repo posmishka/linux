@@ -28,3 +28,17 @@ set [no]expandtab         заменять ли табуляцию на соот
 :syntax on	Включить подсветку
 :syntax off	Выключить подсветку
 :set syntax=perl	Установить режим подсветки
+
+
+:syntax on                включить подсветку
+:syntax off               выключить подсветку (по умолчанию)
+
+
+== Перенос строк ==
+:set wrap                 разрешить word wrap (по умолчанию)
+:set nowrap               запретить word wrap
+
+
+== Печать ==
+:ha[rdcopy]                   распечатать документ
+:set printoptions=duplex:off  отключить двустороннюю печать
