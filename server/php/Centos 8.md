@@ -7,7 +7,7 @@ $dnf module list php
 
 $dnf module enable php:remi-7.3 -y
 
-$dnf install 
+$dnf install
 php
 php-bcmath
 php-cli
@@ -31,7 +31,7 @@ php-soap
 php-tidy
 php-xml
 
-$dnf install 
+$dnf install
 php71
 php71-php-bcmath
 php71-php-cli
