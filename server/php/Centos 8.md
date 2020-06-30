@@ -31,7 +31,7 @@ php-soap
 php-tidy
 php-xml
 
-
+$dnf install 
 php71
 php71-php-bcmath
 php71-php-cli
@@ -51,3 +51,4 @@ php71-php-pecl-zip
 php71-php-soap
 php71-php-xml
 php71-runtime
+php71=
