@@ -50,5 +50,4 @@ php71-php-pecl-apcu
 php71-php-pecl-zip
 php71-php-soap
 php71-php-xml
-php71-runtime
 php71-php-tidy
