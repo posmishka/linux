@@ -14,7 +14,7 @@ php74,73,72 same time
 dnf module enable php:remi-7.3 -y
 
 
-dnf install  -php-opcache php71-php-fpm php71-php-gd php71-php-mcrypt php71-php-mysqlnd php71-php-odbc php71-php-pdo php71-php-pecl-apcu php71-php-xml php71-php-mbstring
+dnf install    php71-php-mcrypt php71-php-mysqlnd php71-php-odbc php71-php-pdo php71-php-pecl-apcu php71-php-xml php71-php-mbstring
 
 
 php
@@ -26,6 +26,7 @@ php-gd
 php-intl
 php-json
 php-mbstring
+php-mcrypt
 php-mysqlnd
 php-odbc
 php-opcache
