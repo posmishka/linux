@@ -46,6 +46,7 @@ php71-php-mysqlnd
 php71-php-odbc
 php71-php-opcache
 php71-php-pdo
+php71-php-pear.noarch
 php71-php-pecl-apcu
 php71-php-pecl-zip
 php71-php-soap
