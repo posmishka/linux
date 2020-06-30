@@ -1,17 +1,13 @@
 Centos 8
 ===============
 
-rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
-
-
-dnf install -y https://rpms.remirepo.net/enterprise/remi-release-8.rpm
-
+$dnf install -y https://rpms.remirepo.net/enterprise/remi-release-8.rpm
 
 $dnf module list php
 
 $dnf module enable php:remi-7.3 -y
 
-dnf install 
+$dnf install 
 php
 php-bcmath
 php-cli
@@ -34,6 +30,7 @@ php-process
 php-soap
 php-tidy
 php-xml
+
 
 php71
 php71-php-bcmath
