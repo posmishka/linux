@@ -13,8 +13,7 @@ php74,73,72 same time
 
 dnf module enable php:remi-7.3 -y
 
-yum --disablerepo="*" --enablerepo="remi-safe" list available | more
-yum --disablerepo="*" --enablerepo="remi-safe" search php
+
 
 php71
 
