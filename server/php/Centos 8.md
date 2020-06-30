@@ -26,7 +26,6 @@ php
 php-bcmath
 php-cli
 php-common
-php-fedora-autoloader.noarch
 php-fpm
 php-gd
 php-intl
