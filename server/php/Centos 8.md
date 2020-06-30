@@ -14,12 +14,7 @@ php74,73,72 same time
 dnf module enable php:remi-7.3 -y
 
 
-
-php71
-
-rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm && yum update
-
-dnf install php71 php71-php-opcache php71-php-fpm php71-php-gd php71-php-mcrypt php71-php-mysqlnd php71-php-odbc php71-php-pdo php71-php-pecl-apcu php71-php-xml php71-php-mbstring
+dnf install  -php-opcache php71-php-fpm php71-php-gd php71-php-mcrypt php71-php-mysqlnd php71-php-odbc php71-php-pdo php71-php-pecl-apcu php71-php-xml php71-php-mbstring
 
 
 php
