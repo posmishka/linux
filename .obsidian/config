@@ -15,13 +15,13 @@
     "type": "split",
     "children": [
       {
-        "id": "dbee9a6b6cbccaef",
+        "id": "3488275e4bcfd0cf",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "server/nginx/centos 8.md",
+            "file": "server/nginx/prestashop.md",
             "mode": "source"
           }
         }
@@ -83,8 +83,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "server/nginx/prestashop.md",
+    "server/nginx/stuff.md",
+    "server/nginx/wordpress.md",
     "server/nginx/centos 8.md",
-    "server/nginx/centos 7.md",
-    "dev/awk sed.md"
+    "server/nginx/centos 7.md"
   ]
 }
