@@ -17,14 +17,27 @@
       {
         "id": "3488275e4bcfd0cf",
         "type": "leaf",
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "server/Centos 8.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "4ca2ae4b8c41ccf4"
+      },
+      {
+        "id": "822bf0dc8f1aabec",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "server/Centos 8.md",
+            "mode": "source"
+          }
+        },
+        "group": "4ca2ae4b8c41ccf4"
       }
     ],
     "direction": "vertical"
