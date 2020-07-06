@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "server/nginx/prestashop.md",
+            "file": "core/linux-in-ram.md",
             "mode": "source"
           }
         }
@@ -83,10 +83,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "core/linux-in-ram.md",
+    "server/ansible/indeponent.md",
+    "server/ansible/ansible.cfg.md",
     "server/nginx/prestashop.md",
-    "server/nginx/stuff.md",
-    "server/nginx/wordpress.md",
-    "server/nginx/centos 8.md",
-    "server/nginx/centos 7.md"
+    "server/nginx/stuff.md"
   ]
 }
