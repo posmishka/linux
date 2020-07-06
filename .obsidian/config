@@ -27,17 +27,35 @@
         "group": "4ca2ae4b8c41ccf4"
       },
       {
-        "id": "822bf0dc8f1aabec",
-        "type": "leaf",
-        "active": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "server/Centos 8.md",
-            "mode": "source"
+        "id": "afd60eb2040005d0",
+        "type": "split",
+        "children": [
+          {
+            "id": "822bf0dc8f1aabec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "server/Centos 8.md",
+                "mode": "source"
+              }
+            },
+            "group": "4ca2ae4b8c41ccf4"
+          },
+          {
+            "id": "46299362373e861c",
+            "type": "leaf",
+            "active": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "server/Centos 8.md",
+                "mode": "source"
+              }
+            }
           }
-        },
-        "group": "4ca2ae4b8c41ccf4"
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
