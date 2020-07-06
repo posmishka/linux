@@ -19,8 +19,11 @@
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "server/Centos 8.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -80,10 +83,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "server/Centos 8.md",
+    "Markdown Cheatsheet.md",
     "core/linux-in-ram.md",
     "server/ansible/indeponent.md",
-    "server/ansible/ansible.cfg.md",
-    "server/nginx/prestashop.md",
-    "server/nginx/stuff.md"
+    "server/ansible/ansible.cfg.md"
   ]
 }
