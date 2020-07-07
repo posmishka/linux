@@ -21,41 +21,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "server/Centos7.md",
+            "file": "server/sftp.md",
             "mode": "preview"
           }
         },
         "group": "4ca2ae4b8c41ccf4"
       },
       {
-        "id": "afd60eb2040005d0",
-        "type": "split",
-        "children": [
-          {
-            "id": "822bf0dc8f1aabec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "server/Centos7.md",
-                "mode": "source"
-              }
-            },
-            "group": "4ca2ae4b8c41ccf4"
-          },
-          {
-            "id": "46299362373e861c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "server/Centos 8.md",
-                "mode": "source"
-              }
-            }
+        "id": "822bf0dc8f1aabec",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "server/sftp.md",
+            "mode": "source"
           }
-        ],
-        "direction": "horizontal"
+        },
+        "group": "4ca2ae4b8c41ccf4"
       }
     ],
     "direction": "vertical"
@@ -114,10 +96,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "server/sftp.md",
     "server/Centos7.md",
     "server/Centos 8.md",
     "Markdown Cheatsheet.md",
-    "core/linux-in-ram.md",
-    "server/ansible/indeponent.md"
+    "core/linux-in-ram.md"
   ]
 }
