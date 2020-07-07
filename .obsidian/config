@@ -17,10 +17,11 @@
       {
         "id": "3488275e4bcfd0cf",
         "type": "leaf",
+        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "server/Centos 8.md",
+            "file": "server/Centos7.md",
             "mode": "preview"
           }
         },
@@ -36,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "server/Centos 8.md",
+                "file": "server/Centos7.md",
                 "mode": "source"
               }
             },
@@ -45,7 +46,6 @@
           {
             "id": "46299362373e861c",
             "type": "leaf",
-            "active": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -114,10 +114,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "server/Centos7.md",
     "server/Centos 8.md",
     "Markdown Cheatsheet.md",
     "core/linux-in-ram.md",
-    "server/ansible/indeponent.md",
-    "server/ansible/ansible.cfg.md"
+    "server/ansible/indeponent.md"
   ]
 }
