@@ -1,4 +1,4 @@
-mail - mta, mda
+mail
 ========================
 
 Fetchmail  
