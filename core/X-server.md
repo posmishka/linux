@@ -23,4 +23,6 @@ xrandr --output LVDS-1 --auto --rotate normal --pos 0x0 --output VGA-1 --mode "1
 
 `xrandr --output DP-1 --off`
 
-# 
+# DPI real size
+
+https://habr.com/ru/post/506082/
