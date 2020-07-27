@@ -6,11 +6,13 @@ https://www.tecmint.com/diskonaut-linux-disk-space-navigator/
 
 ## SMART
 
+
+```sh
 #!/bin/bash
 
 # install the smartctl package first! (apt-get install smartctl)
 
-```sh
+
 if sudo true
 then
    true
