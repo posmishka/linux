@@ -16,24 +16,24 @@ Navigation
 |Ctrl + x, Ctrl + e		| Edit the current command in your $EDITOR.
 |Alt + d		| Delete the word after the cursor.
 |Alt + Delete		| Delete the word before the cursor.
-|Ctrl + d	Delete the character beneath the cursor.
-|Ctrl + h	Delete the character before the cursor (like backspace).
-|Ctrl + k	Cut the line after the cursor to the clipboard.
-|Ctrl + u	Cut the line before the cursor to the clipboard.
-|Ctrl + d	Cut the word after the cursor to the clipboard.
-|Ctrl + w	Cut the word before the cursor to the clipboard.
-|Ctrl + y	Paste the last item to be cut.
+|Ctrl + d	| Delete the character beneath the cursor.
+|Ctrl + h	| Delete the character before the cursor (like backspace).
+|Ctrl + k	| Cut the line after the cursor to the clipboard.
+|Ctrl + u	| Cut the line before the cursor to the clipboard.
+|Ctrl + d	| Cut the word after the cursor to the clipboard.
+|Ctrl + w	| Cut the word before the cursor to the clipboard.
+|Ctrl + y	| Paste the last item to be cut.
 |Processes	
-|Ctrl + l	Clear the entire screen (like the clear command).
-|Ctrl + z	Place the currently running process into a suspended background process (and then use fg to restore it).
-|Ctrl + c	Kill the currently running process by sending the SIGINT signal.
-|Ctrl + d	Exit the current shell.
-|Enter, ~, .	Exit a stalled SSH session.
+|Ctrl + l	| Clear the entire screen (like the clear command).
+|Ctrl + z	| Place the currently running process into a suspended background process (and then use fg to restore it).
+|Ctrl + c	| Kill the currently running process by sending the SIGINT signal.
+|Ctrl + d	| Exit the current shell.
+|Enter, ~, .	| Exit a stalled SSH session| .
 |History	
-|Ctrl + r	Bring up the history search.
-|Ctrl + g	Exit the history search.
-|Ctrl + p	See the previous command in the history.
-|Ctrl + n	See the next command in the history.
+|Ctrl + r	| Bring up the history search.| 
+|Ctrl + g	| Exit the history search.| 
+|Ctrl + p	| See the previous command in the history.| 
+|Ctrl + n	| See the next command in the history.| 
 
 All of these keyboard shortcuts are enabled by Emacs mode in Bash. If you’d like to use Vi shortcuts instead, you can enable that mode and use different shortcuts instead. In addition, most of these are compatible with Zsh as well, although you might find that a few don’t work or require slightly altered shortcuts.
 
