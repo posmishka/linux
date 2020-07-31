@@ -4,15 +4,15 @@ bash
 | hotkey |action | 	
 |---|---|
 **Navigation**
-|Ctrl + a	| Go to the beginning of the line.| 
-|Ctrl + e	| 	Go to the end of the line.| 
-|Alt + f		| Move the cursor forward one word.| 
-|Alt + b		| Move the cursor back one word.| 
-|Ctrl + f		| Move the cursor forward one character.| 
-|Ctrl + b		| Move the cursor back one character.| 
+|Ctrl + a	| Go to the beginning of the line|
+|Ctrl + e	| 	Go to the end of the line|
+|Alt + f		| Move the cursor forward one word|
+|Alt + b		| Move the cursor back one word|
+|Ctrl + f		| Move the cursor forward one character|
+|Ctrl + b		| Move the cursor back one character|
 |Ctrl+P |	Previous Command|
 |Ctrl+N |	Next Arrow|
-|Ctrl + x, x		| Toggle between the current cursor position and the beginning of the line.| 
+|Ctrl + x, x		| Toggle between the current cursor position and the beginning of the line|
 **Editing**
 |Ctrl + _		| Undo|
 |Ctrl + x, Ctrl + e		| Edit the current command in your $EDITOR|
@@ -37,7 +37,7 @@ bash
 |Ctrl+M |	Enter|
 |Ctrl+[ |	Escape|
 **Processes**
-|Ctrl + l	| Clear the entire screen (like the clear command).| 
+|Ctrl + l	| Clear the entire screen (like the clear command)|
 |Ctrl + z	| Place the currently running process into a suspended background process (and then use fg to restore it).| 
 |Ctrl + c	| Kill the currently running process by sending the SIGINT signal.| 
 |Ctrl + d	| Exit the current shell.| 
