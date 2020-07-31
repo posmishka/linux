@@ -28,6 +28,14 @@ bash
 |Alt+T |	Swap Current Word with Previous|
 |Ctrl+T 	|Swap Last Character before Cursor|
 |Esc+T 	|Swap Last Two Words Before Cursor|
+|Alt+U 	Upper Capitalize Every Character form Cursor
+|Alt+L 	|Lower The Case Every Character Form Cursor
+|Alt+C 	|Capitalize Character Under Cursor and Move to End of the Word
+|Alt+R |	Cancel Changes and Put Back the Line
+|Ctrl+I 	|Tab
+|Ctrl+J 	|NewLine
+|Ctrl+M |	Enter
+|Ctrl+[ |	Escape
 **Processes**
 |Ctrl + l	| Clear the entire screen (like the clear command).| 
 |Ctrl + z	| Place the currently running process into a suspended background process (and then use fg to restore it).| 
