@@ -45,3 +45,5 @@ bash
 |Ctrl + g	| Exit the history search|
 |Ctrl + p	| See the previous command in the history|
 |Ctrl + n	| See the next command in the history|
+|Ctrl+S |	Go back to Next Most Recent Command|
+|Ctrl+O |	Execute Command found via Ctrl+R/Ctrl+S|
