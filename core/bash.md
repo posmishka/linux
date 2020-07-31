@@ -10,8 +10,6 @@ bash
 |Alt + b		| Move the cursor back one word|
 |Ctrl + f		| Move the cursor forward one character|
 |Ctrl + b		| Move the cursor back one character|
-|Ctrl+P |	Previous Command|
-|Ctrl+N |	Next Arrow|
 |Ctrl + x, x		| Toggle between the current cursor position and the beginning of the line|
 **Editing**
 |Ctrl + _		| Undo|
