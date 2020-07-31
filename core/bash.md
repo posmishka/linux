@@ -14,12 +14,12 @@ bash
 |Ctrl+N |	Next Arrow|
 |Ctrl + x, x		| Toggle between the current cursor position and the beginning of the line.| 
 **Editing**
-|Ctrl + _		| Undo! (And, yes, that’s an underscore, so you’ll probably need to use Shift as well.)| 
-|Ctrl + x, Ctrl + e		| Edit the current command in your $EDITOR.| 
-|Alt + d		| Delete the word after the cursor.| 
-|Alt + Delete		| Delete the word before the cursor.| 
-|Ctrl + d	| Delete the character beneath the cursor.| 
-|Ctrl + h	| Delete the character before the cursor (like backspace).| 
+|Ctrl + _		| Undo|
+|Ctrl + x, Ctrl + e		| Edit the current command in your $EDITOR|
+|Alt + d		| Delete the word after the cursor|
+|Alt + Delete		| Delete the word before the cursor|
+|Ctrl + d	| Delete the character beneath the cursor|
+|Ctrl + h	| Delete the character before the cursor (like backspace)|
 |Ctrl + k	| Cut the line after the cursor to the clipboard|
 |Ctrl + u	| Cut the line before the cursor to the clipboard|
 |Ctrl + d	| Cut the word after the cursor to the clipboard|
