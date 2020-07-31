@@ -1,9 +1,16 @@
 bash
 ====
 
+
+|  |  |
+|---|---|
+|  |  |
+|  |  |
+
 Shortcut	Action
 Navigation
-|-|-| 	
+
+| | | 	
 |---|---|
 |Ctrl + a	| Go to the beginning of the line.| 
 |Ctrl + e	| 	Go to the end of the line.| 
