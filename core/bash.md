@@ -10,7 +10,7 @@ bash
 Shortcut	Action
 Navigation
 
-| | | 	
+|key |action | 	
 |---|---|
 |Ctrl + a	| Go to the beginning of the line.| 
 |Ctrl + e	| 	Go to the end of the line.| 
