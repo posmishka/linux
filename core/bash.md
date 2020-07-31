@@ -20,10 +20,10 @@ bash
 |Alt + Delete		| Delete the word before the cursor.| 
 |Ctrl + d	| Delete the character beneath the cursor.| 
 |Ctrl + h	| Delete the character before the cursor (like backspace).| 
-|Ctrl + k	| Cut the line after the cursor to the clipboard.| 
-|Ctrl + u	| Cut the line before the cursor to the clipboard.| 
-|Ctrl + d	| Cut the word after the cursor to the clipboard.| 
-|Ctrl + w | Cut the word before the cursor to the clipboard.| 
+|Ctrl + k	| Cut the line after the cursor to the clipboard|
+|Ctrl + u	| Cut the line before the cursor to the clipboard|
+|Ctrl + d	| Cut the word after the cursor to the clipboard|
+|Ctrl + w | Cut the word before the cursor to the clipboard|
 |Ctrl + y	| Paste the last item to be cut.| 
 |Alt+T |	Swap Current Word with Previous|
 |Ctrl+T 	|Swap Last Character before Cursor|
