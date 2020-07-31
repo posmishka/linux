@@ -1,16 +1,7 @@
 bash
 ====
 
-
-|  |  |
-|---|---|
-|  |  |
-|  |  |
-
-Shortcut	Action
-Navigation
-
-| |action | 	
+| hotkey |action | 	
 |---|---|
 **Navigation**
 |Ctrl + a	| Go to the beginning of the line.| 
