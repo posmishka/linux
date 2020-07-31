@@ -10,8 +10,9 @@ bash
 Shortcut	Action
 Navigation
 
-|key |action | 	
+| |action | 	
 |---|---|
+**Navigation**
 |Ctrl + a	| Go to the beginning of the line.| 
 |Ctrl + e	| 	Go to the end of the line.| 
 |Alt + f		| Move the cursor forward one word.| 
