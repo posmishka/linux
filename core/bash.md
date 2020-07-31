@@ -38,12 +38,12 @@ bash
 |Ctrl+[ |	Escape|
 **Processes**
 |Ctrl + l	| Clear the entire screen (like the clear command)|
-|Ctrl + z	| Place the currently running process into a suspended background process (and then use fg to restore it).| 
-|Ctrl + c	| Kill the currently running process by sending the SIGINT signal.| 
-|Ctrl + d	| Exit the current shell.| 
-|Enter, ~, .	| Exit a stalled SSH session| 
+|Ctrl + z	| Place the currently running process into a suspended background process (and then use fg to restore it)|
+|Ctrl + c	| Kill the currently running process by sending the SIGINT signal|
+|Ctrl + d	| Exit the current shell|
+|Enter, ~, .	| Exit a stalled SSH session|
 **History**
-|Ctrl + r	| Bring up the history search.| 
-|Ctrl + g	| Exit the history search.| 
-|Ctrl + p	| See the previous command in the history.| 
-|Ctrl + n	| See the next command in the history.| 
+|Ctrl + r	| Bring up the history search|
+|Ctrl + g	| Exit the history search|
+|Ctrl + p	| See the previous command in the history|
+|Ctrl + n	| See the next command in the history|
