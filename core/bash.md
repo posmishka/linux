@@ -3,6 +3,7 @@ bash
 
 Shortcut	Action
 Navigation	
+|-|-
 Ctrl + a	| Go to the beginning of the line.
 Ctrl + e	| 	Go to the end of the line.
 Alt + f		| Move the cursor forward one word.
@@ -11,10 +12,10 @@ Ctrl + f		| Move the cursor forward one character.
 Ctrl + b		| Move the cursor back one character.
 Ctrl + x, x		| Toggle between the current cursor position and the beginning of the line.
 Editing	
-Ctrl + _	Undo! (And, yes, that’s an underscore, so you’ll probably need to use Shift as well.)
-Ctrl + x, Ctrl + e	Edit the current command in your $EDITOR.
-Alt + d	Delete the word after the cursor.
-Alt + Delete	Delete the word before the cursor.
+Ctrl + _		| Undo! (And, yes, that’s an underscore, so you’ll probably need to use Shift as well.)
+Ctrl + x, Ctrl + e		| Edit the current command in your $EDITOR.
+Alt + d		| Delete the word after the cursor.
+Alt + Delete		| Delete the word before the cursor.
 Ctrl + d	Delete the character beneath the cursor.
 Ctrl + h	Delete the character before the cursor (like backspace).
 Ctrl + k	Cut the line after the cursor to the clipboard.
