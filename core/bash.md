@@ -56,4 +56,6 @@ bash
 |Alt+. |	Last Argument of Previous Command|
 |!* |	All Arguments of Previous Command|
 |^abc^def |	Run Previous Command,replacing abc with def|
-Emacs Mode/Vi Mode
+**Emacs Mode/Vi Mode**
+|$set -o vi |	Set Vi Mode|
+|$set -o emacs |	Set Emacs Mode|
