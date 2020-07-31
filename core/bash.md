@@ -22,7 +22,7 @@ bash
 |Ctrl + u	| Cut the line before the cursor to the clipboard|
 |Ctrl + d	| Cut the word after the cursor to the clipboard|
 |Ctrl + w | Cut the word before the cursor to the clipboard|
-|Ctrl + y	| Paste the last item to be cut.| 
+|Ctrl + y	| Paste the last item to be cut.|
 |Alt+T |	Swap Current Word with Previous|
 |Ctrl+T 	|Swap Last Character before Cursor|
 |Esc+T 	|Swap Last Two Words Before Cursor|
