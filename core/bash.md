@@ -47,3 +47,10 @@ bash
 |Ctrl + n	| See the next command in the history|
 |Ctrl+S |	Go back to Next Most Recent Command|
 |Ctrl+O |	Execute Command found via Ctrl+R/Ctrl+S|
+|!! 	| Repeat Last Command|
+|!abc 	Run Last Commnd Starting with abc|
+|!abc:p 	Print last Command starting with abc|
+|!$ 	Last Argument of Previous Command|
+|Alt+. 	Last Argument of Previous Command|
+|!* 	All Arguments of Previous Command|
+|^abc^def 	Run Previous Command,replacing abc with def|
