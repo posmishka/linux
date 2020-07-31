@@ -35,7 +35,7 @@ Navigation
 |Ctrl + c	| Kill the currently running process by sending the SIGINT signal.| 
 |Ctrl + d	| Exit the current shell.| 
 |Enter, ~, .	| Exit a stalled SSH session| 
-
+**History**
 |Ctrl + r	| Bring up the history search.| 
 |Ctrl + g	| Exit the history search.| 
 |Ctrl + p	| See the previous command in the history.| 
