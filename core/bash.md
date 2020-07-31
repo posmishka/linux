@@ -39,8 +39,8 @@ bash
 |Ctrl + z	| Place the currently running process into a suspended background process (and then use fg to restore it)|
 |Ctrl + c	| Kill the currently running process by sending the SIGINT signal|
 |Ctrl + d	| Exit the current shell|
-|Ctrl+S 	Stop Output to Screen
-|Ctrl+Q 	Allow Output to Screen|
+|Ctrl+S 	| Stop Output to Screen|
+|Ctrl+Q |	Allow Output to Screen|
 |Enter, ~, .	| Exit a stalled SSH session|
 **History**
 |Ctrl + r	| Bring up the history search|
@@ -56,3 +56,4 @@ bash
 |Alt+. |	Last Argument of Previous Command|
 |!* |	All Arguments of Previous Command|
 |^abc^def |	Run Previous Command,replacing abc with def|
+Emacs Mode/Vi Mode
