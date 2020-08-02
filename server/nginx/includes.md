@@ -125,7 +125,6 @@ location /adminshop/ {
 	}
 }
 
-
 location /upload {
     location ~ \.php$ {
         deny all;
