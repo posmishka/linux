@@ -62,7 +62,7 @@ server {
         fastcgi_temp_file_write_size 256k;
     }
 
-    access_log /home/site/logs/insecret.trade.access.log;
-    error_log  /home/insecret/logs/insecret.trade.error.log;
+    access_log /home/site/logs/site.access.log;
+    error_log  /home/site/logs/site.error.log;
 }
 ```
