@@ -123,7 +123,7 @@ location /adminshop/ {
     if (!-e $request_filename) {
         rewrite ^/.*$ /adminshop/index.php last;
 	}
-    }
+}
 
 
 location /upload {
