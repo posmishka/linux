@@ -119,6 +119,13 @@ location /as4_seositemap {
 ## prestashop 1.7
 
 ```
+location /adminshop/ {
+    if (!-e $request_filename) {
+        rewrite ^/.*$ /adminshop/index.php last;
+	}
+    }
+
+
 location /upload {
     location ~ \.php$ {
         deny all;
