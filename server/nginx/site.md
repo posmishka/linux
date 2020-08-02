@@ -1,4 +1,4 @@
-config
+site
 ======
 ```php
 server {
