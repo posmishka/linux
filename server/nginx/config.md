@@ -26,7 +26,7 @@ server {
     include /etc/nginx/conf.d/phpmyadmin.inc;
 
     charset utf-8;
-    root /home/user/www/site.com;
+    root /home/site/www;
 
     location / {
         index index.php;
