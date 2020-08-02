@@ -109,6 +109,6 @@ http {
                       '"$http_user_agent" "$http_x_forwarded_for"';
 
     include /etc/nginx/conf.d/*.conf;
-    include /home/insecret/config/*.nginx;
+    include /home/site/config/*.nginx;
 }
 ```
