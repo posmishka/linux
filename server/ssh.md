@@ -20,3 +20,5 @@ https://habr.com/ru/post/331348/
 
 **Secure ssh keys**
 https://blog.g3rt.nl/upgrade-your-ssh-keys.html
+
+ssh-keygen -o -a 100 -t ed25519
